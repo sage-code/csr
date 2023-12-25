@@ -1,4 +1,15 @@
 +++
+title = "Symbols"
+date = 2023-12-22T04:48:24-06:00
+weight = 8
+chapter = false
+disableToc = false
+pre = "<b>📜</b>"
+tags = ["symbols", "encoding", "basics"]
++++
+
+Other settings not frequently used.
+
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
 disableToc = "false"
@@ -16,4 +27,3 @@ hidden = false
 LastModifierDisplayName = ""
 # Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
 LastModifierEmail = ""
-+++

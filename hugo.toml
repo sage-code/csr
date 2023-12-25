@@ -40,7 +40,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Hide Next and Previous page buttons normally displayed full height beside content
   disableNextPrev = false
   # Order sections in menu by "weight" or "title". Default to "weight"
-  ordersectionsby = "weight"
+  # ordersectionsby = "weight"
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "purple"
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
@@ -52,6 +52,12 @@ home = [ "HTML", "RSS", "JSON"]
   landingPageName = "<i class='fas fa-home'></i> Home"
 
   relativeURLs = true
+
+  startLevel = 2 
+  # Define the starting heading level for TOC inclusion (e.g., 2 for H2).
+
+  endLevel = 3 
+  # Define the ending heading level for TOC inclusion (e.g., 5 for H5).
 
   [[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github repo"

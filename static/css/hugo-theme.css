@@ -21,7 +21,7 @@
 }
 
 body {
-    font-size: 16px !important;
+    font-size: 18px !important;
     color: #323232 !important;
 }
 
@@ -50,10 +50,11 @@ body {
 }
 .progress {
     position:absolute;
-    background-color: rgba(246, 246, 246, 0.97);
+    background-color: rgba(35, 35, 35, 0.97);
     width: auto;
-    border: thin solid #ECECEC;
+    border: thin solid #77067f;
     display:none;
+    border-radius: 8px;
     z-index:200;
 }
 

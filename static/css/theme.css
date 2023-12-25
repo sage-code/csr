@@ -180,7 +180,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     bottom: 0;
     left: 0;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 #sidebar a {
     color: #ccc;
@@ -404,7 +404,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #body .nav:hover {
-    background: #493131;
+    background: #18143d;
 }
 #body .nav.nav-pref {
     left: 0;
@@ -624,7 +624,7 @@ section.attachments.grey .attachments-files {
 }
 
 code, kbd, pre, samp {
-    font-family: "Consolas", menlo, monospace;
+    font-family: "DejaVu Sans Mono", "Consolas", menlo, monospace;
     font-size: 92%;
 }
 code {
@@ -661,7 +661,7 @@ pre code {
     font-size: 15px;
 }
 hr {
-    border-bottom: 4px solid #F0F2F4;
+    border-bottom: 4px solid #d9d9d9;
 }
 .page-title {
     margin-top: -25px;
@@ -700,20 +700,21 @@ hr {
     background: inherit;
 }
 table {
-    border: 1px solid #eaeaea;
+    border: 1px solid #silver;
     table-layout: auto;
 }
-th {
-    background: #f7f7f7;
+th {    
+    background: #211948;
     padding: 0.5rem;
+    border: 1px solid #b7b6b6;
 }
 td {
     padding: 0.5rem;
-    border: 1px solid #eaeaea;
+    border: 1px solid #b7b6b6;
 }
 .button {
     background: #9c6fb6;
-    color: #fff;
+    color: #b7b6b6;
     box-shadow: 0 3px 0 #00a5d4;
 }
 .button:hover {
@@ -907,7 +908,7 @@ td {
     position: relative;
 }
 .hljs::selection, .hljs span::selection {
-    background: #b7b7b7;
+    background: #232324;
 }
 .lightbox-active #body {
     overflow: visible;
@@ -988,7 +989,7 @@ td {
     background: #34495E;
 }
 #top-bar {
-    background: #4c2f08;
+    background: #130b3d;
     border-radius: 2px;
     padding: 0 1rem;
     height: 0;
