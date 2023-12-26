@@ -1,18 +1,19 @@
 +++
 title = "Symbols"
 date = 2023-12-22T04:48:24-06:00
-weight = 8
+weight = 99
 chapter = false
-disableToc = false
+disableToc = true
 pre = "<b>📜</b>"
-tags = ["symbols", "encoding", "basics"]
+tags = ["template", "empty"]
+hidden = true
 +++
 
-Other settings not frequently used.
+This is the usual header for all pages but there are other parameters you can used, shown below. The header is an example you can copy paste in a new page.
 
 # Table of content (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
-disableToc = "false"
+disableToc = false
 # If set, this will be used for the page's menu entry (instead of the `title` attribute)
 menuTitle = ""
 # The title of the page in menu will be prefixed by this HTML content

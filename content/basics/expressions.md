@@ -1,7 +1,7 @@
 +++
 title = "Expressions"
 date = 2023-12-24
-weight = 3
+weight = 4
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"

@@ -1,6 +1,6 @@
 +++
 title = "Symbols"
-date = 2023-12-22T04:48:24-06:00
+date = 2023-12-22
 weight = 2
 chapter = false
 disableToc = false
