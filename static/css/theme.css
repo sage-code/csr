@@ -84,7 +84,7 @@ b, strong, label, th {
     fill: #fff !important;
 }
 #sidebar {
-    font-weight: 300 !important;
+    font-weight: 400 !important;
 }
 fieldset {
     border: 1px solid #ddd;
@@ -491,6 +491,7 @@ div.notices p {
     margin-top: 0rem;
     margin-bottom: 0rem;
     color: #666;
+    font-weight: 400;
 }
 div.notices p:first-child:before {
     position: absolute;
@@ -711,6 +712,7 @@ th {
 td {
     padding: 0.5rem;
     border: 1px solid #b7b6b6;
+    font-weight: 400;
 }
 .button {
     background: #9c6fb6;

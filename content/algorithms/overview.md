@@ -1,6 +1,7 @@
 +++
 title = "Overview"
 collection = "algorithms"
+description = "What are computer algorithms actually?"
 author = "Bard/Gemini"
 date = 2023-12-26
 weight = 21

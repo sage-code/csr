@@ -8,10 +8,13 @@ chapter = false
 disableToc = false
 pre = "<b>📜</b>"
 tags = ["algorithms", "efficiency"]
+description = "Algorithm efficiency and performance"
 +++
 
 
 The terms "efficiency" and "performance" are often used interchangeably when discussing data structures, but they have distinct meanings.
+
+## Concept Definition
 
 **Efficiency** refers to the theoretical measure of how well a data structure utilizes resources, particularly time and space. It's usually analyzed using Big O notation, which describes how the time or space complexity of a data structure grows as the input size increases.
 

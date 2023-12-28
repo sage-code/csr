@@ -1,5 +1,7 @@
 +++
 title = "Symbols"
+description = "From pictograms to ASCII and Unicode"
+collection = "basics"
 date = 2023-12-22
 weight = 2
 chapter = false

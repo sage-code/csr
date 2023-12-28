@@ -1,6 +1,7 @@
 +++
 title = "Sorting"
 collection = "algorithms"
+description = "What are sorting algorithms? and some use-cases."
 author = "Bard/Gemini"
 date = 2023-12-26
 weight = 28
@@ -102,7 +103,7 @@ Sorting strategies for different collection types depend on the structure and in
 
 ## Sorting tables
 
-My database administrator ask me to sort the tables in Oracle database to improve the speed. I told him that database tables can't be sorted. He was furious and give the task to another developer who accepted the task. He was not able to do it but reported success. In the end I have lost my job and he was promoted.
+We use tables, also known as relations in relational algebra are used in databases to organize data in rows and columns. Searching in a table is a frequent operation that need to be optimized for fast identification of each row. Having faster data access to specific data require sorting or indexing.
 
 **1. Unordered nature of database tables:**
 
@@ -310,6 +311,9 @@ This code defines several functions:
 * `create_lookup_table`: This function creates a lookup table based on the sorted dictionary. It assigns an index to each key in the order of the sorted dictionary.
 
 The example demonstrates how to use these functions to create a sorted dictionary and a corresponding lookup table. You can modify this code to adapt it to your specific needs and use cases.
+
+{{% notice warning %}}**Bubble sort** is easy to grasp but very slow, it can't be used for large data tables. Other most sophisticated sorting algorithms are already implemented in libraries. All you need is to select the right collection or use external databases that have indexes.
+{{% /notice %}}
 
 ---
 

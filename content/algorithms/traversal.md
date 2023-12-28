@@ -1,6 +1,7 @@
 +++
 title = "Traversal"
 collection = "algorithms"
+description = "Simple algorithms for data collections?"
 date = 2023-12-26
 weight = 25
 chapter = false

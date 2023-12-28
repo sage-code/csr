@@ -1,5 +1,7 @@
 +++
 title = "Syntax"
+description = "Essential Julia syntax elements"
+collection = "basics"
 date = 2023-12-25
 weight = 3
 chapter = false
@@ -8,7 +10,7 @@ pre = "<b>📜</b>"
 tags = ["symbols", "encoding", "basics"]
 +++
 
-In our examples for Software Engineering we use Julia language. Julia is a fantastic choice for learning computer science and data science, highlighting its strengths in a way that excites and informs your students:
+This isn't a traditional Julia tutorial. We're taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.
 
 ## Reasons & Motivation
 
@@ -24,7 +26,7 @@ Beyond traditional classrooms, Julia courses are also available online through p
 
 **3. One Language Fits All:** Unlike learning different languages for different tasks, Julia is your Swiss Army knife. You can build websites, crunch data, create amazing graphics, and much more – all within the same environment. Imagine the creative possibilities!
 
-**4. Level Up Your Skills:** Julia challenges you to think deeply about the logic behind your code. Its powerful features, like metaprogramming, will expand your problem-solving toolbox and make you a master coder in no time.
+**4. Level Up Your Skills:** Julia challenges you to think deeply about the logic behind your code. Its powerful features, like meta-programming, will expand your problem-solving toolbox and make you a master coder in no time.
 
 **5. Join a Thriving Community:** Learning is always better with friends! Julia's friendly and supportive community is there to answer your questions, share advice, and celebrate your achievements.
 
@@ -36,9 +38,104 @@ Beyond traditional classrooms, Julia courses are also available online through p
 
 ---
 
+
+## Data Literals
+
+Here's an explanation of Julia data literals with examples:
+
+### Element literals
+
+Element literals are fixed values directly written into code to represent a single value for various data types. Julia supports different types of elementary literals:
+
+**1. Numeric Literals:**
+
+- **Integers:**
+    - Examples: `10`, `-5`, `0x12AF` (hexadecimal), `0b110101` (binary)
+- **Floating-point numbers:**
+    - Examples: `3.14`, `1.23e-5`, `1.0f0` (32-bit float), `1.0` (64-bit float by default)
+
+**2. String Literals:**
+
+- **Single quotes:** `'Hello, world!'`
+- **Double quotes:** `"This is a string too."`
+- **Triple quotes:** `"""Multi-line strings
+       can span multiple lines."""`
+- **Raw strings (prefixed with `r`):** `r"No need to escape backslashes \"`
+
+**3. Boolean Literals:**
+
+- `true`
+- `false`
+
+**4. Character Literals:**
+
+- Single-quoted characters: `'a'`, `'Z'`, `'\n'` (newline), `'\\'` (backslash)
+
+**8. Symbol Literals:**
+
+- Used for identifiers and accessed with a colon: `:my_symbol`
+
+**9. Version Number Literals:**
+
+- Represent semantic version numbers: `v"1.2.3-rc1+win64"`
+
+**10. Byte Array Literals:**
+
+- Arrays of bytes prefixed with `b`: `b"DATA\xff\u2200"`
+
+**11. Regular Expression Literals:**
+
+- Prefixed with `r`: `r"^\d+$"`
+
+### Collections literals 
+
+Collections literals are a vital part of Julia syntax, and I missed mentioning them in my previous explanation. Here's a dedicated breakdown of Julia collections literals:
+
+**1. Array Literals:**
+
+- Square brackets `[]` hold the elements, separated by commas.
+- Example: `[1, 2, 3, "apple", true]`
+- Can specify range for automatic generation: `1:10` (integers from 1 to 10).
+
+**2. Tuple Literals:**
+
+- Parentheses `()` hold the elements, separated by commas.
+- Example: `(1, "hello", 3.14)`
+- Order matters in tuples, unlike arrays.
+
+**3. Vector Literals:**
+
+- Double square brackets `[[]]` hold elements.
+- Represent multi-dimensional arrays.
+- Example: `[[1, 2], [3, 4], [5, 6]]`
+
+**4. Set Literals:**
+
+- Curly braces `{}` hold unique elements, order doesn't matter.
+- Use the `Set` function to explicitly create from existing data.
+- Example: `{1, 2, 3, "apple", 3}` (duplicate "3" will be ignored).
+
+**5. Dictionary Literals:**
+
+- Curly braces `{}` hold key-value pairs, separated by colons.
+- Keys can be any hashable object like strings or symbols.
+- Example: `{"name" => "Alice", "age" => 30, :job => "developer"}`
+
+**Additional Notes:**
+
+- Julia automatically infers element types based on the literals used.
+- Nested collections are possible within literals.
+- Use the `Vector`, `Set`, and `Dict` constructors for more control over creation.
+
+{{% notice info %}}
+By understanding and utilizing these collection literals, you can efficiently build and represent complex data structures in your Julia programs.
+{{% /notice %}}
+
+---
+
 ## Syntax Overview
 
-Here's a beginner-friendly overview of Julia syntax with code examples:
+Here's a beginner-friendly overview of Julia syntax with the most simple code examples. You should practice these examples using your local Julia installation but you can also practice on-line using repl.it website or other website that provide Julia runtime.
 
 **1. Comments:**
 
@@ -143,6 +240,32 @@ println(numbers[2])  # Accessing elements (indexing starts at 1)
 ```julia
 using Plots  # For plotting
 ```
+---
+
+## Julia's Scope Model
+
+Here's an explanation of Julia's scope model and its influence on modern languages:
+
+- **Global Scope:** Variables declared outside of any blocks or functions are accessible throughout the entire program.
+- **Local Scope:** Variables declared within blocks (like `for` loops, `if` statements, functions) are accessible only within those blocks.
+- **Nested Scopes:** Blocks can be nested, creating hierarchical levels of scope. Inner blocks can access variables from outer scopes, but not vice versa.
+- **Soft Scope:** In certain contexts (like top-level script code), Julia employs "soft scope." This means that variables can be accessed seemingly globally, but assignments within soft scopes often create new local variables rather than modifying global ones. This can lead to unexpected behavior if not carefully managed.
+
+**Key Features:**
+
+- **Static Scope:** Variable scope is determined at compile time, ensuring predictability and clarity in code behavior.
+- **Lexical Scoping:** Nested scopes are defined by the surrounding code's structure, making code organization and function closures intuitive.
+- **Lexical Closures:** Functions can "capture" variables from their enclosing scope, enabling powerful functional programming patterns.
+
+**Influence on Modern Languages:**
+
+- **Adoption of Lexical Scoping:** Many modern languages, including Python, JavaScript, Ruby, and Swift, have adopted lexical scoping as their primary scoping mechanism, aligning with Julia's approach.
+- **Popularization of Closures:** Julia's emphasis on closures has contributed to their wider use in modern languages, enabling elegant solutions for recursion, data abstraction, and asynchronous programming.
+- **Balancing Global and Local:** Julia's emphasis on nested scoping and careful management of global scope has influenced language designs to find balance, avoiding excessive global state while providing flexibility for global values when necessary.
+
+{{% notice info %}}
+**Overall,** Julia's scope model promotes code clarity, predictability, and powerful functional programming patterns. Its influence on modern languages highlights the importance of well-defined scoping for writing maintainable and expressive code.
+{{% /notice %}}
 
 ---
 
@@ -244,33 +367,6 @@ While Julia isn't a pure functional programming language, it offers robust suppo
 
 ---
 
-## Julia's Scope Model
-
-Here's an explanation of Julia's scope model and its influence on modern languages:
-
-- **Global Scope:** Variables declared outside of any blocks or functions are accessible throughout the entire program.
-- **Local Scope:** Variables declared within blocks (like `for` loops, `if` statements, functions) are accessible only within those blocks.
-- **Nested Scopes:** Blocks can be nested, creating hierarchical levels of scope. Inner blocks can access variables from outer scopes, but not vice versa.
-- **Soft Scope:** In certain contexts (like top-level script code), Julia employs "soft scope." This means that variables can be accessed seemingly globally, but assignments within soft scopes often create new local variables rather than modifying global ones. This can lead to unexpected behavior if not carefully managed.
-
-**Key Features:**
-
-- **Static Scope:** Variable scope is determined at compile time, ensuring predictability and clarity in code behavior.
-- **Lexical Scoping:** Nested scopes are defined by the surrounding code's structure, making code organization and function closures intuitive.
-- **Lexical Closures:** Functions can "capture" variables from their enclosing scope, enabling powerful functional programming patterns.
-
-**Influence on Modern Languages:**
-
-- **Adoption of Lexical Scoping:** Many modern languages, including Python, JavaScript, Ruby, and Swift, have adopted lexical scoping as their primary scoping mechanism, aligning with Julia's approach.
-- **Popularization of Closures:** Julia's emphasis on closures has contributed to their wider use in modern languages, enabling elegant solutions for recursion, data abstraction, and asynchronous programming.
-- **Balancing Global and Local:** Julia's emphasis on nested scoping and careful management of global scope has influenced language designs to find balance, avoiding excessive global state while providing flexibility for global values when necessary.
-
-{{% notice info %}}
-**Overall,** Julia's scope model promotes code clarity, predictability, and powerful functional programming patterns. Its influence on modern languages highlights the importance of well-defined scoping for writing maintainable and expressive code.
-{{% /notice %}}
-
----
-
 
 ## Julia's Safety Features
 
@@ -317,95 +413,27 @@ end
 
 ---
 
-## Data Literals
+## Learning more
 
-Here's an explanation of Julia data literals with examples:
+You can continue learning Julia at perfection after taking this course, by using external resources. We have a full Julia course in (CSP) - Computer Programming where you can learn Julia at perfection in your own pace.
 
-### Element literals
+**Our strategy:**
 
-Element literals are fixed values directly written into code to represent a single value for various data types. Julia supports different types of elementary literals:
+**1. Software Engineering First, Julia Second:** Imagine software engineering as a vast landscape, and Julia as a powerful SUV to navigate it. We're not here to teach you every knob and dial of the SUV; instead, we'll focus on using it to conquer the terrain – the essential skills and principles that apply to **any** programming language.
 
-**1. Numeric Literals:**
+**2. Avoiding Syntax Overload:** Learning software engineering can be challenging enough. Bombarding you with Julia's intricacies at the outset might overshadow the bigger picture. We'll keep the Julia jargon to a minimum, using it as a tool to illustrate core concepts, not get bogged down in its specificities.
 
-- **Integers:**
-    - Examples: `10`, `-5`, `0x12AF` (hexadecimal), `0b110101` (binary)
-- **Floating-point numbers:**
-    - Examples: `3.14`, `1.23e-5`, `1.0f0` (32-bit float), `1.0` (64-bit float by default)
+**3. Deeper Understanding, Brighter Future:** By grasping the underlying principles first, you'll be better equipped to tackle any language you encounter, including Julia. Once you've got the software engineering fundamentals down, mastering Julia's nuances will be like fine-tuning your SUV for off-road adventures.
 
-**2. String Literals:**
+**4. Dive Deeper Later, Not Now:** Don't worry, Julia fans! We haven't banished the language to the corner. After conquering the software engineering peaks with Julia as your guide, we'll encourage you to delve deeper into its specific features and functionalities. Armed with a solid foundation, you'll appreciate its power and elegance even more.
 
-- **Single quotes:** `'Hello, world!'`
-- **Double quotes:** `"This is a string too."`
-- **Triple quotes:** `"""Multi-line strings
-       can span multiple lines."""`
-- **Raw strings (prefixed with `r`):** `r"No need to escape backslashes \"`
+**5. Official Sources are Your Best Friends:** When it comes to mastering any language, the official documentation and reference materials are your gold standard. We'll point you in the right direction, but remember, the deepest understanding comes from exploring official resources directly.
 
-**3. Boolean Literals:**
+{{% notice info %}}
+We believe this approach will make you not only _competent software engineers_, but also _adaptable and lifelong learners_. Now, let's embark on this adventure together!
+{{% /notice %}}
 
-- `true`
-- `false`
-
-**4. Character Literals:**
-
-- Single-quoted characters: `'a'`, `'Z'`, `'\n'` (newline), `'\\'` (backslash)
-
-**8. Symbol Literals:**
-
-- Used for identifiers and accessed with a colon: `:my_symbol`
-
-**9. Version Number Literals:**
-
-- Represent semantic version numbers: `v"1.2.3-rc1+win64"`
-
-**10. Byte Array Literals:**
-
-- Arrays of bytes prefixed with `b`: `b"DATA\xff\u2200"`
-
-**11. Regular Expression Literals:**
-
-- Prefixed with `r`: `r"^\d+$"`
-
-### Collections literals 
-
-Collections literals are a vital part of Julia syntax, and I missed mentioning them in my previous explanation. Here's a dedicated breakdown of Julia collections literals:
-
-**1. Array Literals:**
-
-- Square brackets `[]` hold the elements, separated by commas.
-- Example: `[1, 2, 3, "apple", true]`
-- Can specify range for automatic generation: `1:10` (integers from 1 to 10).
-
-**2. Tuple Literals:**
-
-- Parentheses `()` hold the elements, separated by commas.
-- Example: `(1, "hello", 3.14)`
-- Order matters in tuples, unlike arrays.
-
-**3. Vector Literals:**
-
-- Double square brackets `[[]]` hold elements.
-- Represent multi-dimensional arrays.
-- Example: `[[1, 2], [3, 4], [5, 6]]`
-
-**4. Set Literals:**
-
-- Curly braces `{}` hold unique elements, order doesn't matter.
-- Use the `Set` function to explicitly create from existing data.
-- Example: `{1, 2, 3, "apple", 3}` (duplicate "3" will be ignored).
-
-**5. Dictionary Literals:**
-
-- Curly braces `{}` hold key-value pairs, separated by colons.
-- Keys can be any hashable object like strings or symbols.
-- Example: `{"name" => "Alice", "age" => 30, :job => "developer"}`
-
-**Additional Notes:**
-
-- Julia automatically infers element types based on the literals used.
-- Nested collections are possible within literals.
-- Use the `Vector`, `Set`, and `Dict` constructors for more control over creation.
-
-By understanding and utilizing these collection literals, you can efficiently build and represent complex data structures in your Julia programs.
+**Follow up:** [Julia Tutorial](https://csp.sagecode.net/julia)
 
 ---
 

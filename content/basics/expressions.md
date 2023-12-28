@@ -1,5 +1,7 @@
 +++
 title = "Expressions"
+description = "Concept of expression in software design"
+collection = "basics"
 date = 2023-12-24
 weight = 4
 chapter = false

@@ -1,6 +1,7 @@
 +++
 title = "Problems"
 collection = "algorithms"
+description = "Explain what are problems to be solved?"
 author = "Bard/Gemini"
 date = 2023-12-26
 weight = 22

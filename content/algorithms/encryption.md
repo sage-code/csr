@@ -8,7 +8,9 @@ chapter = false
 disableToc = false
 pre = "<b>📜</b>"
 tags = ["algorithms", "cybersecurity"]
+description = "Fundamental concerns of cybersecurity."
 +++
+
 **What is encryption:**
 
 Imagine you have a secret message and want only the intended recipient to read it. Encryption is like a lock and key system for information. You use a special code, called an encryption key, to scramble the message (encrypting it). This makes it unreadable to anyone who doesn't have the key. Only the recipient with the correct key can unscramble the message and read it (decrypting it).

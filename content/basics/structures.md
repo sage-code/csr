@@ -1,5 +1,7 @@
 +++
 title = "Structures"
+description = "From simple to complex data structures"
+collection = "basics"
 date = 2023-12-26
 weight = 5
 chapter = false

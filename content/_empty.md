@@ -1,5 +1,8 @@
 +++
-title = "Symbols"
+title = "template"
+description = "short description"
+collection = "basics"
+author = "Bard/Gemini"
 date = 2023-12-22T04:48:24-06:00
 weight = 99
 chapter = false

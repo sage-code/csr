@@ -1,6 +1,7 @@
 +++
 title = "Search"
 collection = "algorithms"
+description = "Explain what are search algorithms?"
 author = "Bard/Gemini"
 date = 2023-12-26
 weight = 27

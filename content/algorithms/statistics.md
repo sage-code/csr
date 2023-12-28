@@ -1,6 +1,7 @@
 +++
 title = "Statistics"
 author = "Bard/Gemini"
+description = "Understanding the basics of statistic science?"
 date = 2023-12-26
 weight = 26
 chapter = false
@@ -28,7 +29,7 @@ Understanding statistics gives programmers a powerful toolset for working with d
 
 ---
 
-## Algorithms
+## Statistics Algorithms
 
 There are many different algorithms used in statistics, each with its own specific purpose and application. Here's an overview of some common algorithms:
 

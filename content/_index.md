@@ -14,10 +14,17 @@ hidden = false
 
 # Computer Science
 
-Welcome to Computer Science Research project. (CSR). This is a collection of research papers offered to our subscribed students for learning advanced Computer Science and programming.
+Welcome, future software engineers! You're about to embark on a journey through the fascinating world of software development, guided by the versatile and powerful language, Julia.
+
+---
 
 > Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. - _Albert Einstein_
 
 ---
 
-{{% children style="div" depth="999" %}}
+## Course Curriculum 
+
+{{% children style="li" depth="3" description="true" %}}
+
+---
+**Disclaim:** Content generated with AI (Bard/Gemini Pro)
