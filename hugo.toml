@@ -59,29 +59,32 @@ home = [ "HTML", "RSS", "JSON"]
   endLevel = 3 
   # Define the ending heading level for TOC inclusion (e.g., 5 for H5).
 
-  [[menu.shortcuts]] 
+[[menu.shortcuts]] 
+name = "<i class='fas fa-home'></i> Home"
+identifier = "home"
+url = "https://sagecode.net"
+weight = 90
+
+
+[[menu.shortcuts]] 
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/matcornic/hugo-theme-learn"
-weight = 10
+url = "https://github.com/sage-code"
+weight = 91
+
 
 [[menu.shortcuts]]
-name = "<i class='fas fa-camera'></i> Showcases"
-url = "/showcase"
-weight = 11
-
-[[menu.shortcuts]]
-name = "<i class='fas fa-bookmark'></i> Hugo Documentation"
+name = "<i class='fas fa-bookmark'></i> Hugo Doc"
 identifier = "hugodoc"
 url = "https://gohugo.io/"
-weight = 20
+weight = 92
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-bullhorn'></i> Credits"
-url = "/credits"
-weight = 30
+url = "/_credits"
+weight = 93
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-tags'></i> Tags"
 url = "/tags"
-weight = 30
+weight = 94

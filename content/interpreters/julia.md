@@ -1,13 +1,13 @@
 +++
-title = "Syntax"
+title = "Julia Syntax"
 description = "Essential Julia syntax elements"
-collection = "basics"
+collection = "interpreters"
 date = 2023-12-25
-weight = 3
+weight = 41
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["symbols", "encoding", "basics"]
+tags = ["julia", "syntax"]
 +++
 
 This isn't a traditional Julia tutorial. We're taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.
