@@ -3,11 +3,11 @@ title = "HTML Forms"
 description = "Essential HTML Forms elements"
 collection = "web design"
 date =  2024-01-04
-weight = 74
+weight = 75
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "basics"]
+tags = ["html5", "forms"]
 +++
 
 ## What are HTML Forms?
