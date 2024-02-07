@@ -7,7 +7,7 @@ weight = 41
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["julia", "syntax"]
+tags = ["julia", "interpreters"]
 +++
 
 This isn't a traditional Julia tutorial. We're taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.

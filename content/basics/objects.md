@@ -7,7 +7,7 @@ weight = 6
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["basics", "data", "objects"]
+tags = ["basics", "objects"]
 +++
 
 Here is an explanation of object-oriented programming (OOP) paradigm and principles, its advantages and disadvantages, and 3 top languages that are considered pure OOP:

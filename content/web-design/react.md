@@ -7,7 +7,7 @@ weight = 79
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "basics"]
+tags = ["html5", "react"]
 +++
 
 ## Fundamentals

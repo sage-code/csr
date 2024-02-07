@@ -7,7 +7,7 @@ weight = 42
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["bash", "syntax"]
+tags = ["bash", "interpreters"]
 description = "Bash programming language overview"
 +++
 

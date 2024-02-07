@@ -7,7 +7,7 @@ weight = 53
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["zig", "syntax"]
+tags = ["zig", "compilers"]
 description = "Zig programming language overview"
 +++
 

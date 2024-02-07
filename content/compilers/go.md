@@ -7,7 +7,7 @@ weight = 52
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["go", "syntax"]
+tags = ["go", "compilers"]
 description = "co programming language overview"
 +++
 

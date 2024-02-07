@@ -7,7 +7,7 @@ weight = 55
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["carbon", "syntax"]
+tags = ["carbon", "compilers"]
 description = "Carbon programming language overview"
 +++
 

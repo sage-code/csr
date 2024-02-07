@@ -7,7 +7,7 @@ weight = 73
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["JavaScript", "basics"]
+tags = ["JavaScript", "interpreters"]
 +++
 
 ## JavaScript: The Language of the Web

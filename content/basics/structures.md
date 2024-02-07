@@ -7,7 +7,7 @@ weight = 5
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["basics", "data", "structures"]
+tags = ["basics", "structures"]
 +++
 
 ***Data structures*** are the way we organize and store information in memory. They are like containers that hold different types of data and provide efficient access, manipulation, and retrieval. Imagine a bookshelf: it organizes your books by genre or author, making it easier to find a specific book. Similarly, data structures organize data to be processed efficiently by algorithms.

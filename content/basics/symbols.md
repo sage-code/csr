@@ -7,7 +7,7 @@ weight = 3
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["symbols", "encoding", "basics"]
+tags = ["symbols", "basics"]
 +++
 
 Pictograms, alphabets and numeric symbols are 3 important pillars of civilization.These three, have played a crucial role in the development and advancement of human civilization. Each pillar has had a profound impact on how we communicate, record information, and organize knowledge.

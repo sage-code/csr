@@ -7,7 +7,7 @@ weight = 54
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["rust", "syntax"]
+tags = ["rust", "compilers"]
 description = "Rust programming language overview"
 +++
 

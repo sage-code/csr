@@ -7,7 +7,7 @@ weight = 4
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["basics", "arithmetic", "expressions"]
+tags = ["basics", "expressions"]
 +++
 
 Understanding expressions is fundamental to both computer science and programming. They're the building blocks of code, allowing you to manipulate data, control program flow, and make decisions. 

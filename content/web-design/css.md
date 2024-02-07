@@ -3,11 +3,11 @@ title = "CSS Syntax"
 description = "Essential CSS syntax elements"
 collection = "web design"
 date =  2024-01-04
-weight = 72
+weight = 75
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "basics"]
+tags = ["html5", "css"]
 +++
 
 ## Fundamentals
