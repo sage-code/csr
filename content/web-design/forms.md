@@ -1,7 +1,7 @@
 +++
 title = "HTML Forms"
 description = "Essential HTML Forms elements"
-collection = "web design"
+collection = "web-design"
 date =  2024-01-04
 weight = 74
 chapter = false

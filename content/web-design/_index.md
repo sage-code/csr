@@ -1,6 +1,6 @@
 +++
 title = "Web design"
-date = 2023-12-26
+date = 2024-02-06
 weight = 70
 chapter = true
 pre = "<b>📒</b>"

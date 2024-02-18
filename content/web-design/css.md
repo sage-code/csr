@@ -1,7 +1,7 @@
 +++
 title = "CSS Syntax"
 description = "Essential CSS syntax elements"
-collection = "web design"
+collection = "web-design"
 date =  2024-01-04
 weight = 75
 chapter = false

@@ -1,7 +1,7 @@
 +++
 title = "UX/UI Concepts"
 description = "Essential UX/UI concepts"
-collection = "web design"
+collection = "web-design"
 date =  2024-01-31
 weight = 71
 disableToc = false

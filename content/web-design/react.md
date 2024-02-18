@@ -1,7 +1,7 @@
 +++
 title = "What is React?"
 description = "Essential React concepts"
-collection = "web design"
+collection = "web-design"
 date =  2024-01-26
 weight = 79
 chapter = false
