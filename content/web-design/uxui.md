@@ -165,12 +165,12 @@ In the world of UX/AI design, **users and customers are not just cogs in the mac
 
 SDLC stands for Software Development Life Cycle. It's a framework that outlines the different stages of building software, from conception to deployment and maintenance. There are many SDLC models, but some common phases include:
 
-** Planning and Requirements: Defining the project scope, goals, and functionalities.
-** Design: Designing the user interface, user experience, and system architecture.
-** Development: Building the software according to the design specifications.
-** Testing: Ensuring the software functions as intended and is free of errors.
-** Deployment: Releasing the software to users.
-** Maintenance: Addressing bugs, adding new features, and keeping the software updated.
+* **Planning and Requirements:** Defining the project scope, goals, and functionalities.
+* **Design:** Designing the user interface, user experience, and system architecture.
+* **Development:** Building the software according to the design specifications.
+* **Testing:** Ensuring the software functions as intended and is free of errors.
+* **Deployment:** Releasing the software to users.
+* **Maintenance:** Addressing bugs, adding new features, and keeping the software updated.
 
 Understanding the SDLC stages helps designers see where their work fits in and how it impacts the overall project timeline and goals.
 
