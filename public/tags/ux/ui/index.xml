@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX/UI on CS Research</title>
+    <link>https://csr.sagecode.net/tags/ux/ui/</link>
+    <description>Recent content in UX/UI on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://csr.sagecode.net/tags/ux/ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UX/UI Concepts</title>
+      <link>https://csr.sagecode.net/web-design/uxui/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/web-design/uxui/</guid>
+      <description>Introduction Understanding UX/UI can feel overwhelming at first, but fret not! Here&amp;rsquo;s a breakdown of these closely intertwined concepts, along with a learning roadmap to kickstart your journey, from newbie to pro:&#xA;1. Decoding the Terms:&#xA;UX (User Experience): Imagine every interaction you have with a product, website, or app. The overall feeling, ease of use, and satisfaction – that&amp;rsquo;s UX. A UX Designer aims to make these interactions smooth, intuitive, and enjoyable.</description>
+    </item>
+    <item>
+      <title>Back End</title>
+      <link>https://csr.sagecode.net/web-design/backend/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/web-design/backend/</guid>
+      <description>Introduction Imagine a restaurant. When you sit down, you see the menu (front-end), the waiters taking your order (interaction), and the delicious food arriving (result). But what happens in the kitchen (back-end)? That&amp;rsquo;s where the magic happens!&#xA;Similarly, websites and apps also have two sides:&#xA;Front-End: This is what you see and interact with, like buttons, menus, and text. It&amp;rsquo;s like the restaurant&amp;rsquo;s dining area and interface. Back-End: This is the hidden part that makes everything work, like storing data, processing information, and connecting to databases.</description>
+    </item>
+  </channel>
+</rss>

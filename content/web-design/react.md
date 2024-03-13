@@ -40,6 +40,7 @@ Ready to dive into the exciting world of React? Here are some resources to get y
 * **Interactive React Tutorial:** [https://react.dev/learn/tutorial-tic-tac-toe](https://react.dev/learn/tutorial-tic-tac-toe)
 * **FreeCodeCamp React Course:** [https://www.freecodecamp.org/news/tag/react/](https://www.freecodecamp.org/news/tag/react/)
 * **React Documentation:** [https://react.dev/](https://react.dev/)
+* **React for nubes:** [https://hashnode.dev](https://hashnode.dev/react)
 
 **Remember:**
 
@@ -52,7 +53,7 @@ So, are you ready to ditch the DOM spaghetti and embrace the power of components
 **Bonus Tip:** Check out React Native, a framework that lets you build native mobile apps using your React knowledge!
 
 {{% notice warning %}}
- This page is created using Bard AI. You may think Bard is not a good mentor, but we at Sage-Code know better. We appreciate free content and we learn from AI many things. Until we fine errors that can prove us Bard is wrong. In this case we correct the text or code and we move on. We know Bard is a machine and it has no desire to decieve us. I hope this introduction piques your interest in React.
+ This page is created using Gemini AI. You may think Gemini is not a good mentor, but we at Sage-Code know better. We appreciate free content and we learn from AI many things. Until we fine errors that can prove us Bard is wrong. In this case we correct the text or code and we move on. We know Bard is a machine and it has no desire to decieve us. I hope this introduction piques your interest in React.
 {{% /notice %}}
 
 ---

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basics on CS Research</title>
+    <link>https://csr.sagecode.net/basics/</link>
+    <description>Recent content in Basics on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Dec 2023 04:48:24 -0600</lastBuildDate>
+    <atom:link href="https://csr.sagecode.net/basics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>https://csr.sagecode.net/basics/programming/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/programming/</guid>
+      <description>In this article we investigate several programming languages. We will understand the difference between them and we will try to explain why we have so many programming languages. Our favorite programming language is Julia. We will explain why and we will try to motivate you to learn multiple programming languages. We think a software engineer should know at least 3 programming languages.&#xA;What is a Programming Language? Here&amp;rsquo;s an explanation of programming languages, interpreters, and compilers:</description>
+    </item>
+    <item>
+      <title>Symbols</title>
+      <link>https://csr.sagecode.net/basics/symbols/</link>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/symbols/</guid>
+      <description>Pictograms, alphabets and numeric symbols are 3 important pillars of civilization.These three, have played a crucial role in the development and advancement of human civilization. Each pillar has had a profound impact on how we communicate, record information, and organize knowledge.&#xA;Pictograms: The earliest form of written communication, pictograms served as a way to visually represent objects, ideas, and events. They laid the foundation for the development of writing systems by establishing the principle of using symbols to convey meaning.</description>
+    </item>
+    <item>
+      <title>Expressions</title>
+      <link>https://csr.sagecode.net/basics/expressions/</link>
+      <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/expressions/</guid>
+      <description>Understanding expressions is fundamental to both computer science and programming. They&amp;rsquo;re the building blocks of code, allowing you to manipulate data, control program flow, and make decisions.&#xA;There are many types of expressions, each serving a specific purpose. Here are some of the most common ones:&#xA;1. Arithmetic Expressions: These expressions perform mathematical operations on numbers, like addition, subtraction, multiplication, and division. You might use them to calculate distances, areas, or any other numerical value needed in your program.</description>
+    </item>
+    <item>
+      <title>Structures</title>
+      <link>https://csr.sagecode.net/basics/structures/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/structures/</guid>
+      <description>Data structures are the way we organize and store information in memory. They are like containers that hold different types of data and provide efficient access, manipulation, and retrieval. Imagine a bookshelf: it organizes your books by genre or author, making it easier to find a specific book. Similarly, data structures organize data to be processed efficiently by algorithms.&#xA;Foundation Data structures are crucial for writing efficient and clean code. They determine how quickly you can search for data, insert new elements, or delete existing ones.</description>
+    </item>
+    <item>
+      <title>Objects</title>
+      <link>https://csr.sagecode.net/basics/objects/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/objects/</guid>
+      <description>Here is an explanation of object-oriented programming (OOP) paradigm and principles, its advantages and disadvantages, and 3 top languages that are considered pure OOP:&#xA;OOP Principles Object-oriented programming (OOP) is a programming paradigm that focuses on creating objects, which are self-contained entities that combine data (attributes) and behavior (methods). OOP principles are:&#xA;Encapsulation: Bundling data and methods together within an object, protecting internal data from unauthorized access. Inheritance: Creating new classes (subclasses) based on existing classes (superclasses), inheriting their attributes and methods.</description>
+    </item>
+    <item>
+      <title>Functions</title>
+      <link>https://csr.sagecode.net/basics/functions/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/functions/</guid>
+      <description>A function is a self-contained block of code that performs a specific task. It&amp;rsquo;s designed to be reusable and can be called from different parts of the program.&#xA;Evolution of Functions Functions have evolved in modern programming languages like Julia.&#xA;First-Class Functions: Functions are treated as values, meaning they can be: Assigned to variables Passed as arguments to other functions Returned from functions Higher-Order Functions: Functions that operate on other functions, enabling: Mapping (applying a function to each element of a collection) Filtering (selecting elements based on a condition) Reducing (combining elements using a function) Closures: Functions that capture variables from their enclosing scope, creating &amp;ldquo;stateful&amp;rdquo; functions that remember values across calls.</description>
+    </item>
+  </channel>
+</rss>

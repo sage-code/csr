@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>efficiency on CS Research</title>
+    <link>https://csr.sagecode.net/tags/efficiency/</link>
+    <description>Recent content in efficiency on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://csr.sagecode.net/tags/efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficiency</title>
+      <link>https://csr.sagecode.net/algorithms/efficiency/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/algorithms/efficiency/</guid>
+      <description>The terms &amp;ldquo;efficiency&amp;rdquo; and &amp;ldquo;performance&amp;rdquo; are often used interchangeably when discussing data structures, but they have distinct meanings.&#xA;Concept Definition Efficiency refers to the theoretical measure of how well a data structure utilizes resources, particularly time and space. It&amp;rsquo;s usually analyzed using Big O notation, which describes how the time or space complexity of a data structure grows as the input size increases.&#xA;Performance is a more practical measure of how well a data structure actually performs on a specific platform or with a specific set of data.</description>
+    </item>
+  </channel>
+</rss>

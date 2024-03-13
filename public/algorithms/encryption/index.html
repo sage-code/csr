@@ -1,0 +1,2313 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="description" content="Fundamental concerns of cybersecurity.">
+<meta name="author" content="Sage-Code">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Encryption - CS Research</title>
+
+    
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="/css/hybrid.css" rel="stylesheet">
+    <link href="/css/featherlight.min.css" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/css/auto-complete.css" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/tabs.css" rel="stylesheet">
+    <link href="/css/hugo-theme.css" rel="stylesheet">
+    
+    <link href="/css/theme-purple.css" rel="stylesheet">
+    
+    <link href="/css/foo.css" rel="stylesheet"><link href="/css/bar.css" rel="stylesheet">
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/algorithms/encryption/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href='/'>
+  <img src="/images/sage-research.svg" alt="Sage-Code Research" height="80">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js"></script>
+<script type="text/javascript" src="/js/auto-complete.js"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/csr.sagecode.net";
+    
+</script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basics/" title="Basics" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basics/">
+          <b>📒</b>Basics
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/programming/" title="Programming" class="dd-item ">
+        <a href="/basics/programming/">
+        <b>📜</b>Programming
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/symbols/" title="Symbols" class="dd-item ">
+        <a href="/basics/symbols/">
+        <b>📜</b>Symbols
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/expressions/" title="Expressions" class="dd-item ">
+        <a href="/basics/expressions/">
+        <b>📜</b>Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/structures/" title="Structures" class="dd-item ">
+        <a href="/basics/structures/">
+        <b>📜</b>Structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/objects/" title="Objects" class="dd-item ">
+        <a href="/basics/objects/">
+        <b>📜</b>Objects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/functions/" title="Functions" class="dd-item ">
+        <a href="/basics/functions/">
+        <b>📜</b>Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/algorithms/" title="Algorithms" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/algorithms/">
+          <b>📒</b>Algorithms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/overview/" title="Overview" class="dd-item ">
+        <a href="/algorithms/overview/">
+        <b>📜</b>Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/problems/" title="Problems" class="dd-item ">
+        <a href="/algorithms/problems/">
+        <b>📜</b>Problems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/efficiency/" title="Efficiency" class="dd-item ">
+        <a href="/algorithms/efficiency/">
+        <b>📜</b>Efficiency
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/encryption/" title="Encryption" class="dd-item active">
+        <a href="/algorithms/encryption/">
+        <b>📜</b>Encryption
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/traversal/" title="Traversal" class="dd-item ">
+        <a href="/algorithms/traversal/">
+        <b>📜</b>Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/statistics/" title="Statistics" class="dd-item ">
+        <a href="/algorithms/statistics/">
+        <b>📜</b>Statistics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/search/" title="Search" class="dd-item ">
+        <a href="/algorithms/search/">
+        <b>📜</b>Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/sorting/" title="Sorting" class="dd-item ">
+        <a href="/algorithms/sorting/">
+        <b>📜</b>Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/databases/" title="Databases" class="dd-item
+        
+        
+        
+        ">
+      <a href="/databases/">
+          <b>📒</b>Databases
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/interpreters/" title="Interpreters" class="dd-item
+        
+        
+        
+        ">
+      <a href="/interpreters/">
+          <b>📒</b>Interpreters
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/julia/" title="Julia Syntax" class="dd-item ">
+        <a href="/interpreters/julia/">
+        <b>📜</b>Julia Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/bash/" title="Bash Syntax" class="dd-item ">
+        <a href="/interpreters/bash/">
+        <b>📜</b>Bash Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/python/" title="Python Syntax" class="dd-item ">
+        <a href="/interpreters/python/">
+        <b>📜</b>Python Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/javascript/" title="JavaScript Syntax" class="dd-item ">
+        <a href="/interpreters/javascript/">
+        <b>📜</b>JavaScript Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/compilers/" title="Compilers" class="dd-item
+        
+        
+        
+        ">
+      <a href="/compilers/">
+          <b>📒</b>Compilers
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/go/" title="go language" class="dd-item ">
+        <a href="/compilers/go/">
+        <b>📜</b>go language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/zig/" title="zig language" class="dd-item ">
+        <a href="/compilers/zig/">
+        <b>📜</b>zig language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/rust/" title="rust language" class="dd-item ">
+        <a href="/compilers/rust/">
+        <b>📜</b>rust language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/carbon/" title="carbon language" class="dd-item ">
+        <a href="/compilers/carbon/">
+        <b>📜</b>carbon language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/web-design/" title="Web design" class="dd-item
+        
+        
+        
+        ">
+      <a href="/web-design/">
+          <b>📒</b>Web design
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/uxui/" title="UX/UI Concepts" class="dd-item ">
+        <a href="/web-design/uxui/">
+        <b>📜</b>UX/UI Concepts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/html/" title="HTML Syntax" class="dd-item ">
+        <a href="/web-design/html/">
+        <b>📜</b>HTML Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/forms/" title="HTML Forms" class="dd-item ">
+        <a href="/web-design/forms/">
+        <b>📜</b>HTML Forms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/css/" title="CSS Syntax" class="dd-item ">
+        <a href="/web-design/css/">
+        <b>📜</b>CSS Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/react/" title="What is React?" class="dd-item ">
+        <a href="/web-design/react/">
+        <b>📜</b>What is React?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/backend/" title="Back End" class="dd-item ">
+        <a href="/web-design/backend/">
+        <b>📜</b>Back End
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/platforms/" title="Platforms" class="dd-item
+        
+        
+        
+        ">
+      <a href="/platforms/">
+          <b>📒</b>Platforms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/popular/" title="Popular Platforms" class="dd-item ">
+        <a href="/platforms/popular/">
+        <b>📜</b>Popular Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/features/" title="Expected Features" class="dd-item ">
+        <a href="/platforms/features/">
+        <b>📜</b>Expected Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/files/" title="File Systems" class="dd-item ">
+        <a href="/platforms/files/">
+        <b>📜</b>File Systems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/booting/" title="Booting Sequence" class="dd-item ">
+        <a href="/platforms/booting/">
+        <b>📜</b>Booting Sequence
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/cloud/" title="Cloud Platforms" class="dd-item ">
+        <a href="/platforms/cloud/">
+        <b>📜</b>Cloud Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/performance/" title="Performance Tips" class="dd-item ">
+        <a href="/platforms/performance/">
+        <b>📜</b>Performance Tips
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/devops/" title="What is DevOps?" class="dd-item ">
+        <a href="/platforms/devops/">
+        <b>📜</b>What is DevOps?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://sagecode.net"><i class='fas fa-home'></i> Home</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/sage-code"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://gohugo.io/"><i class='fas fa-bookmark'></i> Hugo Doc</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://csr.sagecode.net/_credits"><i class='fas fa-bullhorn'></i> Credits</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://csr.sagecode.net/tags"><i class='fas fa-tags'></i> Tags</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/algorithms/'>Algorithms</a> > Encryption
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#types-of-encryption">Types of Encryption</a></li>
+    <li><a href="#encryption-libraries">Encryption Libraries</a></li>
+    <li><a href="#secure-protocols">Secure Protocols</a></li>
+    <li><a href="#creating-ssh-keys">Creating SSH Keys</a>
+      <ul>
+        <li><a href="#on-linux">On Linux:</a></li>
+        <li><a href="#on-windows">On Windows:</a></li>
+      </ul>
+    </li>
+    <li><a href="#userpassword">User/Password</a></li>
+    <li><a href="#git-protocol">Git Protocol</a></li>
+    <li><a href="#encryption-in-databases">Encryption in Databases</a></li>
+    <li><a href="#julia-example">Julia example</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+<div class="tags">
+
+  <a class="tag-link" href="/tags/algorithms">algorithms</a>
+
+  <a class="tag-link" href="/tags/cybersecurity">cybersecurity</a>
+
+</div>
+
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Encryption
+            </h1>
+          
+
+        
+
+
+<p><strong>What is encryption:</strong></p>
+<p>Imagine you have a secret message and want only the intended recipient to read it. Encryption is like a lock and key system for information. You use a special code, called an encryption key, to scramble the message (encrypting it). This makes it unreadable to anyone who doesn&rsquo;t have the key. Only the recipient with the correct key can unscramble the message and read it (decrypting it).</p>
+<h2 id="types-of-encryption">Types of Encryption</h2>
+<ul>
+<li><strong>Symmetric encryption:</strong> Both sender and receiver use the same key. It&rsquo;s simple and fast, but less secure for sensitive information.</li>
+<li><strong>Asymmetric encryption:</strong> Uses two keys – a public key for everyone and a private key kept secret by the recipient. This is more secure but slower than symmetric encryption.</li>
+</ul>
+<p><strong>Use cases in Software Industry:</strong></p>
+<ol>
+<li><strong>Secure communication:</strong> Websites and apps use encryption (HTTPS/TLS) to protect data during transmission, such as login credentials and financial information.</li>
+<li><strong>Data at rest:</strong> Databases and file systems encrypt sensitive data (e.g., passwords, health records) to prevent unauthorized access even if someone breaches the system.</li>
+<li><strong>Data in transit:</strong> Software uses encryption to protect data while being transferred between devices or cloud platforms.</li>
+<li><strong>Client authentication:</strong> Apps and websites use encryption to verify users&rsquo; identities and prevent unauthorized access.</li>
+<li><strong>Digital signatures:</strong> Documents and software can be digitally signed using encryption to ensure their authenticity and prevent tampering.</li>
+<li><strong>Secure storage:</strong> Cloud storage services use encryption to protect user data from unauthorized access by cloud providers or other users.</li>
+<li><strong>Password protection:</strong> Software stores user passwords in an encrypted format, making it difficult for hackers to steal them even if they gain access to the database.</li>
+<li><strong>Secure communication with APIs:</strong> APIs use encryption to protect sensitive information exchanged between different software applications.</li>
+</ol>
+<p><strong>Benefits of Encryption:</strong></p>
+<ul>
+<li><strong>Data privacy:</strong> Protects sensitive information from unauthorized access.</li>
+<li><strong>Compliance:</strong> Helps companies comply with data privacy regulations like GDPR and HIPAA.</li>
+<li><strong>Security:</strong> Reduces the risk of data breaches and cyberattacks.</li>
+<li><strong>Trust:</strong> Builds trust with users by protecting their data.</li>
+</ul>
+<p><strong>Getting Started with Encryption:</strong></p>
+<ul>
+<li>Use HTTPS websites and apps for secure communication.</li>
+<li>Encrypt your files and folders on your computer.</li>
+<li>Enable strong passwords and two-factor authentication for your online accounts.</li>
+<li>Use password managers to manage your passwords securely.</li>
+<li>Choose software and services that have strong encryption features.</li>
+</ul>
+<p>Remember, encryption is a vital tool for protecting sensitive information in the software industry. By understanding the basics and using it effectively, you can help keep your data safe.</p>
+<hr>
+<h2 id="encryption-libraries">Encryption Libraries</h2>
+<p><strong>Why use libraries?</strong></p>
+<p>Creating your own encryption library is a complex and risky task. It requires expertise in cryptography, implementation best practices, and security considerations. Additionally, it&rsquo;s crucial to stay updated with the latest threats and vulnerabilities.</p>
+<p>Instead, developers rely on <strong>cryptography libraries</strong> for several reasons:</p>
+<ul>
+<li><strong>Security:</strong> Libraries are written by experienced cryptographers who implement algorithms following established standards and best practices.</li>
+<li><strong>Performance:</strong> Libraries are optimized for speed and efficiency, ensuring smooth integration into applications.</li>
+<li><strong>Flexibility:</strong> Libraries offer various algorithms, modes, and key management options to cater to specific needs.</li>
+<li><strong>Portability:</strong> Libraries are often written in portable languages like C or C++, allowing them to work across different platforms.</li>
+<li><strong>Maintainability:</strong> Libraries are actively maintained and updated with bug fixes, security patches, and new features.</li>
+</ul>
+<p><strong>Implementation details:</strong></p>
+<p>Libraries implement encryption algorithms through a combination of:</p>
+<ul>
+<li><strong>Low-level code:</strong> Algorithms are often implemented in C or assembly language for maximum performance.</li>
+<li><strong>High-level interfaces:</strong> Libraries provide user-friendly APIs for developers to invoke specific functions without requiring deep cryptographic knowledge.</li>
+<li><strong>Modular design:</strong> Libraries are often designed with modularity in mind, allowing developers to choose and combine different algorithms and functionalities.</li>
+<li><strong>Security features:</strong> Libraries usually include features like key management, random number generation, and padding to ensure secure implementation.</li>
+</ul>
+<p><strong>Benefits for developers:</strong></p>
+<ul>
+<li><strong>Faster development:</strong> Developers can focus on application logic instead of implementing complex cryptography.</li>
+<li><strong>Reduced risk:</strong> Libraries are thoroughly tested and vetted, reducing the risk of security vulnerabilities.</li>
+<li><strong>Interoperability:</strong> Libraries can be used across different applications and platforms, promoting code reuse.</li>
+<li><strong>Focus on expertise:</strong> Developers can leverage their expertise in their domain instead of cryptography.</li>
+</ul>
+<p><strong>Examples of cryptography libraries:</strong></p>
+<ul>
+<li><strong>OpenSSL:</strong> Widely used, open-source library with a vast range of algorithms and features.</li>
+<li><strong>BoringSSL:</strong> Google&rsquo;s fork of OpenSSL, focusing on security and performance.</li>
+<li><strong>GnuPG:</strong> Powerful library for public-key cryptography and digital signatures.</li>
+<li><strong>Libsodium:</strong> Easy-to-use library with a focus on security and simplicity.</li>
+<li><strong>Bouncy Castle:</strong> Java-based library with support for various algorithms and standards.</li>
+</ul>
+<p><strong>Conclusion:</strong></p>
+<p>Cryptography libraries play a crucial role in secure software development. By leveraging these libraries, developers can easily and securely implement encryption algorithms without becoming experts in cryptography themselves. This allows them to focus on building robust and secure applications.</p>
+<hr>
+<h2 id="secure-protocols">Secure Protocols</h2>
+<p>Encryption is the cornerstone of secure communication protocols. It ensures that information exchanged between parties remains confidential, authentic, and integral by scrambling the data into an unreadable format. Only those with the correct key can decrypt and access the information.</p>
+<p>Here&rsquo;s how encryption is used to create secure protocols:</p>
+<p><strong>1. Key Agreement:</strong></p>
+<ul>
+<li>Secure protocols establish shared secret keys between communicating parties.</li>
+<li>This is often achieved through asymmetric encryption, where public keys are used to exchange a symmetric key that is used for subsequent communication.</li>
+<li>Diffie-Hellman key exchange is a common method.</li>
+</ul>
+<p><strong>2. Data Encryption and Decryption:</strong></p>
+<ul>
+<li>All data transmitted between parties is encrypted using the shared secret key.</li>
+<li>This ensures confidentiality and prevents unauthorized access to the information.</li>
+<li>Symmetric algorithms like AES are often utilized for efficiency.</li>
+</ul>
+<p><strong>3. Data Integrity and Authentication:</strong></p>
+<ul>
+<li>Secure protocols employ hashing algorithms like SHA-256 to generate unique message digests.</li>
+<li>These digests are attached to the encrypted data and act as fingerprints to verify data integrity.</li>
+<li>Any alteration of the data will result in a different digest, ensuring detection of tampering.</li>
+<li>Digital signatures using asymmetric encryption can also be used for authentication.</li>
+</ul>
+<p><strong>4. Secure Handshake:</strong></p>
+<ul>
+<li>Before data exchange, a secure handshake is established.</li>
+<li>This initial communication includes protocol negotiation, authentication, and key exchange.</li>
+<li>The handshake ensures that the communication channel is secure before any sensitive information is transmitted.</li>
+</ul>
+<p><strong>Examples of Secure Protocols and Use Cases:</strong></p>
+<ul>
+<li><strong>HTTPS (TLS):</strong> Used for secure communication between web browsers and websites. Encrypts all data exchanged, including login credentials, financial information, and personal data.</li>
+<li><strong>SSH:</strong> Securely connects to remote servers for command-line access and file transfer. Protects usernames, passwords, and sensitive commands from interception.</li>
+<li><strong>SMTP/TLS:</strong> Encrypts email communication and protects against eavesdropping and email sniffing.</li>
+<li><strong>IMAP/TLS and POP3/TLS:</strong> Secure protocols for accessing and managing email on mail servers.</li>
+<li><strong>VPN:</strong> Creates a secure tunnel over a public network, allowing remote users to connect securely to private networks.</li>
+<li><strong>IPsec:</strong> Encrypts network traffic at the IP layer, providing secure communication between devices on a network.</li>
+</ul>
+<p><strong>Benefits of Encrypted Protocols:</strong></p>
+<ul>
+<li><strong>Confidentiality:</strong> Protects sensitive information from unauthorized access.</li>
+<li><strong>Integrity:</strong> Ensures data remains unaltered during transmission.</li>
+<li><strong>Authentication:</strong> Verifies the identities of communicating parties.</li>
+<li><strong>Non-repudiation:</strong> Provides proof of communication and prevents denial of actions.</li>
+</ul>
+<p><strong>Conclusion:</strong></p>
+<p>Encryption plays a vital role in creating secure protocols. By utilizing encryption effectively, protocols can guarantee the confidentiality, integrity, and authenticity of communication, protecting sensitive information and ensuring secure online activities.</p>
+<hr>
+<h2 id="creating-ssh-keys">Creating SSH Keys</h2>
+<h3 id="on-linux">On Linux:</h3>
+<p><strong>1. Generate SSH key pair:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen
+</span></span></code></pre></div><p>Follow the prompts:</p>
+<ul>
+<li>Enter a file to save the private key (default: <code>id_rsa</code>).</li>
+<li>Enter a passphrase (optional, but highly recommended for added security).</li>
+<li>Confirm the passphrase.</li>
+</ul>
+<p><strong>2. Copy the public key:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub
+</span></span></code></pre></div><p><strong>3. Add the public key to your server:</strong></p>
+<ul>
+<li>You can copy the key manually or use the <code>ssh-copy-id</code> command:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_address
+</span></span></code></pre></div><ul>
+<li>Enter the server&rsquo;s password when prompted.</li>
+</ul>
+<p><strong>4. Test the SSH connection:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh username@server_address
+</span></span></code></pre></div><p>You should be able to connect without entering a password.</p>
+<h3 id="on-windows">On Windows:</h3>
+<p><strong>1. Install PuTTY:</strong></p>
+<ul>
+<li>Download and install PuTTY from the official website: <a href="https://www.putty.org/">https://www.putty.org/</a></li>
+</ul>
+<p><strong>2. Generate SSH key pair:</strong></p>
+<ul>
+<li>Open PuTTYgen.</li>
+<li>Click the &ldquo;Generate&rdquo; button and move your mouse to add randomness.</li>
+<li>Enter a passphrase (optional, but highly recommended for added security).</li>
+<li>Click &ldquo;Save private key&rdquo; and choose a location.</li>
+<li>Click &ldquo;Save public key&rdquo; and choose a location.</li>
+</ul>
+<p><strong>3. Add the public key to your server:</strong></p>
+<ul>
+<li>You can copy the key manually or use the <code>ssh-copy-id</code> command:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ssh-copy-id -i path/to/public_key username@server_address
+</span></span></code></pre></div><ul>
+<li>Enter the server&rsquo;s password when prompted.</li>
+</ul>
+<p><strong>4. Configure PuTTY for SSH:</strong></p>
+<ul>
+<li>Open PuTTY.</li>
+<li>Enter the server address in the &ldquo;Host Name (or IP address)&rdquo; field.</li>
+<li>Select &ldquo;SSH&rdquo; in the &ldquo;Protocol&rdquo; field.</li>
+<li>Click &ldquo;Browse&rdquo; under the &ldquo;Port&rdquo; field and enter the SSH port (usually 22).</li>
+<li>Click on &ldquo;Auth&rdquo; in the left-hand menu.</li>
+<li>Click on &ldquo;Browse&rdquo; under the &ldquo;Private key file for authentication&rdquo; field and select the private key you saved.</li>
+<li>Click &ldquo;Open&rdquo; to connect.</li>
+</ul>
+<p>You should be able to connect without entering a password.</p>
+<p><strong>Additional notes:</strong></p>
+<ul>
+<li>Remember to keep your private key secure. Do not share it with anyone.</li>
+<li>You can create multiple key pairs for different purposes.</li>
+<li>You can disable password authentication on your server for added security.</li>
+</ul>
+<p><strong>Tools used:</strong></p>
+<ul>
+<li>Linux: <code>ssh-keygen</code>, <code>ssh-copy-id</code></li>
+<li>Windows: PuTTY, PuTTYgen</li>
+</ul>
+<p><strong>Benefits of using SSH keys:</strong></p>
+<ul>
+<li>More secure than password authentication.</li>
+<li>Easier and faster to use.</li>
+<li>More convenient for managing multiple servers.</li>
+</ul>
+<p>By following these steps, you can create SSH keys and establish a secure connection to your server. Remember to keep your private key secure and enjoy the benefits of passwordless authentication.</p>
+<hr>
+<h2 id="userpassword">User/Password</h2>
+<p>While user/password authentication offers simplicity, it&rsquo;s crucial to understand its limitations and implement best practices to minimize security risks. Here&rsquo;s an overview of its implementation across diverse protocols:</p>
+<p><strong>1. HTTP Basic Authentication:</strong></p>
+<ul>
+<li>Simple and widely supported.</li>
+<li>Username and password are transmitted in plain text.</li>
+<li>Vulnerable to eavesdropping and replay attacks.</li>
+<li>Only suitable for non-sensitive applications.</li>
+</ul>
+<p><strong>2. HTTP Digest Authentication:</strong></p>
+<ul>
+<li>More secure than Basic authentication.</li>
+<li>Username and password are not sent directly, but a hash is generated using a challenge-response mechanism.</li>
+<li>Still vulnerable to brute-force attacks and server-side security breaches.</li>
+</ul>
+<p><strong>3. SMTP (Email):</strong></p>
+<ul>
+<li>Username and password are typically sent in plain text.</li>
+<li>SMTP STARTTLS can be used to encrypt the communication channel.</li>
+<li>Consider using more secure protocols like IMAP/TLS or POP3/TLS for email access.</li>
+</ul>
+<p><strong>4. FTP:</strong></p>
+<ul>
+<li>Username and password are typically sent in plain text.</li>
+<li>FTP over SSL/TLS (FTPS) provides encryption for the communication channel.</li>
+<li>Consider using secure alternatives like SFTP for file transfer.</li>
+</ul>
+<p><strong>5. SSH:</strong></p>
+<ul>
+<li>Supports password authentication as a fallback option, but discouraged due to security risks.</li>
+<li>Key-based authentication is strongly recommended for secure SSH access.</li>
+</ul>
+<p><strong>Best Practices for User/Password Authentication:</strong></p>
+<ul>
+<li>Use strong and unique passwords for each account.</li>
+<li>Enable two-factor authentication for added security.</li>
+<li>Avoid using user/password authentication for sensitive applications.</li>
+<li>Implement server-side security measures like password hashing and salting.</li>
+<li>Keep software updated to address security vulnerabilities.</li>
+</ul>
+<p><strong>Alternative Authentication Methods:</strong></p>
+<ul>
+<li><strong>Multi-factor Authentication (MFA):</strong> Adds an extra layer of security beyond username/password.</li>
+<li><strong>Social Login:</strong> Allows users to log in using their existing social media credentials.</li>
+<li><strong>Biometric Authentication:</strong> Uses fingerprint or facial recognition for secure access.</li>
+<li><strong>Token-based Authentication:</strong> Uses short-lived tokens for authentication, reducing the risk of password theft.</li>
+</ul>
+<p><strong>Conclusion:</strong></p>
+<p>While user/password authentication remains common, its security limitations should be acknowledged. Implementing best practices and exploring alternative methods can significantly enhance the security of online communication.</p>
+<hr>
+<h2 id="git-protocol">Git Protocol</h2>
+<p>The Git protocol is a specialized communication protocol designed for efficient exchange of Git repository data between clients and servers. While powerful, it has limitations regarding encryption and authentication.</p>
+<p>*<strong>Protocol Overview:</strong></p>
+<ul>
+<li><strong>Operation:</strong> TCP/IP based, command-driven, push/pull model.</li>
+<li><strong>Data Transfer:</strong> Compresses Git objects into packfiles for efficient transmission.</li>
+<li><strong>Server Types:</strong> Dumb (simple HTTP server) or Smart (dedicated Git server process).</li>
+<li><strong>Benefits:</strong> Lightweight, flexible, version control, open-source.</li>
+</ul>
+<p><em><strong>Encryption:</strong></em></p>
+<ul>
+<li><strong>Default:</strong> Unencrypted (plain text), making it vulnerable to eavesdropping.</li>
+<li><strong>Options:</strong>
+<ul>
+<li><strong>HTTPS:</strong> Widely used, provides basic encryption but less efficient.</li>
+<li><strong>SSH:</strong> Secure and authenticated, requires additional setup.</li>
+<li><strong>Dedicated Git server with encryption:</strong> Offers high security but requires specific configuration.</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>Authentication:</strong></em></p>
+<ul>
+<li><strong>Default:</strong> No built-in authentication.</li>
+<li><strong>Options:</strong>
+<ul>
+<li><strong>SSH:</strong> Provides secure authentication through key-based login.</li>
+<li><strong>HTTP Basic/Digest Authentication:</strong> Less secure, transmits credentials in plain text (not recommended).</li>
+<li><strong>Custom authentication systems:</strong> Can be integrated with Git servers for specific needs.</li>
+</ul>
+</li>
+</ul>
+<p><em><strong>How it works:</strong></em></p>
+<ol>
+<li>Client sends a command (e.g., <code>push</code>, <code>pull</code>) to the server.</li>
+<li>Server parses the command and identifies the required data.</li>
+<li>Server transmits packfiles containing the requested Git objects.</li>
+<li>Client unpacks and stores the received data in its local repository.</li>
+</ol>
+<p><em><strong>Authentication methods:</strong></em></p>
+<ol>
+<li><strong>SSH:</strong> Client and server exchange cryptographic keys for secure communication.</li>
+<li><strong>HTTP Basic/Digest:</strong> Client sends username and password in clear text, not recommended.</li>
+<li><strong>Custom:</strong> Server implements a specific authentication mechanism (e.g., token-based).</li>
+</ol>
+<p><em><strong>Conclusion:</strong></em></p>
+<p>The Git protocol is efficient but lacks built-in encryption and authentication. Consider using HTTPS or SSH for secure communication and implementing additional authentication methods when needed. Remember to choose security measures appropriate for your specific needs and threat landscape.</p>
+<hr>
+<h2 id="encryption-in-databases">Encryption in Databases</h2>
+<p>Database encryption is the process of transforming data stored in a database into an unreadable format using cryptographic algorithms. This protects sensitive information from unauthorized access, even if an attacker gains access to the database itself.</p>
+<p>There are two main types of database encryption:</p>
+<p><strong>1. Data at rest encryption:</strong> This encrypts data while it is stored on the disk. This type of encryption protects data even when the database is not running.
+<strong>2. Data in transit encryption:</strong> This encrypts data while it is being transferred between the database and other applications or systems. This protects data from being intercepted during transmission.</p>
+<p>Database encryption can be implemented at various levels:</p>
+<p><strong>1. Database level encryption:</strong> This encrypts the entire database, including all tables, indexes, and other database objects. This is the most secure option, but it can also impact performance.
+<strong>2. Table level encryption:</strong> This encrypts specific tables within the database. This allows for a more granular approach to encryption, but it can be more complex to manage.
+<strong>3. Column level encryption:</strong> This encrypts individual columns within a table. This provides the most flexibility, but it can be the most complex to implement and manage.</p>
+<p>Here are some of the benefits of encrypting data in databases:</p>
+<ul>
+<li><strong>Protects sensitive information:</strong> Encryption makes it more difficult for attackers to steal sensitive information, even if they gain access to the database.</li>
+<li><strong>Complies with regulations:</strong> Many regulations, such as HIPAA and PCI DSS, require that certain types of sensitive information be encrypted.</li>
+<li><strong>Reduces the risk of data breaches:</strong> Database encryption can help to mitigate the impact of a data breach by making it more difficult for attackers to access and use stolen data.</li>
+</ul>
+<p>However, there are also some challenges to consider when implementing database encryption:</p>
+<ul>
+<li><strong>Performance impact:</strong> Encryption and decryption can add overhead to database operations, which can impact performance.</li>
+<li><strong>Key management:</strong> Encryption keys need to be securely managed and protected from unauthorized access.</li>
+<li><strong>Backup and recovery:</strong> Backups of encrypted databases need to be encrypted as well, and recovery procedures need to be adjusted accordingly.</li>
+</ul>
+<p>Despite these challenges, database encryption is a valuable tool for protecting sensitive information. By carefully considering the benefits and challenges, organizations can choose the right encryption solution for their needs.</p>
+<p>Here are some additional points to consider:</p>
+<ul>
+<li><strong>Encryption algorithms:</strong> Different encryption algorithms offer different levels of security and performance. Choosing the right algorithm is important for balancing security with performance needs.</li>
+<li><strong>Key rotation:</strong> Encryption keys should be rotated regularly to reduce the risk of compromise.</li>
+<li><strong>Auditing and monitoring:</strong> It is important to audit and monitor encrypted databases for suspicious activity.</li>
+</ul>
+<p>By understanding the different aspects of database encryption and implementing it properly, organizations can significantly enhance the security of their sensitive data and comply with relevant regulations.</p>
+<hr>
+<h2 id="julia-example">Julia example</h2>
+<p>This program demonstrates basic encryption and decryption using the <strong>AES</strong> algorithm in Julia. It utilizes the <strong>Nettle.jl</strong> package, which provides a wrapper around the <strong>Nettle</strong> cryptographic library.</p>
+<p><strong>1. Dependencies:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Nettle
+</span></span></code></pre></div><p><strong>2. Function to encrypt plaintext:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> encrypt(plaintext, key)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Create an AES256 cipher object with the key.</span>
+</span></span><span style="display:flex;"><span>    cipher <span style="color:#f92672">=</span> Encryptor(<span style="color:#e6db74">&#34;AES256&#34;</span>, key)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Convert plaintext to bytes.</span>
+</span></span><span style="display:flex;"><span>    plaintext_bytes <span style="color:#f92672">=</span> Base64<span style="color:#f92672">.</span>encode(plaintext)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Encrypt the plaintext.</span>
+</span></span><span style="display:flex;"><span>    ciphertext_bytes <span style="color:#f92672">=</span> encrypt(cipher, plaintext_bytes)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Return the ciphertext in base64 encoding.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> Base64<span style="color:#f92672">.</span>encode(ciphertext_bytes)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p><strong>3. Function to decrypt cipher text:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> decrypt(ciphertext, key)
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Create an AES256 decipher object with the key.</span>
+</span></span><span style="display:flex;"><span>    decipher <span style="color:#f92672">=</span> Decryptor(<span style="color:#e6db74">&#34;AES256&#34;</span>, key)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Decode the base64 encoded ciphertext.</span>
+</span></span><span style="display:flex;"><span>    ciphertext_bytes <span style="color:#f92672">=</span> Base64<span style="color:#f92672">.</span>decode(ciphertext)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Decrypt the ciphertext.</span>
+</span></span><span style="display:flex;"><span>    decrypted_bytes <span style="color:#f92672">=</span> decrypt(decipher, ciphertext_bytes)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Convert the decrypted bytes back to string.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">String</span>(Base64<span style="color:#f92672">.</span>decode(decrypted_bytes))
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p><strong>4. Example Usage:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define the plaintext and key.</span>
+</span></span><span style="display:flex;"><span>plaintext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;This is a secret message!&#34;</span>
+</span></span><span style="display:flex;"><span>key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1234567890abcdef&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Encrypt the message.</span>
+</span></span><span style="display:flex;"><span>ciphertext <span style="color:#f92672">=</span> encrypt(plaintext, key)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Encrypted message:&#34;</span>, ciphertext)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Decrypt the message.</span>
+</span></span><span style="display:flex;"><span>decrypted_message <span style="color:#f92672">=</span> decrypt(ciphertext, key)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Decrypted message:&#34;</span>, decrypted_message)
+</span></span></code></pre></div><p><strong>Output:</strong></p>
+<pre tabindex="0"><code>Encrypted message: QXNvY3JldCBzdHJpbmc=
+Decrypted message: This is a secret message!
+</code></pre><p>This is a basic example and can be further enhanced with features like:</p>
+<ul>
+<li>Handling different encryption algorithms and modes.</li>
+<li>Implementing salt for improved security.</li>
+<li>Reading input and writing output to files.</li>
+</ul>
+<p>For more advanced encryption functionalities, consider exploring other Julia packages like <strong>MbedTLS.jl</strong> and <strong>Crypto.jl</strong>.</p>
+<p>Remember, proper key management and secure coding practices are crucial aspects of secure encryption.</p>
+<hr>
+<p><strong>Disclaim:</strong> This content is generated using Bard with our prompts.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/algorithms/efficiency/" title="Efficiency"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/algorithms/traversal/" title="Traversal" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/perfect-scrollbar.min.js"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/featherlight.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/js/learn.js"></script>
+    <script src="/js/hugo-learn.js"></script>
+    
+        
+            <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

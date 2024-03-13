@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>carbon on CS Research</title>
+    <link>https://csr.sagecode.net/tags/carbon/</link>
+    <description>Recent content in carbon on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://csr.sagecode.net/tags/carbon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>carbon language</title>
+      <link>https://csr.sagecode.net/compilers/carbon/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/compilers/carbon/</guid>
+      <description>Carbon is still under development and lacks certain features like for loops and comparison operators like &amp;lt;. However, we can still achieve the Fibonacci sequence using other techniques. Here&amp;rsquo;s one approach:&#xA;fn Main() -&amp;gt; i32 { let mut number: i32 = -1 let mut previousNumber: i32 = 1 // Prompt user for input Print(&amp;#34;Enter a positive integer: &amp;#34;) let input = ReadLine() // Convert input to i32 let n = Try(input.</description>
+    </item>
+  </channel>
+</rss>

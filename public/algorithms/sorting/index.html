@@ -1,0 +1,2196 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="description" content="What are sorting algorithms? and some use-cases.">
+<meta name="author" content="Sage-Code">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Sorting - CS Research</title>
+
+    
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="/css/hybrid.css" rel="stylesheet">
+    <link href="/css/featherlight.min.css" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/css/auto-complete.css" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/tabs.css" rel="stylesheet">
+    <link href="/css/hugo-theme.css" rel="stylesheet">
+    
+    <link href="/css/theme-purple.css" rel="stylesheet">
+    
+    <link href="/css/foo.css" rel="stylesheet"><link href="/css/bar.css" rel="stylesheet">
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/algorithms/sorting/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href='/'>
+  <img src="/images/sage-research.svg" alt="Sage-Code Research" height="80">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js"></script>
+<script type="text/javascript" src="/js/auto-complete.js"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/csr.sagecode.net";
+    
+</script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basics/" title="Basics" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basics/">
+          <b>📒</b>Basics
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/programming/" title="Programming" class="dd-item ">
+        <a href="/basics/programming/">
+        <b>📜</b>Programming
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/symbols/" title="Symbols" class="dd-item ">
+        <a href="/basics/symbols/">
+        <b>📜</b>Symbols
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/expressions/" title="Expressions" class="dd-item ">
+        <a href="/basics/expressions/">
+        <b>📜</b>Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/structures/" title="Structures" class="dd-item ">
+        <a href="/basics/structures/">
+        <b>📜</b>Structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/objects/" title="Objects" class="dd-item ">
+        <a href="/basics/objects/">
+        <b>📜</b>Objects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/functions/" title="Functions" class="dd-item ">
+        <a href="/basics/functions/">
+        <b>📜</b>Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/algorithms/" title="Algorithms" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/algorithms/">
+          <b>📒</b>Algorithms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/overview/" title="Overview" class="dd-item ">
+        <a href="/algorithms/overview/">
+        <b>📜</b>Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/problems/" title="Problems" class="dd-item ">
+        <a href="/algorithms/problems/">
+        <b>📜</b>Problems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/efficiency/" title="Efficiency" class="dd-item ">
+        <a href="/algorithms/efficiency/">
+        <b>📜</b>Efficiency
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/encryption/" title="Encryption" class="dd-item ">
+        <a href="/algorithms/encryption/">
+        <b>📜</b>Encryption
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/traversal/" title="Traversal" class="dd-item ">
+        <a href="/algorithms/traversal/">
+        <b>📜</b>Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/statistics/" title="Statistics" class="dd-item ">
+        <a href="/algorithms/statistics/">
+        <b>📜</b>Statistics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/search/" title="Search" class="dd-item ">
+        <a href="/algorithms/search/">
+        <b>📜</b>Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/sorting/" title="Sorting" class="dd-item active">
+        <a href="/algorithms/sorting/">
+        <b>📜</b>Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/databases/" title="Databases" class="dd-item
+        
+        
+        
+        ">
+      <a href="/databases/">
+          <b>📒</b>Databases
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/interpreters/" title="Interpreters" class="dd-item
+        
+        
+        
+        ">
+      <a href="/interpreters/">
+          <b>📒</b>Interpreters
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/julia/" title="Julia Syntax" class="dd-item ">
+        <a href="/interpreters/julia/">
+        <b>📜</b>Julia Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/bash/" title="Bash Syntax" class="dd-item ">
+        <a href="/interpreters/bash/">
+        <b>📜</b>Bash Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/python/" title="Python Syntax" class="dd-item ">
+        <a href="/interpreters/python/">
+        <b>📜</b>Python Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/javascript/" title="JavaScript Syntax" class="dd-item ">
+        <a href="/interpreters/javascript/">
+        <b>📜</b>JavaScript Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/compilers/" title="Compilers" class="dd-item
+        
+        
+        
+        ">
+      <a href="/compilers/">
+          <b>📒</b>Compilers
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/go/" title="go language" class="dd-item ">
+        <a href="/compilers/go/">
+        <b>📜</b>go language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/zig/" title="zig language" class="dd-item ">
+        <a href="/compilers/zig/">
+        <b>📜</b>zig language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/rust/" title="rust language" class="dd-item ">
+        <a href="/compilers/rust/">
+        <b>📜</b>rust language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/carbon/" title="carbon language" class="dd-item ">
+        <a href="/compilers/carbon/">
+        <b>📜</b>carbon language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/web-design/" title="Web design" class="dd-item
+        
+        
+        
+        ">
+      <a href="/web-design/">
+          <b>📒</b>Web design
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/uxui/" title="UX/UI Concepts" class="dd-item ">
+        <a href="/web-design/uxui/">
+        <b>📜</b>UX/UI Concepts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/html/" title="HTML Syntax" class="dd-item ">
+        <a href="/web-design/html/">
+        <b>📜</b>HTML Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/forms/" title="HTML Forms" class="dd-item ">
+        <a href="/web-design/forms/">
+        <b>📜</b>HTML Forms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/css/" title="CSS Syntax" class="dd-item ">
+        <a href="/web-design/css/">
+        <b>📜</b>CSS Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/react/" title="What is React?" class="dd-item ">
+        <a href="/web-design/react/">
+        <b>📜</b>What is React?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/backend/" title="Back End" class="dd-item ">
+        <a href="/web-design/backend/">
+        <b>📜</b>Back End
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/platforms/" title="Platforms" class="dd-item
+        
+        
+        
+        ">
+      <a href="/platforms/">
+          <b>📒</b>Platforms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/popular/" title="Popular Platforms" class="dd-item ">
+        <a href="/platforms/popular/">
+        <b>📜</b>Popular Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/features/" title="Expected Features" class="dd-item ">
+        <a href="/platforms/features/">
+        <b>📜</b>Expected Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/files/" title="File Systems" class="dd-item ">
+        <a href="/platforms/files/">
+        <b>📜</b>File Systems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/booting/" title="Booting Sequence" class="dd-item ">
+        <a href="/platforms/booting/">
+        <b>📜</b>Booting Sequence
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/cloud/" title="Cloud Platforms" class="dd-item ">
+        <a href="/platforms/cloud/">
+        <b>📜</b>Cloud Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/performance/" title="Performance Tips" class="dd-item ">
+        <a href="/platforms/performance/">
+        <b>📜</b>Performance Tips
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/devops/" title="What is DevOps?" class="dd-item ">
+        <a href="/platforms/devops/">
+        <b>📜</b>What is DevOps?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://sagecode.net"><i class='fas fa-home'></i> Home</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/sage-code"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://gohugo.io/"><i class='fas fa-bookmark'></i> Hugo Doc</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://csr.sagecode.net/_credits"><i class='fas fa-bullhorn'></i> Credits</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://csr.sagecode.net/tags"><i class='fas fa-tags'></i> Tags</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/algorithms/'>Algorithms</a> > Sorting
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#importance">Importance</a></li>
+    <li><a href="#examples">Examples</a></li>
+    <li><a href="#strategy">Strategy</a></li>
+    <li><a href="#sorting-tables">Sorting tables</a></li>
+    <li><a href="#lookup-tables">Lookup Tables</a></li>
+    <li><a href="#bubble-sort">Bubble Sort</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+<div class="tags">
+
+  <a class="tag-link" href="/tags/sorting">sorting</a>
+
+  <a class="tag-link" href="/tags/algorithms">algorithms</a>
+
+</div>
+
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Sorting
+            </h1>
+          
+
+        
+
+
+<p>A sorting algorithm is a set of instructions that takes a collection of data and arranges it in a specific order, most commonly in ascending or descending order. These algorithms play a crucial role in computer science and are used in various applications.</p>
+<p>Here are some key characteristics of sorting algorithms:</p>
+<ul>
+<li><strong>Input:</strong> A collection of data (numbers, strings, objects)</li>
+<li><strong>Output:</strong> The data arranged in a specific order</li>
+<li><strong>Time Complexity:</strong> Measures the time it takes to sort the data (usually expressed using Big O notation)</li>
+<li><strong>Space Complexity:</strong> Measures the amount of memory needed to sort the data</li>
+<li><strong>Stability:</strong> Determines whether the order of equal elements is preserved after sorting</li>
+</ul>
+<h2 id="importance">Importance</h2>
+<p>Sorting algorithms are fundamental to computer science for several reasons:</p>
+<p><strong>1. Efficiency of other algorithms:</strong> Many algorithms rely on sorted data to function efficiently. For example, searching algorithms like binary search are much faster when the data is sorted.</p>
+<p><strong>2. Data analysis and organization:</strong> Sorting data allows for easier analysis and interpretation. It facilitates the identification of patterns, trends, and outliers.</p>
+<p><strong>3. Optimization:</strong> Sorting can optimize various tasks, such as scheduling jobs, allocating resources, and managing databases.</p>
+<p><strong>4. Algorithm design and analysis:</strong> Learning and implementing different sorting algorithms helps programmers understand fundamental concepts like efficiency, time complexity, space complexity, and algorithm design techniques.</p>
+<p><strong>5. Practical applications:</strong> Sorting algorithms are used in various real-world applications, including:
+* Organizing files in a directory
+* Sorting search results
+* Ranking items in an e-commerce website
+* Generating reports and analyzing statistics
+* Implementing efficient databases and data structures</p>
+<p>By understanding and implementing different sorting algorithms, programmers can solve problems more efficiently and effectively, leading to better software performance and user experience.</p>
+<h2 id="examples">Examples</h2>
+<p>There are numerous sorting algorithms, each with its own strengths and weaknesses. Some commonly used algorithms include:</p>
+<ul>
+<li><strong>Bubble Sort:</strong> Simple and easy to understand, but inefficient for large datasets.</li>
+<li><strong>Selection Sort:</strong> Similar to bubble sort but slightly more efficient.</li>
+<li><strong>Insertion Sort:</strong> Efficient for small datasets and partially sorted data.</li>
+<li><strong>Merge Sort:</strong> Divide-and-conquer algorithm with a time complexity of O(n log n), making it efficient for large datasets.</li>
+<li><strong>Quick Sort:</strong> Another efficient algorithm with a time complexity of O(n log n) but with a higher space complexity than merge sort.</li>
+<li><strong>Heap Sort:</strong> Efficient for large datasets and maintaining a heap data structure.</li>
+</ul>
+<p>Choosing the right sorting algorithm depends on the specific needs of the application, considering factors like data size, desired order, performance requirements, and memory constraints.</p>
+<hr>
+<h2 id="strategy">Strategy</h2>
+<p>Sorting strategies for different collection types depend on the structure and intended use of the collection. Here&rsquo;s a breakdown of common strategies:</p>
+<p><strong>1. Simple Lists:</strong></p>
+<ul>
+<li><strong>Default:</strong> Most programming languages provide built-in sorting functions that use efficient algorithms like Merge Sort or Quick Sort. These algorithms sort elements based on their natural ordering or a provided comparison function.</li>
+<li><strong>Custom Sorting:</strong> You can define custom comparison functions to compare elements based on specific criteria. This allows you to sort based on attributes, values, or any logic relevant to your specific use case.</li>
+</ul>
+<p><strong>2. Sets:</strong></p>
+<ul>
+<li><strong>Unique Elements:</strong> Sets inherently maintain unique elements, eliminating the need for sorting. Each element&rsquo;s order is determined by its insertion or retrieval order.</li>
+<li><strong>Sorted Sets:</strong> Some implementations like SortedSets maintain elements in sorted order based on a specific key or comparison function. This allows for efficient searching and range-based operations.</li>
+</ul>
+<p><strong>3. Maps and Dictionaries:</strong></p>
+<ul>
+<li><strong>Key-Based Ordering:</strong> Maps are primarily accessed by keys, making them inherently unordered. However, some implementations offer sorted variants that maintain key order, enabling efficient key-based searches and iteration.</li>
+<li><strong>Value-Based Sorting:</strong> You can implement custom sorting for maps by iterating through key-value pairs and constructing a new sorted list based on desired criteria applied to values.</li>
+</ul>
+<p><strong>4. Trees:</strong></p>
+<ul>
+<li><strong>Binary Search Trees:</strong> These trees maintain elements in sorted order based on a comparison function. This allows for efficient searching, insertion, and deletion operations.</li>
+<li><strong>N-ary Trees:</strong> These trees can have more than two children per node, offering more flexibility but requiring different sorting algorithms adapted to their structure.</li>
+</ul>
+<p><strong>5. Custom Collections:</strong></p>
+<ul>
+<li><strong>User-Defined Ordering:</strong> For custom collections, you can define your own sorting algorithms tailored to the specific data structure and comparison criteria. This allows for maximum flexibility and performance optimization for your specific needs.</li>
+</ul>
+<p><strong>Additional Factors:</strong></p>
+<ul>
+<li><strong>Data Size:</strong> Choose algorithms with good scaling properties for large collections to ensure efficient sorting performance.</li>
+<li><strong>Comparison Complexity:</strong> If comparing elements requires complex logic, consider algorithms optimized for such comparisons to avoid performance bottlenecks.</li>
+<li><strong>Parallelism:</strong> Some sorting algorithms can be parallelized for faster execution on multi-core CPUs.</li>
+</ul>
+<p><strong>Remember:</strong></p>
+<ul>
+<li>The best sorting strategy depends on the specific collection type, data size, and desired operations.</li>
+<li>Utilize built-in sorting functions when available for efficiency and simplicity.</li>
+<li>Implement custom sorting strategies when needed to meet specific requirements not supported by built-in functions.</li>
+<li>Consider the performance implications of choosing a particular sorting algorithm for your specific use case.</li>
+</ul>
+<hr>
+<h2 id="sorting-tables">Sorting tables</h2>
+<p>We use tables, also known as relations in relational algebra are used in databases to organize data in rows and columns. Searching in a table is a frequent operation that need to be optimized for fast identification of each row. Having faster data access to specific data require sorting or indexing.</p>
+<p><strong>1. Unordered nature of database tables:</strong></p>
+<ul>
+<li>Database tables are fundamentally <strong>unordered collections</strong> of data. This means that the data within a table does not inherently possess any specific order.</li>
+<li>While data is physically stored on disk in some order, this order is not exposed to the user and can change over time.</li>
+<li>Retrieving data based on this physical order is inefficient and not reliable.</li>
+</ul>
+<p><strong>2. Need for indexing:</strong></p>
+<ul>
+<li>To efficiently retrieve data in a specific order, databases utilize <strong>indexes</strong>.</li>
+<li>An index is a data structure that stores the table&rsquo;s data along with a <strong>sorting key</strong>.</li>
+<li>This sorting key can be one or more columns (composite index) and determines the order in which the data is stored within the index.</li>
+<li>By querying the index, the database can efficiently locate and retrieve data based on the chosen sorting key.</li>
+</ul>
+<p><strong>3. Multi-sorting with indexes:</strong></p>
+<ul>
+<li>While a single index can only order data based on a single sorting key, <strong>multiple indexes can be used to achieve multi-sorting</strong>.</li>
+<li>This means you can have different indexes defined on different columns, allowing for data retrieval based on various combinations of sorting criteria.</li>
+<li>For instance, you might have one index for sorting by date and another for sorting by name.</li>
+<li>The database can then efficiently combine these indexes to retrieve data ordered by both date and name.</li>
+</ul>
+<p><strong>4. Advantages of using indexes:</strong></p>
+<ul>
+<li>Improves query performance significantly, especially for large datasets.</li>
+<li>Enables efficient range queries that filter and retrieve data based on a range of values within the sorting key.</li>
+<li>Enhances data integrity by ensuring unique values within the indexed columns.</li>
+</ul>
+<p><strong>5. Limitations of using indexes:</strong></p>
+<ul>
+<li>Indexes require additional storage space on disk.</li>
+<li>Inserting and updating data can become slightly slower due to the need to update the corresponding indexes.</li>
+<li>Choosing the right indexes for your specific workload and queries is crucial to optimize performance.</li>
+</ul>
+<p><strong>6. Conclusion:</strong></p>
+<ul>
+<li>Database tables are inherently unordered, but indexes provide an efficient way to order and retrieve data based on specific criteria.</li>
+<li>Multi-sorting can be achieved by utilizing multiple indexes on different columns.</li>
+<li>Understanding the benefits and limitations of indexing is essential for optimizing database performance and efficient data retrieval.</li>
+</ul>
+<hr>
+<h2 id="lookup-tables">Lookup Tables</h2>
+<p>A <strong>lookup table</strong> refers to a separate data structure that serves as a reference for finding specific information within the dictionary. It&rsquo;s typically used to improve the search performance and efficiency of accessing values in the dictionary.</p>
+<p>Here&rsquo;s a breakdown of the concept:</p>
+<p><strong>Purpose:</strong></p>
+<ul>
+<li><strong>Faster Lookups:</strong> Lookup tables pre-compute information based on the dictionary&rsquo;s keys or values. This allows for quicker search operations when trying to find specific key-value pairs within the dictionary.</li>
+<li><strong>Reduced Overhead:</strong> Lookup tables can offload some of the processing burden from the dictionary itself, allowing the dictionary to focus on its primary function of storing and managing data.</li>
+<li><strong>Caching:</strong> Lookup tables can act as a cache for frequently accessed data, further enhancing retrieval speed and reducing the need to recompute information repeatedly.</li>
+</ul>
+<p><strong>Types of Lookup Tables:</strong></p>
+<ul>
+<li><strong>Hash Tables:</strong> This is the most common type of lookup table for dictionaries. It uses a hash function to map keys to unique values, allowing for quick lookups based on the key.</li>
+<li><strong>B-Trees:</strong> These are balanced search trees that offer efficient search and insertion operations, making them suitable for large dictionaries with frequent updates.</li>
+<li><strong>Inverted Indexes:</strong> These are specialized data structures used in information retrieval systems. They map words or phrases to their corresponding documents, enabling efficient searching for specific keywords.</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li><strong>Improved Search Performance:</strong> Lookup tables significantly reduce the time required to find specific information within a dictionary, especially for large datasets.</li>
+<li><strong>Reduced Computational Cost:</strong> Pre-computing information in the lookup table reduces the computational overhead associated with searching the dictionary itself.</li>
+<li><strong>Scalability:</strong> Lookup tables can be easily scaled to accommodate larger dictionaries with additional entries.</li>
+</ul>
+<p><strong>Limitations:</strong></p>
+<ul>
+<li><strong>Additional Memory Usage:</strong> Lookup tables require additional memory space to store the pre-computed information.</li>
+<li><strong>Maintenance Overhead:</strong> Keeping the lookup table synchronized with the dictionary can be an additional task, especially for dictionaries with frequent updates.</li>
+<li><strong>Complexity:</strong> Implementing and managing lookup tables for complex dictionaries can require additional development effort.</li>
+</ul>
+<p><strong>Overall:</strong></p>
+<p>Lookup tables can be a valuable tool for improving the performance and efficiency of accessing information within dictionaries. However, the decision to use a lookup table depends on the specific needs of your application, the size of your dictionary, and the trade-off between speed and complexity.</p>
+<hr>
+<p><strong>Example of lookup table in Julia</strong></p>
+<p>Here&rsquo;s an example of how to create a dictionary and a lookup table in Julia:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a dictionary</span>
+</span></span><span style="display:flex;"><span>fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>(<span style="color:#e6db74">&#34;apple&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;red&#34;</span>, 
+</span></span><span style="display:flex;"><span>              <span style="color:#e6db74">&#34;banana&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;yellow&#34;</span>, 
+</span></span><span style="display:flex;"><span>              <span style="color:#e6db74">&#34;orange&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#e6db74">&#34;orange&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create an empty lookup table (hash table)</span>
+</span></span><span style="display:flex;"><span>lookup_table <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Build the lookup table based on the dictionary</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (fruit, color) <span style="color:#66d9ef">in</span> fruits
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Add an entry to the lookup table with the fruit</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># as the key and the color as the value</span>
+</span></span><span style="display:flex;"><span>  lookup_table[fruit] <span style="color:#f92672">=</span> color
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Lookup a fruit by its color</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This uses the lookup table for faster retrieval</span>
+</span></span><span style="display:flex;"><span>color <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;orange&#34;</span>
+</span></span><span style="display:flex;"><span>fruit <span style="color:#f92672">=</span> lookup_table[color]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Check if the fruit was found</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> fruit
+</span></span><span style="display:flex;"><span>  println(<span style="color:#e6db74">&#34;The fruit with color </span><span style="color:#e6db74">$color</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">$fruit</span><span style="color:#e6db74">.&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>  println(<span style="color:#e6db74">&#34;No fruit found with color </span><span style="color:#e6db74">$color</span><span style="color:#e6db74">.&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add a new entry to the dictionary</span>
+</span></span><span style="display:flex;"><span>fruits[<span style="color:#e6db74">&#34;mango&#34;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;yellow&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Update the lookup table with the new entry</span>
+</span></span><span style="display:flex;"><span>lookup_table[<span style="color:#e6db74">&#34;mango&#34;</span>] <span style="color:#f92672">=</span> fruits[<span style="color:#e6db74">&#34;mango&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Print the updated lookup table</span>
+</span></span><span style="display:flex;"><span>println(lookup_table)
+</span></span></code></pre></div><p>This example demonstrates how to:</p>
+<ol>
+<li>Define a dictionary using the <code>Dict</code> constructor.</li>
+<li>Create an empty hash table for the lookup table.</li>
+<li>Loop through the dictionary and add each key-value pair to the lookup table.</li>
+<li>Use the lookup table to find a fruit by its color.</li>
+<li>Add a new entry to the dictionary and update the lookup table accordingly.</li>
+<li>Print the updated lookup table.</li>
+</ol>
+<p>This is a simple example, but it illustrates the basic principles of how dictionaries and lookup tables work together in Julia. You can adapt and extend this example to suit your specific needs and use cases.</p>
+<hr>
+<h2 id="bubble-sort">Bubble Sort</h2>
+<p>Here&rsquo;s an example of bubble sort for a dictionary in Julia, along with a function to create the lookup table based on the sorted dictionary:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a function to swap two values in a dictionary</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> swap!(dict, key1, key2)
+</span></span><span style="display:flex;"><span>  temp <span style="color:#f92672">=</span> dict[key1]
+</span></span><span style="display:flex;"><span>  dict[key1] <span style="color:#f92672">=</span> dict[key2]
+</span></span><span style="display:flex;"><span>  dict[key2] <span style="color:#f92672">=</span> temp
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Function for bubble sort</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bubble_sort_dict!(dict, sort_by_value <span style="color:#f92672">=</span> true)
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Flag to indicate if any swap occurred</span>
+</span></span><span style="display:flex;"><span>  swapped <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Loop through the dictionary while swaps are still occurring</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> swapped
+</span></span><span style="display:flex;"><span>    swapped <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (key1, value1), (key2, value2) <span style="color:#66d9ef">in</span> pairs(dict)
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e"># Check sorting condition based on value or key</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (sort_by_value <span style="color:#f92672">&amp;&amp;</span> value1 <span style="color:#f92672">&lt;</span> value2) <span style="color:#f92672">||</span> 
+</span></span><span style="display:flex;"><span>         (<span style="color:#f92672">!</span>sort_by_value <span style="color:#f92672">&amp;&amp;</span> key1 <span style="color:#f92672">&gt;</span> key2)
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Swap keys if the condition is met</span>
+</span></span><span style="display:flex;"><span>        swap!(dict, key1, key2)
+</span></span><span style="display:flex;"><span>        swapped <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Function to create a lookup table based on the sorted dictionary</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> create_lookup_table(dict)
+</span></span><span style="display:flex;"><span>  lookup_table <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>()
+</span></span><span style="display:flex;"><span>  index <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> (key, _) <span style="color:#66d9ef">in</span> pairs(dict)
+</span></span><span style="display:flex;"><span>    lookup_table[key] <span style="color:#f92672">=</span> index
+</span></span><span style="display:flex;"><span>    index <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> lookup_table
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>fruits <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>(<span style="color:#e6db74">&#34;apple&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">10</span>, <span style="color:#e6db74">&#34;banana&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">20</span>, <span style="color:#e6db74">&#34;orange&#34;</span> <span style="color:#f92672">=&gt;</span> <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sort the dictionary by value</span>
+</span></span><span style="display:flex;"><span>bubble_sort_dict!(fruits)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a lookup table based on the sorted dictionary</span>
+</span></span><span style="display:flex;"><span>lookup_table <span style="color:#f92672">=</span> create_lookup_table(fruits)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Access a fruit by its position in the sorted order</span>
+</span></span><span style="display:flex;"><span>fruit <span style="color:#f92672">=</span> lookup_table[<span style="color:#e6db74">&#34;banana&#34;</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Print the sorted dictionary</span>
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Sorted fruits:&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (key, value) <span style="color:#66d9ef">in</span> fruits
+</span></span><span style="display:flex;"><span>  println(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">$key</span><span style="color:#e6db74">: </span><span style="color:#e6db74">$value</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Print the lookup table</span>
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Lookup table:&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (key, value) <span style="color:#66d9ef">in</span> lookup_table
+</span></span><span style="display:flex;"><span>  println(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">$key</span><span style="color:#e6db74">: </span><span style="color:#e6db74">$value</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>This code defines several functions:</p>
+<ul>
+<li><code>swap!</code>: This function swaps the values of two keys in a dictionary.</li>
+<li><code>bubble_sort_dict!</code>: This function implements the bubble sort algorithm for a dictionary. It takes the dictionary as a mutable argument and sorts it in-place. The <code>sort_by_value</code> keyword argument allows you to choose between sorting by value (<code>true</code>) or key (<code>false</code>).</li>
+<li><code>create_lookup_table</code>: This function creates a lookup table based on the sorted dictionary. It assigns an index to each key in the order of the sorted dictionary.</li>
+</ul>
+<p>The example demonstrates how to use these functions to create a sorted dictionary and a corresponding lookup table. You can modify this code to adapt it to your specific needs and use cases.</p>
+
+<div class="notices warning" ><p><strong>Bubble sort</strong> is easy to grasp but very slow, it can&rsquo;t be used for large data tables. Other most sophisticated sorting algorithms are already implemented in libraries. All you need is to select the right collection or use external databases that have indexes.</p>
+</div>
+
+<hr>
+<p><strong>Disclaim:</strong> This article was created with Bard.</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/algorithms/search/" title="Search"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/databases/" title="Databases" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/perfect-scrollbar.min.js"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/featherlight.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/js/learn.js"></script>
+    <script src="/js/hugo-learn.js"></script>
+    
+        
+            <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

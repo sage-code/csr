@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on CS Research</title>
+    <link>https://csr.sagecode.net/tags/programming/</link>
+    <description>Recent content in programming on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://csr.sagecode.net/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>https://csr.sagecode.net/basics/programming/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://csr.sagecode.net/basics/programming/</guid>
+      <description>In this article we investigate several programming languages. We will understand the difference between them and we will try to explain why we have so many programming languages. Our favorite programming language is Julia. We will explain why and we will try to motivate you to learn multiple programming languages. We think a software engineer should know at least 3 programming languages.&#xA;What is a Programming Language? Here&amp;rsquo;s an explanation of programming languages, interpreters, and compilers:</description>
+    </item>
+  </channel>
+</rss>
