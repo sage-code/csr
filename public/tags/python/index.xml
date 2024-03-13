@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on CS Research</title>
-    <link>https://csr.sagecode.net/tags/python/</link>
+    <link>https://sage-csr.vercel.app/tags/python/</link>
     <description>Recent content in python on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/python/</link>
+      <link>https://sage-csr.vercel.app/interpreters/python/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/python/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/python/</guid>
       <description>What is Python? Python is a high-level, general-purpose programming language known for its readability, simplicity, and versatility. It was created by Guido van Rossum in 1991 and has since become one of the most popular languages in the world.&#xA;Here are some key characteristics of Python:&#xA;Easy to learn: Python has a clear and concise syntax that resembles plain English, making it easier to pick up compared to other languages. Versatile: Python can be used for a wide range of tasks, including web development, data science, machine learning, automation, and scientific computing.</description>
     </item>
   </channel>

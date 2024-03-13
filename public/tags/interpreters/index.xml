@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>interpreters on CS Research</title>
-    <link>https://csr.sagecode.net/tags/interpreters/</link>
+    <link>https://sage-csr.vercel.app/tags/interpreters/</link>
     <description>Recent content in interpreters on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/interpreters/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/interpreters/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Julia Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/julia/</link>
+      <link>https://sage-csr.vercel.app/interpreters/julia/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/julia/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/julia/</guid>
       <description>This isn&amp;rsquo;t a traditional Julia tutorial. We&amp;rsquo;re taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.&#xA;Reasons &amp;amp; Motivation Courses using Julia are taught in modern universities for various subjects, particularly in computer science and data science. We also teach Julia on our main website in details.</description>
     </item>
     <item>
       <title>Bash Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/bash/</link>
+      <link>https://sage-csr.vercel.app/interpreters/bash/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/bash/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/bash/</guid>
       <description>Crash Course Welcome, brave adventurer, to the wondrous world of Bash! Fear not, for even the mightiest programmers began with humble echos and fumbling file paths. This tutorial will be your trusty guide, illuminating the path to Bash mastery, one command at a time.&#xA;First Steps:&#xA;Imagine Bash as a powerful toolbelt, each command a trusty instrument. To grab and use them, open your terminal, a portal to the digital realm.</description>
     </item>
     <item>
       <title>Python Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/python/</link>
+      <link>https://sage-csr.vercel.app/interpreters/python/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/python/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/python/</guid>
       <description>What is Python? Python is a high-level, general-purpose programming language known for its readability, simplicity, and versatility. It was created by Guido van Rossum in 1991 and has since become one of the most popular languages in the world.&#xA;Here are some key characteristics of Python:&#xA;Easy to learn: Python has a clear and concise syntax that resembles plain English, making it easier to pick up compared to other languages. Versatile: Python can be used for a wide range of tasks, including web development, data science, machine learning, automation, and scientific computing.</description>
     </item>
     <item>
       <title>JavaScript Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/javascript/</link>
+      <link>https://sage-csr.vercel.app/interpreters/javascript/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/javascript/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/javascript/</guid>
       <description>JavaScript: The Language of the Web JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that adds interactivity to web pages. It&amp;rsquo;s one of the three core technologies alongside HTML and CSS that make up the foundation of the World Wide Web.&#xA;Think of it as the magic dust that sprinkles life and animation onto static websites. It&amp;rsquo;s the reason you can see maps that update in real-time, play interactive games in your browser, and watch cat videos with smooth playback.</description>
     </item>
   </channel>

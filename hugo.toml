@@ -1,4 +1,4 @@
-baseURL = "https://csr.sagecode.net"
+baseURL = "https://sage-csr.vercel.app"
 languageCode = 'en-us'
 title = 'CS Research'
 

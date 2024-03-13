@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>problems on CS Research</title>
-    <link>https://csr.sagecode.net/tags/problems/</link>
+    <link>https://sage-csr.vercel.app/tags/problems/</link>
     <description>Recent content in problems on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/problems/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/problems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problems</title>
-      <link>https://csr.sagecode.net/algorithms/problems/</link>
+      <link>https://sage-csr.vercel.app/algorithms/problems/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/algorithms/problems/</guid>
+      <guid>https://sage-csr.vercel.app/algorithms/problems/</guid>
       <description>A problem in computer science can be defined as a set of input instances and their corresponding solutions, a mapping from inputs to outputs, a mathematical object representing solvable questions, or a task to be performed using computational methods.&#xA;Problems are identified by looking for repetitive tasks, analyzing existing processes, identifying unmet needs, and exploring emerging technologies. Selection of problems to solve is based on feasibility, impact, market potential, personal interest, learning potential, and ethical considerations.</description>
     </item>
   </channel>

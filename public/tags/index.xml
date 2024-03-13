@@ -2,255 +2,255 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CS Research</title>
-    <link>https://csr.sagecode.net/tags/</link>
+    <link>https://sage-csr.vercel.app/tags/</link>
     <description>Recent content in Tags on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>devops</title>
-      <link>https://csr.sagecode.net/tags/devops/</link>
+      <link>https://sage-csr.vercel.app/tags/devops/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/devops/</guid>
+      <guid>https://sage-csr.vercel.app/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>patforms</title>
-      <link>https://csr.sagecode.net/tags/patforms/</link>
+      <link>https://sage-csr.vercel.app/tags/patforms/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/patforms/</guid>
+      <guid>https://sage-csr.vercel.app/tags/patforms/</guid>
       <description></description>
     </item>
     <item>
       <title>basics</title>
-      <link>https://csr.sagecode.net/tags/basics/</link>
+      <link>https://sage-csr.vercel.app/tags/basics/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/basics/</guid>
+      <guid>https://sage-csr.vercel.app/tags/basics/</guid>
       <description></description>
     </item>
     <item>
       <title>html5</title>
-      <link>https://csr.sagecode.net/tags/html5/</link>
+      <link>https://sage-csr.vercel.app/tags/html5/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/html5/</guid>
+      <guid>https://sage-csr.vercel.app/tags/html5/</guid>
       <description></description>
     </item>
     <item>
       <title>react</title>
-      <link>https://csr.sagecode.net/tags/react/</link>
+      <link>https://sage-csr.vercel.app/tags/react/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/react/</guid>
+      <guid>https://sage-csr.vercel.app/tags/react/</guid>
       <description></description>
     </item>
     <item>
       <title>bash</title>
-      <link>https://csr.sagecode.net/tags/bash/</link>
+      <link>https://sage-csr.vercel.app/tags/bash/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/bash/</guid>
+      <guid>https://sage-csr.vercel.app/tags/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>css</title>
-      <link>https://csr.sagecode.net/tags/css/</link>
+      <link>https://sage-csr.vercel.app/tags/css/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/css/</guid>
+      <guid>https://sage-csr.vercel.app/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>forms</title>
-      <link>https://csr.sagecode.net/tags/forms/</link>
+      <link>https://sage-csr.vercel.app/tags/forms/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/forms/</guid>
+      <guid>https://sage-csr.vercel.app/tags/forms/</guid>
       <description></description>
     </item>
     <item>
       <title>interpreters</title>
-      <link>https://csr.sagecode.net/tags/interpreters/</link>
+      <link>https://sage-csr.vercel.app/tags/interpreters/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/interpreters/</guid>
+      <guid>https://sage-csr.vercel.app/tags/interpreters/</guid>
       <description></description>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://csr.sagecode.net/tags/javascript/</link>
+      <link>https://sage-csr.vercel.app/tags/javascript/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/javascript/</guid>
+      <guid>https://sage-csr.vercel.app/tags/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>python</title>
-      <link>https://csr.sagecode.net/tags/python/</link>
+      <link>https://sage-csr.vercel.app/tags/python/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/python/</guid>
+      <guid>https://sage-csr.vercel.app/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>functions</title>
-      <link>https://csr.sagecode.net/tags/functions/</link>
+      <link>https://sage-csr.vercel.app/tags/functions/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/functions/</guid>
+      <guid>https://sage-csr.vercel.app/tags/functions/</guid>
       <description></description>
     </item>
     <item>
       <title>objects</title>
-      <link>https://csr.sagecode.net/tags/objects/</link>
+      <link>https://sage-csr.vercel.app/tags/objects/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/objects/</guid>
+      <guid>https://sage-csr.vercel.app/tags/objects/</guid>
       <description></description>
     </item>
     <item>
       <title>algorithms</title>
-      <link>https://csr.sagecode.net/tags/algorithms/</link>
+      <link>https://sage-csr.vercel.app/tags/algorithms/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/algorithms/</guid>
+      <guid>https://sage-csr.vercel.app/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>carbon</title>
-      <link>https://csr.sagecode.net/tags/carbon/</link>
+      <link>https://sage-csr.vercel.app/tags/carbon/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/carbon/</guid>
+      <guid>https://sage-csr.vercel.app/tags/carbon/</guid>
       <description></description>
     </item>
     <item>
       <title>compilers</title>
-      <link>https://csr.sagecode.net/tags/compilers/</link>
+      <link>https://sage-csr.vercel.app/tags/compilers/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/compilers/</guid>
+      <guid>https://sage-csr.vercel.app/tags/compilers/</guid>
       <description></description>
     </item>
     <item>
       <title>cybersecurity</title>
-      <link>https://csr.sagecode.net/tags/cybersecurity/</link>
+      <link>https://sage-csr.vercel.app/tags/cybersecurity/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/cybersecurity/</guid>
+      <guid>https://sage-csr.vercel.app/tags/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>efficiency</title>
-      <link>https://csr.sagecode.net/tags/efficiency/</link>
+      <link>https://sage-csr.vercel.app/tags/efficiency/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/efficiency/</guid>
+      <guid>https://sage-csr.vercel.app/tags/efficiency/</guid>
       <description></description>
     </item>
     <item>
       <title>go</title>
-      <link>https://csr.sagecode.net/tags/go/</link>
+      <link>https://sage-csr.vercel.app/tags/go/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/go/</guid>
+      <guid>https://sage-csr.vercel.app/tags/go/</guid>
       <description></description>
     </item>
     <item>
       <title>introduction</title>
-      <link>https://csr.sagecode.net/tags/introduction/</link>
+      <link>https://sage-csr.vercel.app/tags/introduction/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/introduction/</guid>
+      <guid>https://sage-csr.vercel.app/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>problems</title>
-      <link>https://csr.sagecode.net/tags/problems/</link>
+      <link>https://sage-csr.vercel.app/tags/problems/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/problems/</guid>
+      <guid>https://sage-csr.vercel.app/tags/problems/</guid>
       <description></description>
     </item>
     <item>
       <title>programming</title>
-      <link>https://csr.sagecode.net/tags/programming/</link>
+      <link>https://sage-csr.vercel.app/tags/programming/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/programming/</guid>
+      <guid>https://sage-csr.vercel.app/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>rust</title>
-      <link>https://csr.sagecode.net/tags/rust/</link>
+      <link>https://sage-csr.vercel.app/tags/rust/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/rust/</guid>
+      <guid>https://sage-csr.vercel.app/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>search</title>
-      <link>https://csr.sagecode.net/tags/search/</link>
+      <link>https://sage-csr.vercel.app/tags/search/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/search/</guid>
+      <guid>https://sage-csr.vercel.app/tags/search/</guid>
       <description></description>
     </item>
     <item>
       <title>sorting</title>
-      <link>https://csr.sagecode.net/tags/sorting/</link>
+      <link>https://sage-csr.vercel.app/tags/sorting/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/sorting/</guid>
+      <guid>https://sage-csr.vercel.app/tags/sorting/</guid>
       <description></description>
     </item>
     <item>
       <title>statistics</title>
-      <link>https://csr.sagecode.net/tags/statistics/</link>
+      <link>https://sage-csr.vercel.app/tags/statistics/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/statistics/</guid>
+      <guid>https://sage-csr.vercel.app/tags/statistics/</guid>
       <description></description>
     </item>
     <item>
       <title>structures</title>
-      <link>https://csr.sagecode.net/tags/structures/</link>
+      <link>https://sage-csr.vercel.app/tags/structures/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/structures/</guid>
+      <guid>https://sage-csr.vercel.app/tags/structures/</guid>
       <description></description>
     </item>
     <item>
       <title>traversal</title>
-      <link>https://csr.sagecode.net/tags/traversal/</link>
+      <link>https://sage-csr.vercel.app/tags/traversal/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/traversal/</guid>
+      <guid>https://sage-csr.vercel.app/tags/traversal/</guid>
       <description></description>
     </item>
     <item>
       <title>zig</title>
-      <link>https://csr.sagecode.net/tags/zig/</link>
+      <link>https://sage-csr.vercel.app/tags/zig/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/zig/</guid>
+      <guid>https://sage-csr.vercel.app/tags/zig/</guid>
       <description></description>
     </item>
     <item>
       <title>julia</title>
-      <link>https://csr.sagecode.net/tags/julia/</link>
+      <link>https://sage-csr.vercel.app/tags/julia/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/julia/</guid>
+      <guid>https://sage-csr.vercel.app/tags/julia/</guid>
       <description></description>
     </item>
     <item>
       <title>expressions</title>
-      <link>https://csr.sagecode.net/tags/expressions/</link>
+      <link>https://sage-csr.vercel.app/tags/expressions/</link>
       <pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/expressions/</guid>
+      <guid>https://sage-csr.vercel.app/tags/expressions/</guid>
       <description></description>
     </item>
     <item>
       <title>empty</title>
-      <link>https://csr.sagecode.net/tags/empty/</link>
+      <link>https://sage-csr.vercel.app/tags/empty/</link>
       <pubDate>Fri, 22 Dec 2023 04:48:24 -0600</pubDate>
-      <guid>https://csr.sagecode.net/tags/empty/</guid>
+      <guid>https://sage-csr.vercel.app/tags/empty/</guid>
       <description></description>
     </item>
     <item>
       <title>template</title>
-      <link>https://csr.sagecode.net/tags/template/</link>
+      <link>https://sage-csr.vercel.app/tags/template/</link>
       <pubDate>Fri, 22 Dec 2023 04:48:24 -0600</pubDate>
-      <guid>https://csr.sagecode.net/tags/template/</guid>
+      <guid>https://sage-csr.vercel.app/tags/template/</guid>
       <description></description>
     </item>
     <item>
       <title>symbols</title>
-      <link>https://csr.sagecode.net/tags/symbols/</link>
+      <link>https://sage-csr.vercel.app/tags/symbols/</link>
       <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/symbols/</guid>
+      <guid>https://sage-csr.vercel.app/tags/symbols/</guid>
       <description></description>
     </item>
     <item>
       <title>UX/UI</title>
-      <link>https://csr.sagecode.net/tags/ux/ui/</link>
+      <link>https://sage-csr.vercel.app/tags/ux/ui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/tags/ux/ui/</guid>
+      <guid>https://sage-csr.vercel.app/tags/ux/ui/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>symbols on CS Research</title>
-    <link>https://csr.sagecode.net/tags/symbols/</link>
+    <link>https://sage-csr.vercel.app/tags/symbols/</link>
     <description>Recent content in symbols on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/symbols/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/symbols/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Symbols</title>
-      <link>https://csr.sagecode.net/basics/symbols/</link>
+      <link>https://sage-csr.vercel.app/basics/symbols/</link>
       <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/basics/symbols/</guid>
+      <guid>https://sage-csr.vercel.app/basics/symbols/</guid>
       <description>Pictograms, alphabets and numeric symbols are 3 important pillars of civilization.These three, have played a crucial role in the development and advancement of human civilization. Each pillar has had a profound impact on how we communicate, record information, and organize knowledge.&#xA;Pictograms: The earliest form of written communication, pictograms served as a way to visually represent objects, ideas, and events. They laid the foundation for the development of writing systems by establishing the principle of using symbols to convey meaning.</description>
     </item>
   </channel>

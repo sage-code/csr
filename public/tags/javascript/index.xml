@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on CS Research</title>
-    <link>https://csr.sagecode.net/tags/javascript/</link>
+    <link>https://sage-csr.vercel.app/tags/javascript/</link>
     <description>Recent content in JavaScript on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Syntax</title>
-      <link>https://csr.sagecode.net/interpreters/javascript/</link>
+      <link>https://sage-csr.vercel.app/interpreters/javascript/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/interpreters/javascript/</guid>
+      <guid>https://sage-csr.vercel.app/interpreters/javascript/</guid>
       <description>JavaScript: The Language of the Web JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that adds interactivity to web pages. It&amp;rsquo;s one of the three core technologies alongside HTML and CSS that make up the foundation of the World Wide Web.&#xA;Think of it as the magic dust that sprinkles life and animation onto static websites. It&amp;rsquo;s the reason you can see maps that update in real-time, play interactive games in your browser, and watch cat videos with smooth playback.</description>
     </item>
   </channel>

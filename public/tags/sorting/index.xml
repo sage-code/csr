@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sorting on CS Research</title>
-    <link>https://csr.sagecode.net/tags/sorting/</link>
+    <link>https://sage-csr.vercel.app/tags/sorting/</link>
     <description>Recent content in sorting on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sorting</title>
-      <link>https://csr.sagecode.net/algorithms/sorting/</link>
+      <link>https://sage-csr.vercel.app/algorithms/sorting/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/algorithms/sorting/</guid>
+      <guid>https://sage-csr.vercel.app/algorithms/sorting/</guid>
       <description>A sorting algorithm is a set of instructions that takes a collection of data and arranges it in a specific order, most commonly in ascending or descending order. These algorithms play a crucial role in computer science and are used in various applications.&#xA;Here are some key characteristics of sorting algorithms:&#xA;Input: A collection of data (numbers, strings, objects) Output: The data arranged in a specific order Time Complexity: Measures the time it takes to sort the data (usually expressed using Big O notation) Space Complexity: Measures the amount of memory needed to sort the data Stability: Determines whether the order of equal elements is preserved after sorting Importance Sorting algorithms are fundamental to computer science for several reasons:</description>
     </item>
   </channel>

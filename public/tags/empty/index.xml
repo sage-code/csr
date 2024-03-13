@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>empty on CS Research</title>
-    <link>https://csr.sagecode.net/tags/empty/</link>
+    <link>https://sage-csr.vercel.app/tags/empty/</link>
     <description>Recent content in empty on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Dec 2023 04:48:24 -0600</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/empty/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/empty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>template</title>
-      <link>https://csr.sagecode.net/_empty/</link>
+      <link>https://sage-csr.vercel.app/_empty/</link>
       <pubDate>Fri, 22 Dec 2023 04:48:24 -0600</pubDate>
-      <guid>https://csr.sagecode.net/_empty/</guid>
+      <guid>https://sage-csr.vercel.app/_empty/</guid>
       <description>This is the usual header for all pages but there are other parameters you can used, shown below. The header is an example you can copy paste in a new page.&#xA;Table of content (toc) is enabled by default. Set this parameter to true to disable it. Note: Toc is always disabled for chapter pages disableToc = false&#xA;If set, this will be used for the page&amp;rsquo;s menu entry (instead of the title attribute) menuTitle = &amp;quot;&amp;quot;</description>
     </item>
   </channel>

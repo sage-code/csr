@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>react on CS Research</title>
-    <link>https://csr.sagecode.net/tags/react/</link>
+    <link>https://sage-csr.vercel.app/tags/react/</link>
     <description>Recent content in react on CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://csr.sagecode.net/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sage-csr.vercel.app/tags/react/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is React?</title>
-      <link>https://csr.sagecode.net/web-design/react/</link>
+      <link>https://sage-csr.vercel.app/web-design/react/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://csr.sagecode.net/web-design/react/</guid>
+      <guid>https://sage-csr.vercel.app/web-design/react/</guid>
       <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;What is React?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
     </item>
   </channel>
