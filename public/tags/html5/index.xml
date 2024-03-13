@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>html5 on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/html5/</link>
+    <description>Recent content in html5 on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML Syntax</title>
+      <link>https://sage-csr.vercel.app/web-design/html/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/html/</guid>
+      <description>In this short tutorial we introduce you to HTML fundamentals. This is good enough to get you started but eventually you will need an advanced course that we provide on our home site. This is a long page so let&amp;rsquo;s get started.&#xA;What is HTML? HTML: HyperText Markup Language, aka the Blueprint for Awesome Websites&#xA;Hold your horses, HTML newbies! Before you start constructing digital masterpieces, let&amp;rsquo;s decode the mysterious acronym and uncover its true nature.</description>
+    </item>
+    <item>
+      <title>HTML Forms</title>
+      <link>https://sage-csr.vercel.app/web-design/forms/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/forms/</guid>
+      <description>What are HTML Forms? HTML forms are interactive sections on web pages that allow users to enter and submit data. Think of them like digital versions of paper forms, where you fill in the blanks and hit &amp;ldquo;submit&amp;rdquo; to send the information along. They&amp;rsquo;re crucial for user interaction and website functionality, enabling a wide range of applications:&#xA;Gathering user information: Websites use forms for logins, contact forms, surveys, registrations, and online orders.</description>
+    </item>
+    <item>
+      <title>CSS Syntax</title>
+      <link>https://sage-csr.vercel.app/web-design/css/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/css/</guid>
+      <description>Fundamentals I don&amp;rsquo;t know if you are new to CSS Or not. I will try in this page to introduce the basic concepts using AI prompts. This may be not perfect or enaugh. At the end I will invite you to our advanced course. Here&amp;rsquo;s a breakdown of CSS fundamentals:&#xA;What is CSS?&#xA;Cascading Style Sheets (CSS) is a language used to style and format the visual presentation of HTML elements on a webpage.</description>
+    </item>
+    <item>
+      <title>What is React?</title>
+      <link>https://sage-csr.vercel.app/web-design/react/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/react/</guid>
+      <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;What is React?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
+    </item>
+  </channel>
+</rss>

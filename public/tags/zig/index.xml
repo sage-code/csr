@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zig on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/zig/</link>
+    <description>Recent content in zig on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/zig/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>zig language</title>
+      <link>https://sage-csr.vercel.app/compilers/zig/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/compilers/zig/</guid>
+      <description>A Gentler Path to Low-Level While C, C++, and Rust are powerful languages for low-level programming, their steep learning curves can be intimidating. Zig offers a compelling alternative with a gentler learning curve and robust capabilities, making it an attractive choice for those seeking a more approachable entry into the world of low-level programming.&#xA;Why Zig might excite you: Speed &amp;amp; Efficiency: Zig compiles directly to machine code, making it incredibly fast and memory-efficient, ideal for systems programming and performance-critical tasks.</description>
+    </item>
+  </channel>
+</rss>

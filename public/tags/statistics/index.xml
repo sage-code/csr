@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistics on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/statistics/</link>
+    <description>Recent content in statistics on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistics</title>
+      <link>https://sage-csr.vercel.app/algorithms/statistics/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/algorithms/statistics/</guid>
+      <description>In statistics, a statistic refers to a summary of a collection of data. It can be a single number, like the mean or median, or a more elaborate summary like a histogram or scatter plot.&#xA;Think of it like this: statistics are tools we use to extract meaningful information from large amounts of data. They help us understand the data, identify patterns, and make informed decisions.&#xA;Statistic Purpose For programmers specifically, statistics are crucial for various tasks such as:</description>
+    </item>
+  </channel>
+</rss>

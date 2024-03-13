@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>forms on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/forms/</link>
+    <description>Recent content in forms on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/forms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML Forms</title>
+      <link>https://sage-csr.vercel.app/web-design/forms/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/forms/</guid>
+      <description>What are HTML Forms? HTML forms are interactive sections on web pages that allow users to enter and submit data. Think of them like digital versions of paper forms, where you fill in the blanks and hit &amp;ldquo;submit&amp;rdquo; to send the information along. They&amp;rsquo;re crucial for user interaction and website functionality, enabling a wide range of applications:&#xA;Gathering user information: Websites use forms for logins, contact forms, surveys, registrations, and online orders.</description>
+    </item>
+  </channel>
+</rss>

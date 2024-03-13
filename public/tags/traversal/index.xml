@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>traversal on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/traversal/</link>
+    <description>Recent content in traversal on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/traversal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traversal</title>
+      <link>https://sage-csr.vercel.app/algorithms/traversal/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/algorithms/traversal/</guid>
+      <description>Array traversal is one of the most basic and fundamental algorithms in computer science. It is considered a simple algorithm because it involves straightforward logic and requires minimal computational resources.&#xA;Characteristics Straightforward Logic: The basic idea behind array traversal is to visit each element in the array one by one and perform some operation on it. This operation could be something simple like printing the element, or something more complex like calculating a sum or searching for a specific value.</description>
+    </item>
+  </channel>
+</rss>

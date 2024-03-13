@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>julia on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/julia/</link>
+    <description>Recent content in julia on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/julia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Julia Syntax</title>
+      <link>https://sage-csr.vercel.app/interpreters/julia/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/interpreters/julia/</guid>
+      <description>This isn&amp;rsquo;t a traditional Julia tutorial. We&amp;rsquo;re taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.&#xA;Reasons &amp;amp; Motivation Courses using Julia are taught in modern universities for various subjects, particularly in computer science and data science. We also teach Julia on our main website in details.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,2321 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="description" content="Explain what are search algorithms?">
+<meta name="author" content="Sage-Code">
+
+    <link rel="icon" href="/images/favicon.ico" type="image/ico">
+
+    <title>Search - CS Research</title>
+
+    
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="/css/hybrid.css" rel="stylesheet">
+    <link href="/css/featherlight.min.css" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/css/auto-complete.css" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css" rel="stylesheet">
+    <link href="/css/theme.css" rel="stylesheet">
+    <link href="/css/tabs.css" rel="stylesheet">
+    <link href="/css/hugo-theme.css" rel="stylesheet">
+    
+    <link href="/css/theme-purple.css" rel="stylesheet">
+    
+    <link href="/css/foo.css" rel="stylesheet"><link href="/css/bar.css" rel="stylesheet">
+
+    <script src="/js/jquery-3.3.1.min.js"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/algorithms/search/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href='/'>
+  <img src="/images/sage-research.svg" alt="Sage-Code Research" height="80">
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js"></script>
+<script type="text/javascript" src="/js/auto-complete.js"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/sage-csr.vercel.app";
+    
+</script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/basics/" title="Basics" class="dd-item
+        
+        
+        
+        ">
+      <a href="/basics/">
+          <b>📒</b>Basics
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/programming/" title="Programming" class="dd-item ">
+        <a href="/basics/programming/">
+        <b>📜</b>Programming
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/symbols/" title="Symbols" class="dd-item ">
+        <a href="/basics/symbols/">
+        <b>📜</b>Symbols
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/expressions/" title="Expressions" class="dd-item ">
+        <a href="/basics/expressions/">
+        <b>📜</b>Expressions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/structures/" title="Structures" class="dd-item ">
+        <a href="/basics/structures/">
+        <b>📜</b>Structures
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/objects/" title="Objects" class="dd-item ">
+        <a href="/basics/objects/">
+        <b>📜</b>Objects
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/basics/functions/" title="Functions" class="dd-item ">
+        <a href="/basics/functions/">
+        <b>📜</b>Functions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/algorithms/" title="Algorithms" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/algorithms/">
+          <b>📒</b>Algorithms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/overview/" title="Overview" class="dd-item ">
+        <a href="/algorithms/overview/">
+        <b>📜</b>Overview
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/problems/" title="Problems" class="dd-item ">
+        <a href="/algorithms/problems/">
+        <b>📜</b>Problems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/efficiency/" title="Efficiency" class="dd-item ">
+        <a href="/algorithms/efficiency/">
+        <b>📜</b>Efficiency
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/encryption/" title="Encryption" class="dd-item ">
+        <a href="/algorithms/encryption/">
+        <b>📜</b>Encryption
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/traversal/" title="Traversal" class="dd-item ">
+        <a href="/algorithms/traversal/">
+        <b>📜</b>Traversal
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/statistics/" title="Statistics" class="dd-item ">
+        <a href="/algorithms/statistics/">
+        <b>📜</b>Statistics
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/search/" title="Search" class="dd-item active">
+        <a href="/algorithms/search/">
+        <b>📜</b>Search
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/algorithms/sorting/" title="Sorting" class="dd-item ">
+        <a href="/algorithms/sorting/">
+        <b>📜</b>Sorting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/databases/" title="Databases" class="dd-item
+        
+        
+        
+        ">
+      <a href="/databases/">
+          <b>📒</b>Databases
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/interpreters/" title="Interpreters" class="dd-item
+        
+        
+        
+        ">
+      <a href="/interpreters/">
+          <b>📒</b>Interpreters
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/julia/" title="Julia Syntax" class="dd-item ">
+        <a href="/interpreters/julia/">
+        <b>📜</b>Julia Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/bash/" title="Bash Syntax" class="dd-item ">
+        <a href="/interpreters/bash/">
+        <b>📜</b>Bash Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/python/" title="Python Syntax" class="dd-item ">
+        <a href="/interpreters/python/">
+        <b>📜</b>Python Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/interpreters/javascript/" title="JavaScript Syntax" class="dd-item ">
+        <a href="/interpreters/javascript/">
+        <b>📜</b>JavaScript Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/compilers/" title="Compilers" class="dd-item
+        
+        
+        
+        ">
+      <a href="/compilers/">
+          <b>📒</b>Compilers
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/go/" title="go language" class="dd-item ">
+        <a href="/compilers/go/">
+        <b>📜</b>go language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/zig/" title="zig language" class="dd-item ">
+        <a href="/compilers/zig/">
+        <b>📜</b>zig language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/rust/" title="rust language" class="dd-item ">
+        <a href="/compilers/rust/">
+        <b>📜</b>rust language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/compilers/carbon/" title="carbon language" class="dd-item ">
+        <a href="/compilers/carbon/">
+        <b>📜</b>carbon language
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/web-design/" title="Web design" class="dd-item
+        
+        
+        
+        ">
+      <a href="/web-design/">
+          <b>📒</b>Web design
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/uxui/" title="UX/UI Concepts" class="dd-item ">
+        <a href="/web-design/uxui/">
+        <b>📜</b>UX/UI Concepts
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/html/" title="HTML Syntax" class="dd-item ">
+        <a href="/web-design/html/">
+        <b>📜</b>HTML Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/forms/" title="HTML Forms" class="dd-item ">
+        <a href="/web-design/forms/">
+        <b>📜</b>HTML Forms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/css/" title="CSS Syntax" class="dd-item ">
+        <a href="/web-design/css/">
+        <b>📜</b>CSS Syntax
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/react/" title="What is React?" class="dd-item ">
+        <a href="/web-design/react/">
+        <b>📜</b>What is React?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/web-design/backend/" title="Back End" class="dd-item ">
+        <a href="/web-design/backend/">
+        <b>📜</b>Back End
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/platforms/" title="Platforms" class="dd-item
+        
+        
+        
+        ">
+      <a href="/platforms/">
+          <b>📒</b>Platforms
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/popular/" title="Popular Platforms" class="dd-item ">
+        <a href="/platforms/popular/">
+        <b>📜</b>Popular Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/features/" title="Expected Features" class="dd-item ">
+        <a href="/platforms/features/">
+        <b>📜</b>Expected Features
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/files/" title="File Systems" class="dd-item ">
+        <a href="/platforms/files/">
+        <b>📜</b>File Systems
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/booting/" title="Booting Sequence" class="dd-item ">
+        <a href="/platforms/booting/">
+        <b>📜</b>Booting Sequence
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/cloud/" title="Cloud Platforms" class="dd-item ">
+        <a href="/platforms/cloud/">
+        <b>📜</b>Cloud Platforms
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/performance/" title="Performance Tips" class="dd-item ">
+        <a href="/platforms/performance/">
+        <b>📜</b>Performance Tips
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/platforms/devops/" title="What is DevOps?" class="dd-item ">
+        <a href="/platforms/devops/">
+        <b>📜</b>What is DevOps?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3>More</h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://sagecode.net"><i class='fas fa-home'></i> Home</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://github.com/sage-code"><i class='fab fa-github'></i> Github repo</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://gohugo.io/"><i class='fas fa-bookmark'></i> Hugo Doc</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://sage-csr.vercel.app/_credits"><i class='fas fa-bullhorn'></i> Credits</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://sage-csr.vercel.app/tags"><i class='fas fa-tags'></i> Tags</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/algorithms/'>Algorithms</a> > Search
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#search-algorithms">Search Algorithms</a>
+      <ul>
+        <li><a href="#simple-search-algorithms">Simple Search Algorithms:</a></li>
+        <li><a href="#complex-search-algorithms">Complex Search Algorithms:</a></li>
+      </ul>
+    </li>
+    <li><a href="#array-search">Array Search</a></li>
+    <li><a href="#tree-algorithms">Tree Algorithms</a>
+      <ul>
+        <li><a href="#1-tree-search">1. Tree Search</a></li>
+        <li><a href="#2-tree-insertion">2. Tree Insertion</a></li>
+        <li><a href="#3-tree-deletion">3. Tree Deletion</a></li>
+      </ul>
+    </li>
+    <li><a href="#graph-algorithms-in-julia">Graph Algorithms in Julia</a>
+      <ul>
+        <li><a href="#1-breadth-first-search-bfs">1. Breadth-First Search (BFS)</a></li>
+        <li><a href="#2-depth-first-search-dfs">2. Depth-First Search (DFS)</a></li>
+        <li><a href="#3-dijkstras-algorithm">3. Dijkstra&rsquo;s Algorithm</a></li>
+        <li><a href="#4-minimum-spanning-tree-mst">4. Minimum Spanning Tree (MST)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+<div class="tags">
+
+  <a class="tag-link" href="/tags/search">search</a>
+
+  <a class="tag-link" href="/tags/algorithms">algorithms</a>
+
+</div>
+
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Search
+            </h1>
+          
+
+        
+
+
+<p>Search algorithms are one of the most important algorithms for collections for several crucial reasons:</p>
+<p><strong>Essential functionality:</strong></p>
+<ul>
+<li><strong>Accessing specific elements:</strong> Search algorithms allow us to locate specific elements within a collection, which is a fundamental operation essential for various tasks like data analysis, manipulation, and retrieval.</li>
+<li><strong>Filtering and selection:</strong> Search can be used to filter elements based on certain criteria, allowing us to select a subset of data relevant to our needs.</li>
+<li><strong>Organizing and manipulating data:</strong> Search algorithms can be used to efficiently organize and manipulate data within collections, enabling tasks like sorting, rearrangement, and grouping.</li>
+</ul>
+<p><strong>Efficiency and scalability:</strong></p>
+<ul>
+<li><strong>Quick access:</strong> Efficient search algorithms enable us to quickly find the desired element within large datasets, significantly improving performance and user experience.</li>
+<li><strong>Scalability:</strong> As data volumes continue to grow, scalable search algorithms become increasingly important to handle complex and massive datasets efficiently.</li>
+<li><strong>Optimization:</strong> Search algorithms can be optimized to utilize specific data structures and properties of the collection, leading to further performance improvements.</li>
+</ul>
+<p><strong>Wide range of applications:</strong></p>
+<ul>
+<li><strong>Databases:</strong> Search algorithms are fundamental for querying and retrieving information from databases.</li>
+<li><strong>Information retrieval:</strong> Search engines rely heavily on efficient search algorithms to provide relevant results for user queries.</li>
+<li><strong>Machine learning:</strong> Many machine learning algorithms utilize search techniques for tasks like nearest neighbor search and anomaly detection.</li>
+<li><strong>Scientific computing:</strong> Search algorithms play a crucial role in analyzing and processing large datasets in various scientific domains.</li>
+<li><strong>Ecommerce and online platforms:</strong> Search algorithms enable efficient product search and user navigation within online platforms.</li>
+</ul>
+<p><strong>Impact on user experience:</strong></p>
+<ul>
+<li><strong>Accessibility:</strong> Fast and efficient search algorithms improve the accessibility of information and data, making it easier for users to find what they need.</li>
+<li><strong>Improved decision-making:</strong> Efficient search facilitates data analysis and decision-making by allowing users to readily access relevant information.</li>
+<li><strong>Enhanced user satisfaction:</strong> A positive user experience is often directly linked to the efficiency and usability of search functionalities.</li>
+</ul>
+<p>Therefore, search algorithms play a crucial role in effectively managing and utilizing data within collections. Their importance lies in their ability to provide efficient access, facilitate data manipulation, and enable a wide range of applications across various domains.</p>
+<h2 id="search-algorithms">Search Algorithms</h2>
+<p>Search algorithms can be simple or complex. Here is a description for each kind:</p>
+<h3 id="simple-search-algorithms">Simple Search Algorithms:</h3>
+<ul>
+<li><strong>Linear Search:</strong> This algorithm iterates through each element in a collection until it finds the target element. Simple to implement and understand, but inefficient for large datasets.</li>
+<li><strong>Binary Search:</strong> This algorithm works on sorted collections and uses a divide-and-conquer approach to quickly find the target element. More efficient than linear search, but requires a sorted collection.</li>
+<li><strong>Hash Table Search:</strong> This algorithm uses a hash function to map each element to a unique key, allowing for constant-time lookup by the key. Highly efficient for searching by keys, but may not be suitable for other search operations.</li>
+</ul>
+<p>These simple search algorithms are characterized by:</p>
+<ul>
+<li><strong>Straightforward logic:</strong> They typically use basic loop structures and conditional statements.</li>
+<li><strong>Limited control flow:</strong> They do not require complex branching or recursion.</li>
+<li><strong>Low computational resources:</strong> They typically require minimal memory and processing power.</li>
+</ul>
+<h3 id="complex-search-algorithms">Complex Search Algorithms:</h3>
+<ul>
+<li><em><em>A</em> Search:</em>* This algorithm is used for finding the shortest path between two nodes in a graph. It uses a heuristic to guide its search and can be very effective for finding optimal solutions.</li>
+<li><strong>Dijkstra&rsquo;s Algorithm:</strong> This algorithm is also used for finding shortest paths in graphs, but it focuses on finding the shortest path to all nodes from a single starting point.</li>
+<li><strong>Genetic Algorithm:</strong> This is a metaheuristic algorithm inspired by natural selection. It uses a population of candidate solutions and evolves them over generations to find optimal solutions.</li>
+</ul>
+<p>These complex search algorithms are characterized by:</p>
+<ul>
+<li><strong>Advanced logic:</strong> They often involve complex data structures and sophisticated search strategies.</li>
+<li><strong>Significant control flow:</strong> They may use recursion, backtracking, and other advanced control structures.</li>
+<li><strong>High computational resources:</strong> They can be computationally expensive, especially for large datasets.</li>
+</ul>
+<p><strong>Overall:</strong></p>
+<ul>
+<li><strong>Simple search algorithms</strong> are well-suited for small datasets and basic search tasks. They are easy to implement and understand, making them ideal for beginners or simple applications.</li>
+<li><strong>Complex search algorithms</strong> are necessary for finding optimal solutions in large or complex search spaces. They are more powerful but also require more computational resources and expertise to implement.</li>
+</ul>
+<h2 id="array-search">Array Search</h2>
+<p>Here&rsquo;s an explanation of search algorithms for an array in Julia, considering both unsorted and sorted arrays:</p>
+<p><strong>Unsorted Arrays:</strong></p>
+<ol>
+<li><strong>Linear Search (Sequential Search):</strong> This is the simplest search algorithm. It iterates through each element of the array and compares it to the target element. If the target is found, the function returns the index of the element. Otherwise, it returns nothing or a specific value indicating non-existence.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> linear_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractArray</span>, target)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(array)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> array[i] <span style="color:#f92672">==</span> target
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> i
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><ol start="2">
+<li><strong>Hash Table Search:</strong> This method involves creating a hash table beforehand. Each element in the array is added to the hash table with its corresponding index as the key. Searching for an element involves calculating its hash value and looking it up in the hash table. This can be significantly faster than linear search for large arrays.</li>
+</ol>
+<p><strong>Sorted Arrays:</strong></p>
+<ol>
+<li><strong>Binary Search:</strong> This algorithm takes advantage of the sorted nature of the array. It repeatedly divides the search space in half by comparing the target element to the middle element. If the target is found, the function returns the index. Otherwise, the search continues in the appropriate half until the target is found or determined not to exist.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> binary_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
+</span></span><span style="display:flex;"><span>    low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    high <span style="color:#f92672">=</span> length(array)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> low <span style="color:#f92672">&lt;=</span> high
+</span></span><span style="display:flex;"><span>        mid <span style="color:#f92672">=</span> floor(div(low <span style="color:#f92672">+</span> high, <span style="color:#ae81ff">2</span>))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> array[mid] <span style="color:#f92672">==</span> target
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> mid
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elseif</span> array[mid] <span style="color:#f92672">&lt;</span> target
+</span></span><span style="display:flex;"><span>            low <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            high <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><ol start="2">
+<li><strong>Interpolation Search:</strong> This algorithm is a variant of binary search that estimates the position of the target element based on its value and the values of surrounding elements. This can be faster than binary search for uniformly distributed elements.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> interpolation_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
+</span></span><span style="display:flex;"><span>    low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    high <span style="color:#f92672">=</span> length(array)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> low <span style="color:#f92672">&lt;=</span> high
+</span></span><span style="display:flex;"><span>        mid <span style="color:#f92672">=</span> floor(low <span style="color:#f92672">+</span> (target <span style="color:#f92672">-</span> array[low]) <span style="color:#f92672">*</span> (high <span style="color:#f92672">-</span> low) <span style="color:#f92672">/</span> (array[high] <span style="color:#f92672">-</span> array[low]))
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> array[mid] <span style="color:#f92672">==</span> target
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> mid
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elseif</span> array[mid] <span style="color:#f92672">&lt;</span> target
+</span></span><span style="display:flex;"><span>            low <span style="color:#f92672">=</span> mid <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            high <span style="color:#f92672">=</span> mid <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p><strong>Comparison:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Unsorted</th>
+<th>Sorted</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linear Search</td>
+<td>Simple and efficient for small arrays</td>
+<td>Less efficient compared to other options</td>
+</tr>
+<tr>
+<td>Binary Search</td>
+<td>Inefficient</td>
+<td>Efficient, best choice for large sorted arrays</td>
+</tr>
+<tr>
+<td>Hash Table Search</td>
+<td>Efficient for large arrays</td>
+<td>Requires additional overhead for creating and managing the hash table</td>
+</tr>
+<tr>
+<td>Interpolation Search</td>
+<td>More efficient than linear search for unsorted arrays</td>
+<td>Less efficient than binary search for sorted arrays</td>
+</tr>
+</tbody>
+</table>
+<p>Choosing the right search algorithm depends on your specific needs:</p>
+<ul>
+<li><strong>For small datasets:</strong> Linear search might be sufficient.</li>
+<li><strong>For large datasets:</strong> Binary search is generally preferred for sorted arrays, while hash tables can be faster for unsorted arrays.</li>
+<li><strong>For specific requirements:</strong> Interpolation search might be beneficial for specific data distributions.</li>
+</ul>
+<p>It&rsquo;s important to consider the trade-offs between simplicity, efficiency, and other factors when choosing a search algorithm for your application.</p>
+<h2 id="tree-algorithms">Tree Algorithms</h2>
+<p>Trees are fundamental data structures in computer science, representing hierarchical relationships between nodes. Here, we&rsquo;ll explore some basic algorithms for manipulating and traversing trees in the Julia programming language:</p>
+<h3 id="1-tree-search">1. Tree Search</h3>
+<p>Tree search aims to find a specific node based on its value. We can use different search strategies, such as:</p>
+<p><strong>a. Depth-first search (DFS):</strong> This method explores each branch as far as possible before backtracking. It can be implemented recursively or iteratively.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(node, target)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> node<span style="color:#f92672">.</span>value <span style="color:#f92672">==</span> target
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> node
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> <span style="color:#f92672">!</span>is_empty_node(node<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>        result <span style="color:#f92672">=</span> dfs(node<span style="color:#f92672">.</span>left, target)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>isnothing(result)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>is_empty_node(node<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>        result <span style="color:#f92672">=</span> dfs(node<span style="color:#f92672">.</span>right, target)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>isnothing(result)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p><strong>b. Breadth-first search (BFS):</strong> This method explores all nodes at the current level before moving to the next level. It can be implemented using a queue data structure.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bfs(node, target)
+</span></span><span style="display:flex;"><span>    queue <span style="color:#f92672">=</span> [node]
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(queue)
+</span></span><span style="display:flex;"><span>        current_node <span style="color:#f92672">=</span> popfirst(queue)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> current_node<span style="color:#f92672">.</span>value <span style="color:#f92672">==</span> target
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> current_node
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>        push!(queue, current_node<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>        push!(queue, current_node<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><h3 id="2-tree-insertion">2. Tree Insertion</h3>
+<p>Tree insertion involves adding a new node to the tree at the appropriate position based on its value.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> insert(node, new_node)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> new_node<span style="color:#f92672">.</span>value <span style="color:#f92672">&lt;</span> node<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> is_empty_node(node<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>            node<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> new_node
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            insert(node<span style="color:#f92672">.</span>left, new_node)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> is_empty_node(node<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>            node<span style="color:#f92672">.</span>right <span style="color:#f92672">=</span> new_node
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            insert(node<span style="color:#f92672">.</span>right, new_node)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><h3 id="3-tree-deletion">3. Tree Deletion</h3>
+<p>Tree deletion removes a specific node from the tree. It involves handling different cases depending on the node&rsquo;s children and position in the tree.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> delete(node, target)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> isnothing(node)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> target <span style="color:#f92672">&lt;</span> node<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>        node<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> delete(node<span style="color:#f92672">.</span>left, target)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> target <span style="color:#f92672">&gt;</span> node<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>        node<span style="color:#f92672">.</span>right <span style="color:#f92672">=</span> delete(node<span style="color:#f92672">.</span>right, target)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> is_empty_node(node<span style="color:#f92672">.</span>left)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> node<span style="color:#f92672">.</span>right
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">elseif</span> is_empty_node(node<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> node<span style="color:#f92672">.</span>left
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>            replacement_node <span style="color:#f92672">=</span> find_min_node(node<span style="color:#f92672">.</span>right)
+</span></span><span style="display:flex;"><span>            node<span style="color:#f92672">.</span>value <span style="color:#f92672">=</span> replacement_node<span style="color:#f92672">.</span>value
+</span></span><span style="display:flex;"><span>            node<span style="color:#f92672">.</span>right <span style="color:#f92672">=</span> delete(node<span style="color:#f92672">.</span>right, replacement_node<span style="color:#f92672">.</span>value)
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> node
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span></code></pre></div><p>These are just some basic examples. You can explore additional algorithms for balancing trees, determining tree height, and manipulating specific types of trees like binary search trees.</p>
+<hr>
+<h2 id="graph-algorithms-in-julia">Graph Algorithms in Julia</h2>
+<p>Graphs are powerful data structures representing relationships between objects. Julia boasts a rich ecosystem for graph manipulation and analysis through packages like Graphs.jl and LightGraphs.jl. Let&rsquo;s explore some fundamental graph algorithms with examples in Julia:</p>
+<h3 id="1-breadth-first-search-bfs">1. Breadth-First Search (BFS)</h3>
+<p>BFS systematically explores all nodes in a graph level-by-level. It can find the shortest path between two nodes and identify connected components.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Graphs
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bfs(g, start_node)
+</span></span><span style="display:flex;"><span>  queue <span style="color:#f92672">=</span> [start_node]
+</span></span><span style="display:flex;"><span>  visited <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Bool</span>}()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(queue)
+</span></span><span style="display:flex;"><span>    current_node <span style="color:#f92672">=</span> popfirst(queue)
+</span></span><span style="display:flex;"><span>    visited[current_node] <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> neighbor <span style="color:#66d9ef">in</span> neighbors(g, current_node)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>haskey(visited, neighbor)
+</span></span><span style="display:flex;"><span>        visited[neighbor] <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>        push!(queue, neighbor)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> visited
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> SimpleGraph(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>visited <span style="color:#f92672">=</span> bfs(g, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>println(visited)
+</span></span></code></pre></div><h3 id="2-depth-first-search-dfs">2. Depth-First Search (DFS)</h3>
+<p>DFS explores each branch as deeply as possible before backtracking. It&rsquo;s useful for finding topological order, cycles, and strongly connected components.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(g, start_node)
+</span></span><span style="display:flex;"><span>  stack <span style="color:#f92672">=</span> [start_node]
+</span></span><span style="display:flex;"><span>  visited <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Bool</span>}()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(stack)
+</span></span><span style="display:flex;"><span>    current_node <span style="color:#f92672">=</span> popfirst(stack)
+</span></span><span style="display:flex;"><span>    visited[current_node] <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> neighbor <span style="color:#66d9ef">in</span> neighbors(g, current_node)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>haskey(visited, neighbor)
+</span></span><span style="display:flex;"><span>        visited[neighbor] <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>        push!(stack, neighbor)
+</span></span><span style="display:flex;"><span>        dfs(g, neighbor)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> visited
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> SimpleDigraph(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>visited <span style="color:#f92672">=</span> dfs(g, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>println(visited)
+</span></span></code></pre></div><h3 id="3-dijkstras-algorithm">3. Dijkstra&rsquo;s Algorithm</h3>
+<p>Dijkstra&rsquo;s algorithm finds the shortest path between two nodes in a weighted graph with non-negative edge weights.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dijkstra(g, start_node, end_node)
+</span></span><span style="display:flex;"><span>  distance <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Float64</span>}()
+</span></span><span style="display:flex;"><span>  predecessor <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Int</span>}()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> node <span style="color:#66d9ef">in</span> nodes(g)
+</span></span><span style="display:flex;"><span>    distance[node] <span style="color:#f92672">=</span> Inf
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  distance[start_node] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  queue <span style="color:#f92672">=</span> PriorityQueue(distance)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(queue)
+</span></span><span style="display:flex;"><span>    current_node, current_distance <span style="color:#f92672">=</span> pop!(queue)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> neighbor, weight <span style="color:#66d9ef">in</span> edges(g, outgoing<span style="color:#f92672">=</span>current_node)
+</span></span><span style="display:flex;"><span>      new_distance <span style="color:#f92672">=</span> distance[current_node] <span style="color:#f92672">+</span> weight
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> new_distance <span style="color:#f92672">&lt;</span> distance[neighbor]
+</span></span><span style="display:flex;"><span>        distance[neighbor] <span style="color:#f92672">=</span> new_distance
+</span></span><span style="display:flex;"><span>        predecessor[neighbor] <span style="color:#f92672">=</span> current_node
+</span></span><span style="display:flex;"><span>        push!(queue, neighbor, new_distance)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> distance[end_node] <span style="color:#f92672">==</span> Inf
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  path <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>  node <span style="color:#f92672">=</span> end_node
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> node <span style="color:#f92672">!=</span> start_node
+</span></span><span style="display:flex;"><span>    path<span style="color:#f92672">.</span>push!(node)
+</span></span><span style="display:flex;"><span>    node <span style="color:#f92672">=</span> predecessor[node]
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  path<span style="color:#f92672">.</span>push!(start_node)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> reverse(path), distance[end_node]
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> SimpleWeightedGraph(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>path, distance <span style="color:#f92672">=</span> dijkstra(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Shortest path:&#34;</span>, path)
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Distance:&#34;</span>, distance)
+</span></span></code></pre></div><h3 id="4-minimum-spanning-tree-mst">4. Minimum Spanning Tree (MST)</h3>
+<p>MST algorithms like Prim&rsquo;s and Kruskal&rsquo;s algorithms find a subset of edges in a weighted graph that connects all nodes with the minimum total weight.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> prim(g)
+</span></span><span style="display:flex;"><span>  used <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Bool</span>}()
+</span></span><span style="display:flex;"><span>  distance <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Float64</span>}()
+</span></span><span style="display:flex;"><span>  predecessor <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>}()
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> node <span style="color:#66d9ef">in</span> nodes(g)
+</span></span><span style="display:flex;"><span>    distance[node] <span style="color:#f92672">=</span> Inf
+</span></span><span style="display:flex;"><span>    used[node] <span style="color:#f92672">=</span> false
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  start_node <span style="color:#f92672">=</span> firstnode(g)
+</span></span><span style="display:flex;"><span>  distance[start_node] <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  used[start_node] <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>  queue <span style="color:#f92672">=</span> PriorityQueue(distance)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(queue)
+</span></span><span style="display:flex;"><span>    current_node, current_distance <span style="color:#f92672">=</span> pop!(queue)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> neighbor, weight <span style="color:#66d9ef">in</span> edges(g, outgoing<span style="color:#f92672">=</span>current_node)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>used[neighbor] <span style="color:#f92672">&amp;&amp;</span> weight <span style="color:#f92672">&lt;</span> distance[neighbor]
+</span></span><span style="display:flex;"><span>        distance[neighbor] <span style="color:#f92672">=</span> weight
+</span></span><span style="display:flex;"><span>        predecessor[neighbor] <span style="color:#f92672">=</span> current_node
+</span></span><span style="display:flex;"><span>        push!(queue, neighbor, weight)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>    used[current_node] <span style="color:#f92672">=</span> true
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  mst_edges <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> node <span style="color:#66d9ef">in</span> nodes(g)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> haskey(predecessor, node)
+</span></span><span style="display:flex;"><span>      mst_edges<span style="color:#f92672">.</span>push!((predecessor[node], node))
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> mst_edges
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage</span>
+</span></span><span style="display:flex;"><span>g <span style="color:#f92672">=</span> SimpleWeightedGraph(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>add_edge!(g, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mst_edges <span style="color:#f92672">=</span> prim(g)
+</span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Minimum Spanning Tree:&#34;</span>, mst_edges)
+</span></span></code></pre></div><p>These are just some examples of basic graph algorithms in Julia. There are many more sophisticated algorithms available for various tasks like network analysis, path planning, and community detection. You can explore them further using the resources mentioned earlier.</p>
+<hr>
+<blockquote>
+<p>Eric Schmidt: &ldquo;The algorithms will make decisions, and we will be told the results.&rdquo;</p>
+</blockquote>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/algorithms/statistics/" title="Statistics"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/algorithms/sorting/" title="Sorting" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/perfect-scrollbar.min.js"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/featherlight.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/js/learn.js"></script>
+    <script src="/js/hugo-learn.js"></script>
+    
+        
+            <script src="https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

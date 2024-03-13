@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>search on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/search/</link>
+    <description>Recent content in search on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search</title>
+      <link>https://sage-csr.vercel.app/algorithms/search/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/algorithms/search/</guid>
+      <description>Search algorithms are one of the most important algorithms for collections for several crucial reasons:&#xA;Essential functionality:&#xA;Accessing specific elements: Search algorithms allow us to locate specific elements within a collection, which is a fundamental operation essential for various tasks like data analysis, manipulation, and retrieval. Filtering and selection: Search can be used to filter elements based on certain criteria, allowing us to select a subset of data relevant to our needs.</description>
+    </item>
+  </channel>
+</rss>
