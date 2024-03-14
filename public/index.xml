@@ -205,6 +205,13 @@
       <description>Introduction Imagine a restaurant. When you sit down, you see the menu (front-end), the waiters taking your order (interaction), and the delicious food arriving (result). But what happens in the kitchen (back-end)? That&amp;rsquo;s where the magic happens!&#xA;Similarly, websites and apps also have two sides:&#xA;Front-End: This is what you see and interact with, like buttons, menus, and text. It&amp;rsquo;s like the restaurant&amp;rsquo;s dining area and interface. Back-End: This is the hidden part that makes everything work, like storing data, processing information, and connecting to databases.</description>
     </item>
     <item>
+      <title>What is NextJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/next/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/next/</guid>
+      <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
+    </item>
+    <item>
       <title>Popular Platforms</title>
       <link>https://sage-csr.vercel.app/platforms/popular/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>

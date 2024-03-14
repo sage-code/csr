@@ -36,5 +36,12 @@
       <guid>https://sage-csr.vercel.app/web-design/react/</guid>
       <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;What is React?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
     </item>
+    <item>
+      <title>What is NextJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/next/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/next/</guid>
+      <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
+    </item>
   </channel>
 </rss>

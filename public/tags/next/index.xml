@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>next on CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/next/</link>
+    <description>Recent content in next on CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/next/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What is NextJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/next/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/next/</guid>
+      <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
+    </item>
+  </channel>
+</rss>
