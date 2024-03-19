@@ -492,7 +492,7 @@ Thank you for reading so far. Your curiosity about CSS is fantastic! There's def
 
 Thank you for reading so far. Now if you want to learn more, practice and check our advanced tutorial about CSS you can join our Discord or follow the Software Engineering course where we explain in details many aspects of CSS. 
 
-**Course CSE07:** [CSS Fundamentals](https://cse.sagecode.net/css/index.html)
+**Course CSE07:** [CSS Fundamentals](https://sage-cse.vercel.app/css/index.html)
 
 
 {{% notice tip %}}

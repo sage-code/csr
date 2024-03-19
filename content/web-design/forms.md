@@ -208,7 +208,7 @@ These are just a few examples, and the list of advanced form topics can expand d
 
 Remember, it's always valuable to explore and learn more as you design and develop interactive forms for your web projects!
 
-**Read more:** [CSE Web Design](https://cse.sagecode.net/web-dsgn.html)
+**Read more:** [CSE Web Design](https://sage-cse.vercel.app/web-dsgn.html)
 
 ----
 

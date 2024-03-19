@@ -1053,4 +1053,4 @@ if (maybe_file) |file| {
 
 ---
 
-**Follow up course:** [zig tutorial](https://csp.sagecode.net/zig)
+**Follow up course:** [zig tutorial](https://sage-cse.vercel.app/zig)
