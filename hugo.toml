@@ -1,6 +1,6 @@
 baseURL = "https://sage-csr.vercel.app"
 languageCode = 'en-us'
-title = 'CS Research'
+title = 'Sage CS Research'
 
 # For search functionality
 [outputs]
@@ -62,7 +62,7 @@ home = [ "HTML", "RSS", "JSON"]
 [[menu.shortcuts]] 
 name = "<i class='fas fa-home'></i> Home"
 identifier = "home"
-url = "https://sagecode.net"
+url = "https://sage-cse.vercel.app"
 weight = 90
 
 
