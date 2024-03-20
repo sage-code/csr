@@ -98,13 +98,22 @@
     <loc>https://sage-csr.vercel.app/web-design/css/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/react/</loc>
-    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+    <loc>https://sage-csr.vercel.app/web-design/front/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/web-design/backend/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/web-design/next/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/web-design/react/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/web-design/nuxt/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/web-design/svelte/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/platforms/</loc>
@@ -134,34 +143,31 @@
     <loc>https://sage-csr.vercel.app/_empty/</loc>
     <lastmod>2023-12-22T04:48:24-06:00</lastmod>
   </url><url>
+    <loc>https://sage-csr.vercel.app/tags/css/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/html5/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/</loc>
+    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sage-csr.vercel.app/tags/devops/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/patforms/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/</loc>
-    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sage-csr.vercel.app/tags/basics/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/html5/</loc>
-    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/next/</loc>
-    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/react/</loc>
+    <loc>https://sage-csr.vercel.app/tags/framework/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/bash/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/_credits/</loc>
-    <lastmod>2024-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/css/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/forms/</loc>

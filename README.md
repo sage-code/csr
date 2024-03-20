@@ -14,4 +14,4 @@ We also use "Learn" theme for this project. [Visit the documentation](https://le
 * Stay active, contribute with new articles, provide feedback.
 
 ---
-Copyright (c) 2023 Sage-Code Laboratory.
+Copyright (c) 2024 Sage-Code Laboratory.

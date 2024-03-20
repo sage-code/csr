@@ -3,11 +3,11 @@ title = "What is React?"
 description = "Essential React concepts"
 collection = "web-design"
 date =  2024-01-26
-weight = 79
+weight = 80
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "react"]
+tags = ["html5", "framework"]
 +++
 
 ## Fundamentals
@@ -16,7 +16,7 @@ tags = ["html5", "react"]
 
 As a seasoned JavaScript developer, you've likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that's taken the front-end world by storm.
 
-**What is React?**
+**How react works?**
 
 Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality. You snap them together to create larger structures, like spaceships or castles. That's essentially how React works!
 

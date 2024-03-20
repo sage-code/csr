@@ -37,11 +37,11 @@
       <description>Fundamentals I don&amp;rsquo;t know if you are new to CSS Or not. I will try in this page to introduce the basic concepts using AI prompts. This may be not perfect or enaugh. At the end I will invite you to our advanced course. Here&amp;rsquo;s a breakdown of CSS fundamentals:&#xA;What is CSS?&#xA;Cascading Style Sheets (CSS) is a language used to style and format the visual presentation of HTML elements on a webpage.</description>
     </item>
     <item>
-      <title>What is React?</title>
-      <link>https://sage-csr.vercel.app/web-design/react/</link>
-      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/web-design/react/</guid>
-      <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;What is React?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
+      <title>Front End</title>
+      <link>https://sage-csr.vercel.app/web-design/front/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/front/</guid>
+      <description>Fundamentals The front end is essentially the part of a website or application that you see and interact with directly. It&amp;rsquo;s like the shop window of a digital store. Here are some key things to know about the front end:&#xA;Visually appealing: Front-end developers focus on creating a user-friendly and visually appealing interface. This includes things like the layout, colors, fonts, and images. Interactive features: They also implement the interactive features that allow you to navigate the website or application.</description>
     </item>
     <item>
       <title>Back End</title>
@@ -56,6 +56,27 @@
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/next/</guid>
       <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
+    </item>
+    <item>
+      <title>What is React?</title>
+      <link>https://sage-csr.vercel.app/web-design/react/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/react/</guid>
+      <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;How react works?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
+    </item>
+    <item>
+      <title>What is NuxtJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/nuxt/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/nuxt/</guid>
+      <description>Nuxt.js is a free and open-source framework built on top of Vue.js that simplifies building web applications. It&amp;rsquo;s designed to be intuitive and efficient, allowing you to create performant and production-ready web experiences.&#xA;Key Features Here are some key features of Nuxt.js:&#xA;Server-side rendering (SSR): Nuxt.js can pre-render your application on the server, which improves SEO and initial load times. Static site generation (SSG): You can also use Nuxt.js to generate static HTML files, which is ideal for content-heavy websites.</description>
+    </item>
+    <item>
+      <title>What is SvelteJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/svelte/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/svelte/</guid>
+      <description>SvelteJS, often referred to as just Svelte, is a relatively new (first released in 2016) but popular front-end development framework. Here are some key things to know about SvelteJS:&#xA;Svelte Key Goals Focus on Performance: Svelte takes a different approach than many other frameworks by compiling code during the build process. This means that the browser doesn&amp;rsquo;t need to do as much work when loading your application, resulting in faster performance.</description>
     </item>
   </channel>
 </rss>

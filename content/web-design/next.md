@@ -7,7 +7,7 @@ weight = 80
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "next"]
+tags = ["html5", "framework"]
 +++
 
 ## Key Concepts, Review:

@@ -6,7 +6,7 @@
     <description>Recent content in css on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/css/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS Syntax</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/css/</guid>
       <description>Fundamentals I don&amp;rsquo;t know if you are new to CSS Or not. I will try in this page to introduce the basic concepts using AI prompts. This may be not perfect or enaugh. At the end I will invite you to our advanced course. Here&amp;rsquo;s a breakdown of CSS fundamentals:&#xA;What is CSS?&#xA;Cascading Style Sheets (CSS) is a language used to style and format the visual presentation of HTML elements on a webpage.</description>
+    </item>
+    <item>
+      <title>Front End</title>
+      <link>https://sage-csr.vercel.app/web-design/front/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/front/</guid>
+      <description>Fundamentals The front end is essentially the part of a website or application that you see and interact with directly. It&amp;rsquo;s like the shop window of a digital store. Here are some key things to know about the front end:&#xA;Visually appealing: Front-end developers focus on creating a user-friendly and visually appealing interface. This includes things like the layout, colors, fonts, and images. Interactive features: They also implement the interactive features that allow you to navigate the website or application.</description>
     </item>
   </channel>
 </rss>
