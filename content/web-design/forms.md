@@ -7,7 +7,7 @@ weight = 74
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "forms"]
+tags = ["html5", "basics"]
 +++
 
 ## What are HTML Forms?

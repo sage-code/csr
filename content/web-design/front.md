@@ -1,13 +1,13 @@
 +++
 title = "Front End"
-description = "Essential CSS syntax elements"
+description = "Understand front end developement"
 collection = "web-design"
 date =  2024-03-20
 weight = 76
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["html5", "css"]
+tags = ["html5", "basics"]
 +++
 
 ## Fundamentals
