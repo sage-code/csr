@@ -6,7 +6,7 @@
     <description>Recent content in basics on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming</title>
@@ -63,6 +63,27 @@
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/html/</guid>
       <description>In this short tutorial we introduce you to HTML fundamentals. This is good enough to get you started but eventually you will need an advanced course that we provide on our home site. This is a long page so let&amp;rsquo;s get started.&#xA;What is HTML? HTML: HyperText Markup Language, aka the Blueprint for Awesome Websites&#xA;Hold your horses, HTML newbies! Before you start constructing digital masterpieces, let&amp;rsquo;s decode the mysterious acronym and uncover its true nature.</description>
+    </item>
+    <item>
+      <title>HTML Forms</title>
+      <link>https://sage-csr.vercel.app/web-design/forms/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/forms/</guid>
+      <description>What are HTML Forms? HTML forms are interactive sections on web pages that allow users to enter and submit data. Think of them like digital versions of paper forms, where you fill in the blanks and hit &amp;ldquo;submit&amp;rdquo; to send the information along. They&amp;rsquo;re crucial for user interaction and website functionality, enabling a wide range of applications:&#xA;Gathering user information: Websites use forms for logins, contact forms, surveys, registrations, and online orders.</description>
+    </item>
+    <item>
+      <title>CSS Syntax</title>
+      <link>https://sage-csr.vercel.app/web-design/css/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/css/</guid>
+      <description>Fundamentals I don&amp;rsquo;t know if you are new to CSS Or not. I will try in this page to introduce the basic concepts using AI prompts. This may be not perfect or enaugh. At the end I will invite you to our advanced course. Here&amp;rsquo;s a breakdown of CSS fundamentals:&#xA;What is CSS?&#xA;Cascading Style Sheets (CSS) is a language used to style and format the visual presentation of HTML elements on a webpage.</description>
+    </item>
+    <item>
+      <title>Front End</title>
+      <link>https://sage-csr.vercel.app/web-design/front/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/front/</guid>
+      <description>Fundamentals The front end is essentially the part of a website or application that you see and interact with directly. It&amp;rsquo;s like the shop window of a digital store. Here are some key things to know about the front end:&#xA;Visually appealing: Front-end developers focus on creating a user-friendly and visually appealing interface. This includes things like the layout, colors, fonts, and images. Interactive features: They also implement the interactive features that allow you to navigate the website or application.</description>
     </item>
     <item>
       <title>Back End</title>
