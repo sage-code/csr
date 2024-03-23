@@ -205,6 +205,13 @@
       <description>Introduction Imagine a restaurant. When you sit down, you see the menu (front-end), the waiters taking your order (interaction), and the delicious food arriving (result). But what happens in the kitchen (back-end)? That&amp;rsquo;s where the magic happens!&#xA;Similarly, websites and apps also have two sides:&#xA;Front-End: This is what you see and interact with, like buttons, menus, and text. It&amp;rsquo;s like the restaurant&amp;rsquo;s dining area and interface. Back-End: This is the hidden part that makes everything work, like storing data, processing information, and connecting to databases.</description>
     </item>
     <item>
+      <title>Frameworks</title>
+      <link>https://sage-csr.vercel.app/web-design/frameworks/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/frameworks/</guid>
+      <description>What is it? Select a framework Chosing the right framework is a challange. Let&amp;rsquo;s investigate some advantages and desadvantages of each option. We will dive deep into each framework later. First you need to knoe no framewok will save you from hard work. Here is the order given by AI.&#xA;1. Next.js (React-based framework):&#xA;Pros: Excellent for SEO (Search Engine Optimization) due to server-side rendering, good for static content and dynamic routes, large community and ecosystem.</description>
+    </item>
+    <item>
       <title>What is NextJS?</title>
       <link>https://sage-csr.vercel.app/web-design/next/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
@@ -231,6 +238,13 @@
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/svelte/</guid>
       <description>SvelteJS, often referred to as just Svelte, is a relatively new (first released in 2016) but popular front-end development framework. Here are some key things to know about SvelteJS:&#xA;Svelte Key Goals Focus on Performance: Svelte takes a different approach than many other frameworks by compiling code during the build process. This means that the browser doesn&amp;rsquo;t need to do as much work when loading your application, resulting in faster performance.</description>
+    </item>
+    <item>
+      <title>What is Angular?</title>
+      <link>https://sage-csr.vercel.app/web-design/angular/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/angular/</guid>
+      <description>Angular is a popular framework for building single-page web applications (SPAs). It&amp;rsquo;s open-source and backed by Google, making it a reliable choice for web development. Here&amp;rsquo;s a breakdown of what Angular offers:&#xA;Component-based architecture: Angular applications are built using reusable components, which makes your code more organized and easier to maintain. These components define how a specific part of your application looks and behaves. TypeScript: Angular uses TypeScript, a superset of JavaScript, which adds features like static typing for better code maintainability and fewer errors.</description>
     </item>
     <item>
       <title>Popular Platforms</title>
