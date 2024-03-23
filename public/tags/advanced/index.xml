@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>advanced on Sage CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/advanced/</link>
+    <description>Recent content in advanced on Sage CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generative Programming</title>
+      <link>https://sage-csr.vercel.app/productivity/generative/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/generative/</guid>
+      <description>Generative programming is a paradigm in software development where you focus on defining the what and how little of the code. Instead of writing every line of code yourself, you provide a set of rules and patterns, and a generative programming tool automatically generates the code for you.&#xA;Here&amp;rsquo;s how it can improve productivity:&#xA;Reduced Boilerplate: Generative programming can automate the creation of repetitive code structures, like getters, setters, and common data structures.</description>
+    </item>
+    <item>
+      <title>Descriptive Programming</title>
+      <link>https://sage-csr.vercel.app/productivity/descriptive/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/descriptive/</guid>
+      <description>Descriptive Programming Explained Descriptive programming is a technique used in software development, particularly in Automated UI Testing (AUT) frameworks. It allows testers to define actions on user interface (UI) elements using natural language-like descriptions instead of relying solely on technical identifiers.&#xA;Here&amp;rsquo;s a breakdown:&#xA;Traditional Approach: In traditional AUT, testers interact with UI elements using technical identifiers like object names, IDs, or coordinates. This can be difficult to understand and maintain, especially for those without deep coding knowledge.</description>
+    </item>
+    <item>
+      <title>Prompt Engineering</title>
+      <link>https://sage-csr.vercel.app/productivity/prompting/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/prompting/</guid>
+      <description>AI-powered software development tools are revolutionizing the field, promising to improve productivity in various ways. Here&amp;rsquo;s a breakdown of the advantages and disadvantages of using AI for software development:&#xA;##Definition&#xA;Prompt engineering, in the context of software development, is the art of crafting clear and concise instructions for AI tools to generate the desired code output. Imagine it like giving very specific instructions to a talented but literal assistant.&#xA;Here&amp;rsquo;s a breakdown of the concept:</description>
+    </item>
+  </channel>
+</rss>

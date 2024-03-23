@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>strategy on Sage CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/strategy/</link>
+    <description>Recent content in strategy on Sage CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Strategy for Productivity</title>
+      <link>https://sage-csr.vercel.app/productivity/strategy/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/strategy/</guid>
+      <description>Here are some strategies to improve developer productivity for software production:&#xA;Optimize the Development Environment:&#xA;Tool Up: Invest in the right tools. IDEs with features like code completion, refactoring, and debugging can save tons of time. Consider version control systems, code review tools, and automation for repetitive tasks. Training and Knowledge Sharing: Ensure developers are proficient with their tools and explore advanced features. Encourage knowledge sharing within the team. Streamline Workflow and Communication:</description>
+    </item>
+  </channel>
+</rss>
