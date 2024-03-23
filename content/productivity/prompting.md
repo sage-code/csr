@@ -75,6 +75,23 @@ Here are some additional points to consider:
 
 ---
 
+## Using AI to learn
+
+The concept of prompts isn't directly related to learning computer programming and software engineering.  
+
+In the world of AI, prompts are instructions used to guide large language models like me to perform a specific task. While there are some tools that use prompts to assist with coding tasks,  learning to program  relies on a different approach.
+
+Here's how you can actually learn computer programming and software engineering:
+
+* **Start with the fundamentals:** There are core concepts like variables, data structures, algorithms, and problem-solving that form the foundation of programming. You'll find many resources online and in libraries to learn these.
+* **Choose a beginner-friendly programming language:** Popular options include Python, Java, or JavaScript. Each language has its strengths, so research what suits your interests.
+* **Practice consistently:**  The key to mastering programming is consistent practice. There are online courses, coding challenges, and projects you can build to solidify your understanding.
+
+While prompts aren't the main way to learn, they can be a supplementary tool. As you progress, you might explore prompt engineering for code generation or specific coding tasks, but focus on the fundamentals first. 
+
+
+---
+
 **AI Tools**
 
 While I can't directly share links due to guidelines, I can provide you with some of the best AI platforms and tools for programmers along with a brief description to help you find them through a quick web search:
