@@ -107,6 +107,48 @@
       <description>A sorting algorithm is a set of instructions that takes a collection of data and arranges it in a specific order, most commonly in ascending or descending order. These algorithms play a crucial role in computer science and are used in various applications.&#xA;Here are some key characteristics of sorting algorithms:&#xA;Input: A collection of data (numbers, strings, objects) Output: The data arranged in a specific order Time Complexity: Measures the time it takes to sort the data (usually expressed using Big O notation) Space Complexity: Measures the amount of memory needed to sort the data Stability: Determines whether the order of equal elements is preserved after sorting Importance Sorting algorithms are fundamental to computer science for several reasons:</description>
     </item>
     <item>
+      <title>Concepts</title>
+      <link>https://sage-csr.vercel.app/databases/concepts/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/concepts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://sage-csr.vercel.app/databases/design/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Features</title>
+      <link>https://sage-csr.vercel.app/databases/features/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vendors</title>
+      <link>https://sage-csr.vercel.app/databases/vendors/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/vendors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>https://sage-csr.vercel.app/databases/optimization/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://sage-csr.vercel.app/databases/programming/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/programming/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Julia Syntax</title>
       <link>https://sage-csr.vercel.app/interpreters/julia/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
@@ -207,16 +249,9 @@
     <item>
       <title>Frameworks</title>
       <link>https://sage-csr.vercel.app/web-design/frameworks/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/frameworks/</guid>
-      <description>What is it? Select a framework Chosing the right framework is a challange. Let&amp;rsquo;s investigate some advantages and desadvantages of each option. We will dive deep into each framework later. First you need to knoe no framewok will save you from hard work. Here is the order given by AI.&#xA;1. Next.js (React-based framework):&#xA;Pros: Excellent for SEO (Search Engine Optimization) due to server-side rendering, good for static content and dynamic routes, large community and ecosystem.</description>
-    </item>
-    <item>
-      <title>What is NextJS?</title>
-      <link>https://sage-csr.vercel.app/web-design/next/</link>
-      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/web-design/next/</guid>
-      <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
+      <description>What is it? In web development, a framework is essentially a pre-built toolbox containing tools, libraries, and established coding patterns that streamline the development process. Here&amp;rsquo;s a breakdown of why frameworks are valuable and why creating your own from scratch might not be the best approach:&#xA;Benefits of Using a Framework:&#xA;Reduced Development Time: Frameworks provide pre-written code for common functionalities like database interaction, user authentication, form handling, and routing. This eliminates the need to code these features from scratch, saving you significant time and effort.</description>
     </item>
     <item>
       <title>What is React?</title>
@@ -224,6 +259,13 @@
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/web-design/react/</guid>
       <description>Fundamentals So You&amp;rsquo;re a JavaScript Developer New to Frameworks? Buckle Up for React!&#xA;As a seasoned JavaScript developer, you&amp;rsquo;ve likely wrestled with DOM manipulation, state management, and the ever-growing complexity of modern web applications. But what if there was a better way? Enter React, the JavaScript library that&amp;rsquo;s taken the front-end world by storm.&#xA;How react works?&#xA;Imagine building Legos. Each Lego brick is a self-contained piece with its own functionality.</description>
+    </item>
+    <item>
+      <title>What is NextJS?</title>
+      <link>https://sage-csr.vercel.app/web-design/next/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/next/</guid>
+      <description>Key Concepts, Review: Routing: Routing defines how URLs map to specific content or components in your website. Imagine a switchboard that directs users to different departments based on their request. Data Fetching: This involves retrieving data from external sources like APIs or databases to populate your website&amp;rsquo;s content. Think of it as going out to gather information to display on your storefront. Rendering Strategies: There are two main approaches to rendering content in web applications: Client-side Rendering (CSR): All rendering happens in the user&amp;rsquo;s browser after the initial page load.</description>
     </item>
     <item>
       <title>What is NuxtJS?</title>

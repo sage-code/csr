@@ -6,8 +6,22 @@
     <description>Recent content in concepts on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/concepts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Concepts</title>
+      <link>https://sage-csr.vercel.app/databases/concepts/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/concepts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://sage-csr.vercel.app/databases/design/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/design/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Productivity Definition</title>
       <link>https://sage-csr.vercel.app/productivity/definition/</link>

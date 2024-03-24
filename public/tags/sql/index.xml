@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on Sage CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/sql/</link>
+    <description>Recent content in sql on Sage CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming</title>
+      <link>https://sage-csr.vercel.app/databases/programming/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/databases/programming/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

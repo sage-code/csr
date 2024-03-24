@@ -6,8 +6,57 @@
     <description>Recent content in Tags on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>basic</title>
+      <link>https://sage-csr.vercel.app/tags/basic/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/basic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>concepts</title>
+      <link>https://sage-csr.vercel.app/tags/concepts/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/concepts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>features</title>
+      <link>https://sage-csr.vercel.app/tags/features/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/features/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>qdvanced</title>
+      <link>https://sage-csr.vercel.app/tags/qdvanced/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/qdvanced/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>secrets</title>
+      <link>https://sage-csr.vercel.app/tags/secrets/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/secrets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sql</title>
+      <link>https://sage-csr.vercel.app/tags/sql/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>syntax</title>
+      <link>https://sage-csr.vercel.app/tags/syntax/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/syntax/</guid>
+      <description></description>
+    </item>
     <item>
       <title>advanced</title>
       <link>https://sage-csr.vercel.app/tags/advanced/</link>
@@ -23,13 +72,6 @@
       <description></description>
     </item>
     <item>
-      <title>concepts</title>
-      <link>https://sage-csr.vercel.app/tags/concepts/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/tags/concepts/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>strategy</title>
       <link>https://sage-csr.vercel.app/tags/strategy/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
@@ -39,14 +81,14 @@
     <item>
       <title>framework</title>
       <link>https://sage-csr.vercel.app/tags/framework/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/tags/framework/</guid>
       <description></description>
     </item>
     <item>
       <title>html5</title>
       <link>https://sage-csr.vercel.app/tags/html5/</link>
-      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/tags/html5/</guid>
       <description></description>
     </item>

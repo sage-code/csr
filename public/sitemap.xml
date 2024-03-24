@@ -53,6 +53,24 @@
     <loc>https://sage-csr.vercel.app/databases/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sage-csr.vercel.app/databases/concepts/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/databases/design/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/databases/features/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/databases/vendors/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/databases/optimization/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/databases/programming/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sage-csr.vercel.app/interpreters/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -105,12 +123,12 @@
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/web-design/frameworks/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/next/</loc>
-    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/web-design/react/</loc>
+    <lastmod>2024-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/web-design/next/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/web-design/nuxt/</loc>
@@ -167,26 +185,44 @@
     <loc>https://sage-csr.vercel.app/productivity/prompting/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sage-csr.vercel.app/tags/basic/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/concepts/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/features/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/qdvanced/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/secrets/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/sql/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/syntax/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sage-csr.vercel.app/tags/advanced/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/basics/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/concepts/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sage-csr.vercel.app/tags/strategy/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sage-csr.vercel.app/tags/framework/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/html5/</loc>
-    <lastmod>2024-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/devops/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
