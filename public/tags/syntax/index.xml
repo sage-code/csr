@@ -13,7 +13,7 @@
       <link>https://sage-csr.vercel.app/databases/programming/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/databases/programming/</guid>
-      <description></description>
+      <description>Database programming involves using code to interact with databases and manage the data they store. It&amp;rsquo;s the bridge between applications and the underlying data, allowing you to build features like adding, updating, deleting, and retrieving information. Here&amp;rsquo;s a breakdown of the core concepts:&#xA;Languages and Tools:&#xA;SQL (Structured Query Language): SQL is the dominant language for relational databases. It provides commands to create, manipulate, and query data. SQL statements are embedded within a general-purpose programming language (like Java, Python, or C#) to interact with the database from an application.</description>
     </item>
   </channel>
 </rss>

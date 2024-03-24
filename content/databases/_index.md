@@ -6,7 +6,7 @@ chapter = true
 pre = "<b>📒</b>"
 +++
 
-# Databases
+# What are Databases?
 
 Databases are organized vaults of information, like digital libraries, storing anything from customer lists to scientific data. They keep information tidy and accessible, using software tools to let us add, search, and analyze it, making them essential for businesses, research, and even your personal photo collection.
 
