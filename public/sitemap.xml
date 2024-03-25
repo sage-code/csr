@@ -173,9 +173,6 @@
     <loc>https://sage-csr.vercel.app/productivity/definition/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/testing/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sage-csr.vercel.app/productivity/strategy/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -187,6 +184,9 @@
   </url><url>
     <loc>https://sage-csr.vercel.app/productivity/prompting/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/productivity/testing/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/basics/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
