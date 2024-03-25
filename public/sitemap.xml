@@ -173,6 +173,9 @@
     <loc>https://sage-csr.vercel.app/productivity/definition/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sage-csr.vercel.app/productivity/testing/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sage-csr.vercel.app/productivity/strategy/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -184,6 +187,15 @@
   </url><url>
     <loc>https://sage-csr.vercel.app/productivity/prompting/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/basics/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/strategy/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sage-csr.vercel.app/tags/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/basic/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
@@ -206,16 +218,7 @@
     <loc>https://sage-csr.vercel.app/tags/syntax/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sage-csr.vercel.app/tags/advanced/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/basics/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/strategy/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/tags/framework/</loc>

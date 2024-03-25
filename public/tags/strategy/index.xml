@@ -6,8 +6,15 @@
     <description>Recent content in strategy on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/strategy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Testing</title>
+      <link>https://sage-csr.vercel.app/productivity/testing/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/testing/</guid>
+      <description>Importance Software testing, often seen as a hurdle, actually plays a critical role in boosting productivity throughout the software development lifecycle. Here&amp;rsquo;s how:&#xA;Early Bug Detection: Testing helps uncover bugs and defects early in the development process. This is crucial because fixing bugs later in the cycle, especially after release, is significantly more expensive and time-consuming. Early detection allows for quicker fixes with minimal rework.&#xA;Reduced Rework: By catching defects early, software testing prevents developers from spending time building on top of faulty code.</description>
+    </item>
     <item>
       <title>Strategy for Productivity</title>
       <link>https://sage-csr.vercel.app/productivity/strategy/</link>

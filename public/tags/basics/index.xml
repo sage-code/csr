@@ -6,7 +6,7 @@
     <description>Recent content in basics on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Programming</title>
@@ -98,6 +98,13 @@
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/productivity/definition/</guid>
       <description>In software development, productivity isn&amp;rsquo;t just about cranking out lines of code as fast as possible. It&amp;rsquo;s a balance between efficiency (getting things done) and effectiveness (delivering high-quality work that meets the project&amp;rsquo;s goals). Here&amp;rsquo;s a breakdown:&#xA;What it is: Efficiency + Effectiveness: A productive developer can code well and get tasks completed quickly, but also ensure the code is clean, maintainable, and meets the project requirements. Delivering Value: Ultimately, it&amp;rsquo;s about producing software that brings value to the business or users.</description>
+    </item>
+    <item>
+      <title>Software Testing</title>
+      <link>https://sage-csr.vercel.app/productivity/testing/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/productivity/testing/</guid>
+      <description>Importance Software testing, often seen as a hurdle, actually plays a critical role in boosting productivity throughout the software development lifecycle. Here&amp;rsquo;s how:&#xA;Early Bug Detection: Testing helps uncover bugs and defects early in the development process. This is crucial because fixing bugs later in the cycle, especially after release, is significantly more expensive and time-consuming. Early detection allows for quicker fixes with minimal rework.&#xA;Reduced Rework: By catching defects early, software testing prevents developers from spending time building on top of faulty code.</description>
     </item>
     <item>
       <title>Strategy for Productivity</title>

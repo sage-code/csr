@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Sage CS Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>basics</title>
+      <link>https://sage-csr.vercel.app/tags/basics/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/basics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>strategy</title>
+      <link>https://sage-csr.vercel.app/tags/strategy/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/tags/strategy/</guid>
+      <description></description>
+    </item>
     <item>
       <title>basic</title>
       <link>https://sage-csr.vercel.app/tags/basic/</link>
@@ -62,20 +76,6 @@
       <link>https://sage-csr.vercel.app/tags/advanced/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/tags/advanced/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>basics</title>
-      <link>https://sage-csr.vercel.app/tags/basics/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/tags/basics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>strategy</title>
-      <link>https://sage-csr.vercel.app/tags/strategy/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/tags/strategy/</guid>
       <description></description>
     </item>
     <item>
