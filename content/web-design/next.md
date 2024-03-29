@@ -233,24 +233,24 @@ Next.js offers a well-defined project structure that separates concerns and simp
 
 
 ```
-─ 📂 project/
-    ├──📂  public/ (folder for static assets)
-    │   ├──📂 ️ images/ (folder for images)
-    │   │   └──🗒️  picture.jpg (example image file)
-    │   └──🗒️  favicon.ico (example favicon file)
-    │
-    └──📂  app/  (root of the application code)
-        ├──📂  components/ (folder for reusable components)
-        │   └──🗒️  MyComponent.js (example component file)
-        ├──📂  pages/ (folder for application pages)
-        │   ├──🗒️  index.js (main application page)
-        │   ├──🗒️  about.js (example page)
-        │   └──🗒️  ... (other pages)
-        ├──📂  styles/ (folder for global styles)
-        │   └──🗒️  globals.css (example global stylesheet)
-        ├──  🗒️... (other application files)
-        ├──  🗒️next.config.js (Next.js configuration file, optional)
-        └──  🗒️package.json (project dependencies)
+├─ 📂 project/
+│    ├──📂 public/ (folder for static assets)
+│    │   ├──📂 ️images/ (folder for images)
+│    │   │   └──🗒️ picture.jpg (example image file)
+│    │   └──🗒️ favicon.ico (example favicon file)
+│    │
+│    └──📂  app/  (root of the application code)
+│        ├──📂 components/ (folder for reusable components)
+│        │   └──🗒️ MyComponent.js (example component file)
+│        ├──📂  pages/ (folder for application pages)
+│        │   ├──🗒️ index.js (main application page)
+│        │   ├──🗒️ about.js (example page)
+│        │   └──🗒️... (other pages)
+│        ├──📂 styles/ (folder for global styles)
+│        │   └──🗒️globals.css (example global stylesheet)
+│        ├──🗒️ ... (other application files)
+│        ├──🗒️ next.config.js (Next.js configuration file, optional)
+│        └──🗒️ package.json (project dependencies)
 ```
 
 **Core Folders:**
@@ -279,10 +279,7 @@ The core structure and rendering strategies of Next.js applications remain consi
 
 * Next.js also allows for custom configuration files like `package.json` and `next.config.js` for managing dependencies and application settings.
 * The specific folder structure might be extended with additional folders for complex projects, but the core concepts of `pages`, `components`, and `public` remain essential.
-
-By understanding this structure, you can effectively organize your Next.js projects and leverage its built-in features to create dynamic and performant websites. Feel free to ask if you'd like to delve deeper into any specific aspect of the structure or rendering approaches.
-
----
+ 
 
 ## Next.js Project Templates
 
