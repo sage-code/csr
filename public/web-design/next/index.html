@@ -1820,7 +1820,25 @@
 <hr>
 <h2 id="next-project-structure">Next Project Structure</h2>
 <p>Next.js offers a well-defined project structure that separates concerns and simplifies development. Here&rsquo;s a breakdown of the key folders and their functions:</p>
-<p><strong>Core Folders:</strong></p>
+<pre tabindex="0"><code>─ 📂 project/
+    ├──📂  public/ (folder for static assets)
+    │   ├──📂 ️ images/ (folder for images)
+    │   │   └──🗒️  picture.jpg (example image file)
+    │   └──🗒️  favicon.ico (example favicon file)
+    │
+    └──📂  app/  (root of the application code)
+        ├──📂  components/ (folder for reusable components)
+        │   └──🗒️  MyComponent.js (example component file)
+        ├──📂  pages/ (folder for application pages)
+        │   ├──🗒️  index.js (main application page)
+        │   ├──🗒️  about.js (example page)
+        │   └──🗒️  ... (other pages)
+        ├──📂  styles/ (folder for global styles)
+        │   └──🗒️  globals.css (example global stylesheet)
+        ├──  🗒️... (other application files)
+        ├──  🗒️next.config.js (Next.js configuration file, optional)
+        └──  🗒️package.json (project dependencies)
+</code></pre><p><strong>Core Folders:</strong></p>
 <ul>
 <li><strong><code>pages</code>:</strong> This is the heart of your Next.js application. Each file inside this directory (including nested ones) becomes a route in your website. The filename (e.g., <code>about.js</code>) corresponds to the URL path (e.g., <code>/about</code>).</li>
 <li><strong><code>public</code>:</strong> This folder holds static assets that are directly accessible by the browser, like images, fonts, or favicons.</li>

@@ -231,6 +231,28 @@ By following these steps, you can leverage Vercel's platform to efficiently depl
 
 Next.js offers a well-defined project structure that separates concerns and simplifies development. Here's a breakdown of the key folders and their functions:
 
+
+```
+─ 📂 project/
+    ├──📂  public/ (folder for static assets)
+    │   ├──📂 ️ images/ (folder for images)
+    │   │   └──🗒️  picture.jpg (example image file)
+    │   └──🗒️  favicon.ico (example favicon file)
+    │
+    └──📂  app/  (root of the application code)
+        ├──📂  components/ (folder for reusable components)
+        │   └──🗒️  MyComponent.js (example component file)
+        ├──📂  pages/ (folder for application pages)
+        │   ├──🗒️  index.js (main application page)
+        │   ├──🗒️  about.js (example page)
+        │   └──🗒️  ... (other pages)
+        ├──📂  styles/ (folder for global styles)
+        │   └──🗒️  globals.css (example global stylesheet)
+        ├──  🗒️... (other application files)
+        ├──  🗒️next.config.js (Next.js configuration file, optional)
+        └──  🗒️package.json (project dependencies)
+```
+
 **Core Folders:**
 
 * **`pages`:** This is the heart of your Next.js application. Each file inside this directory (including nested ones) becomes a route in your website. The filename (e.g., `about.js`) corresponds to the URL path (e.g., `/about`). 
