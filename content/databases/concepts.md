@@ -11,7 +11,9 @@ tags = ["basic", "concepts"]
 description = "General database concepts and definitions"
 +++
 
-Absolutely, databases are the backbone of many data-centric applications. Here's a breakdown of the fundamental concepts and lingo programmers use:
+## What are databases?
+
+Databases are the backbone of many data-centric applications. Here's a breakdown of the fundamental concepts and lingo programmers use:
 
 **Building Blocks:**
 
