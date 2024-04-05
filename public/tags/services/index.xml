@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>services on Sage CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/services/</link>
+    <description>Recent content in services on Sage CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/services/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Website Services</title>
+      <link>https://sage-csr.vercel.app/web-design/services/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/web-design/services/</guid>
+      <description>Send e-mail services Sometimes you have a form where users can submit contacts and tickets. You want your data to be saved but also send notifications or confirmation e-mails. This is not a simple task to perform. There is a lot of work. A good idea is to use an e-mail third party service. They make money for this service. And is amazing how many people pay for it. Let&amp;rsquo;s compare some services.</description>
+    </item>
+  </channel>
+</rss>

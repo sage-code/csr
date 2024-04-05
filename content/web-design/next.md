@@ -280,6 +280,7 @@ The core structure and rendering strategies of Next.js applications remain consi
 * Next.js also allows for custom configuration files like `package.json` and `next.config.js` for managing dependencies and application settings.
 * The specific folder structure might be extended with additional folders for complex projects, but the core concepts of `pages`, `components`, and `public` remain essential.
  
+---
 
 ## Next.js Project Templates
 
@@ -359,6 +360,8 @@ While AI can generate informative explanations about Next.js, it's important to 
 
 I apologize if my explanations, while informative, haven't fully addressed the depth and intricacies of Next.js. To truly master this framework and build robust applications, I highly recommend consulting the official Next.js resources:
 
+
+* **React foundation** [https://nextjs.org/learn/react-foundations](Learn React before NextJS) - This tutorial will prepare you for understanding NextJS. If you do not know React, read this first.
 * **Next.js Documentation:** [https://nextjs.org/docs/getting-started/installation](https://nextjs.org/docs/getting-started/installation) - This comprehensive documentation is the ultimate source for learning Next.js concepts in detail. 
 * **Next.js Learn:** [https://nextjs.org/learn](https://nextjs.org/learn) - This interactive platform offers guided courses and tutorials to get you started with Next.js development.
 
