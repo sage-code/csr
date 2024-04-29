@@ -539,7 +539,7 @@ By mastering the `io` package and other built-in packages, you'll tap into Pytho
 
 So far you have learned the basics of Python. If you enjoy reading so far, I'm proud of you. Next maybe you wish to study more. You can chose to follow the documentation or other mentors. We offer an advanced Python course, that will teach you again the basics and then enable introductions of advance topics. 
 
-Follow next: [CSP04-Python](https://sage-cse.vercel.app/index.html)
+Follow next: [CSP04-Python](https://sagecode.pro/index.html)
 
 ---
 

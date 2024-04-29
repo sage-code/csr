@@ -433,7 +433,7 @@ You can continue learning Julia at perfection after taking this course, by using
 We believe this approach will make you not only _competent software engineers_, but also _adaptable and lifelong learners_. Now, let's embark on this adventure together!
 {{% /notice %}}
 
-**Follow up:** [Julia Tutorial](https://sage-cse.vercel.app/julia)
+**Follow up:** [Julia Tutorial](https://sagecode.pro/julia)
 
 ---
 
