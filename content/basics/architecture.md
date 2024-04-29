@@ -11,7 +11,7 @@ tags = ["architecture", "basics"]
 description = "Basic software architecture concepts"
 +++
 
-Software Architecture" is not as physical as building architecture, it's equally important for creating well-structured and functional applications. Here are some basic software architecture concepts to get you started:
+Software Architecture is not as physical as building architecture, it's equally important for creating well-structured and functional applications. Here are some basic software architecture concepts to get you started:
 
 1. **Components and Modules:** Imagine building blocks. Software is broken down into smaller, independent pieces called components or modules. Each module has a specific function and interacts with others in defined ways. 
 
@@ -300,11 +300,11 @@ While AI can't currently generate full-fledged, production-ready UML diagrams fo
 
 **Benefits and Limitations:**
 
-* **Improved Efficiency:**  AI can automate repetitive tasks  like suggesting elements or laying out diagrams, saving you time. 
+* **Improved Efficiency:**  AI can automate repetitive tasks  like suggesting elements or laying out diagrams, saving you time.
 * **Enhanced Brainstorming:** AI can  propose  alternative  perspectives  based on your descriptions, sparking new ideas for your UML models.
 
 * **Limited Understanding:**  AI  might struggle with complex systems or  may not grasp the nuances of your project's specific requirements.
-* **Accuracy Concerns:**  AI-generated diagrams  need careful review and  may require significant manual adjustments to ensure accuracy and completeness. 
+* **Accuracy Concerns:**  AI-generated diagrams  need careful review and  may require significant manual adjustments to ensure accuracy and completeness.
 
 **The Future of AI and UML:**
 
@@ -312,8 +312,8 @@ AI  is a promising area for UML  development.  As  AI  capabilities  mature, we 
 
 **For Now, Human Expertise is Key:**
 
-While AI  can be a helpful  assistant,  don't expect it to  replace  the  need for human  understanding  of software design principles and UML best practices.  Your  expertise  in software development and  critical thinking  are essential for creating effective UML diagrams. 
+While AI  can be a helpful  assistant,  don't expect it to  replace  the  need for human  understanding  of software design principles and UML best practices.  Your  expertise  in software development and  critical thinking  are essential for creating effective UML diagrams.
 
 ---
 
->> Everything should be made as simple as possible, but no simpler. -  Albert Einstein
+> Everything should be made as simple as possible, but no simpler. -  **Albert Einstein**
