@@ -9,6 +9,13 @@
     <lastBuildDate>Fri, 22 Dec 2023 16:38:50 -0600</lastBuildDate>
     <atom:link href="https://sage-csr.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Architecture</title>
+      <link>https://sage-csr.vercel.app/basics/architecture/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/basics/architecture/</guid>
+      <description>Software Architecture is not as physical as building architecture, it&amp;rsquo;s equally important for creating well-structured and functional applications. Here are some basic software architecture concepts to get you started:&#xA;Components and Modules: Imagine building blocks. Software is broken down into smaller, independent pieces called components or modules. Each module has a specific function and interacts with others in defined ways.&#xA;Modularity: This principle emphasizes the importance of breaking down complex systems into smaller, manageable modules.</description>
+    </item>
+    <item>
       <title>Programming</title>
       <link>https://sage-csr.vercel.app/basics/programming/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
@@ -30,13 +37,6 @@
       <description>Understanding expressions is fundamental to both computer science and programming. They&amp;rsquo;re the building blocks of code, allowing you to manipulate data, control program flow, and make decisions.&#xA;There are many types of expressions, each serving a specific purpose. Here are some of the most common ones:&#xA;1. Arithmetic Expressions: These expressions perform mathematical operations on numbers, like addition, subtraction, multiplication, and division. You might use them to calculate distances, areas, or any other numerical value needed in your program.</description>
     </item>
     <item>
-      <title>Structures</title>
-      <link>https://sage-csr.vercel.app/basics/structures/</link>
-      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/basics/structures/</guid>
-      <description>Data structures are the way we organize and store information in memory. They are like containers that hold different types of data and provide efficient access, manipulation, and retrieval. Imagine a bookshelf: it organizes your books by genre or author, making it easier to find a specific book. Similarly, data structures organize data to be processed efficiently by algorithms.&#xA;Foundation Data structures are crucial for writing efficient and clean code. They determine how quickly you can search for data, insert new elements, or delete existing ones.</description>
-    </item>
-    <item>
       <title>Objects</title>
       <link>https://sage-csr.vercel.app/basics/objects/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
@@ -49,6 +49,13 @@
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://sage-csr.vercel.app/basics/functions/</guid>
       <description>A function is a self-contained block of code that performs a specific task. It&amp;rsquo;s designed to be reusable and can be called from different parts of the program.&#xA;Evolution of Functions Functions have evolved in modern programming languages like Julia.&#xA;First-Class Functions: Functions are treated as values, meaning they can be: Assigned to variables Passed as arguments to other functions Returned from functions Higher-Order Functions: Functions that operate on other functions, enabling: Mapping (applying a function to each element of a collection) Filtering (selecting elements based on a condition) Reducing (combining elements using a function) Closures: Functions that capture variables from their enclosing scope, creating &amp;ldquo;stateful&amp;rdquo; functions that remember values across calls.</description>
+    </item>
+    <item>
+      <title>Structures</title>
+      <link>https://sage-csr.vercel.app/basics/structures/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/basics/structures/</guid>
+      <description>Data structures are the way we organize and store information in memory. They are like containers that hold different types of data and provide efficient access, manipulation, and retrieval. Imagine a bookshelf: it organizes your books by genre or author, making it easier to find a specific book. Similarly, data structures organize data to be processed efficiently by algorithms.&#xA;Foundation Data structures are crucial for writing efficient and clean code. They determine how quickly you can search for data, insert new elements, or delete existing ones.</description>
     </item>
     <item>
       <title>Overview</title>

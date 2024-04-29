@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>architecture on Sage CS Research</title>
+    <link>https://sage-csr.vercel.app/tags/architecture/</link>
+    <description>Recent content in architecture on Sage CS Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sage-csr.vercel.app/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture</title>
+      <link>https://sage-csr.vercel.app/basics/architecture/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://sage-csr.vercel.app/basics/architecture/</guid>
+      <description>Software Architecture is not as physical as building architecture, it&amp;rsquo;s equally important for creating well-structured and functional applications. Here are some basic software architecture concepts to get you started:&#xA;Components and Modules: Imagine building blocks. Software is broken down into smaller, independent pieces called components or modules. Each module has a specific function and interacts with others in defined ways.&#xA;Modularity: This principle emphasizes the importance of breaking down complex systems into smaller, manageable modules.</description>
+    </item>
+  </channel>
+</rss>
