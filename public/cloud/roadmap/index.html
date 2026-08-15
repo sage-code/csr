@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.164.0">
-    <meta name="description" content="Computer Science Research">
+    <meta name="description" content="What are cloud platforms?">
 <meta name="author" content="Sage-Code">
 
     <link rel="icon" href="/images/favicon.ico" type="image/ico">
 
-    <title>Cloud Hosting - Sage CS Research</title>
+    <title>Cloud Roadmap - Sage CS Research</title>
 
     
     <link href="/css/nucleus.css" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/cloud/">
+  <body class="" data-url="/cloud/roadmap/">
     <nav id="sidebar" class="">
 
 
@@ -1489,8 +1489,8 @@
   
     
     <li data-nav-id="/cloud/" title="Cloud Hosting" class="dd-item
+        parent
         
-        active
         
         ">
       <a href="/cloud/">
@@ -1536,7 +1536,7 @@
  
   
     
-      <li data-nav-id="/cloud/roadmap/" title="Cloud Roadmap" class="dd-item ">
+      <li data-nav-id="/cloud/roadmap/" title="Cloud Roadmap" class="dd-item active">
         <a href="/cloud/roadmap/">
         <b>📜</b>Cloud Roadmap
         
@@ -1691,6 +1691,8 @@
                         </a>
                     </span>
                   
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
                   <span class="links">
                  
                  
@@ -1701,7 +1703,13 @@
             
           
           
-            <a href='/'>Index</a> > Cloud Hosting
+            
+            
+          
+          
+            <a href='/'>Index</a> > <a href='/cloud/'>Cloud Hosting</a> > Cloud Roadmap
+          
+        
           
         
           
@@ -1710,41 +1718,222 @@
                   </span>
                 </div>
                 
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#phase-1-core-fundamentals--linux">Phase 1: Core Fundamentals &amp; Linux</a>
+      <ul>
+        <li><a href="#concepts--definitions">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-2-containerization--local-simulation">Phase 2: Containerization &amp; Local Simulation</a>
+      <ul>
+        <li><a href="#concepts--definitions-1">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises-1">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-3-cloud-architecture--service-models">Phase 3: Cloud Architecture &amp; Service Models</a>
+      <ul>
+        <li><a href="#concepts--definitions-2">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises-2">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-4-infrastructure-as-code-iac">Phase 4: Infrastructure as Code (IaC)</a>
+      <ul>
+        <li><a href="#concepts--definitions-3">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises-3">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-5-cicd-pipeline-engineering">Phase 5: CI/CD Pipeline Engineering</a>
+      <ul>
+        <li><a href="#concepts--definitions-4">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises-4">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#phase-6-observability--production-operations">Phase 6: Observability &amp; Production Operations</a>
+      <ul>
+        <li><a href="#concepts--definitions-5">Concepts &amp; Definitions</a></li>
+        <li><a href="#practice-exercises-5">Practice Exercises</a></li>
+      </ul>
+    </li>
+    <li><a href="#configuring-a-project-for-cloud-deployment">Configuring a Project for Cloud Deployment</a></li>
+    <li><a href="#critical-architectural-choices">Critical Architectural Choices</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
               </div>
             </div>
             
         <div id="head-tags">
         
+<div class="tags">
+
+  <a class="tag-link" href="/tags/devops">devops</a>
+
+  <a class="tag-link" href="/tags/cloud">cloud</a>
+
+</div>
+
         </div>
         
-          <div id="chapter">
-        
         <div id="body-inner">
+          
+            <h1>
+              
+              Cloud Roadmap
+            </h1>
           
 
         
 
 
-
-	<h1 id="cloud-hosting">Cloud Hosting</h1>
-<p>Cloud hosting delivers scalable infrastructure on-demand through virtualized resources distributed across remote data centers, decoupling applications from physical hardware limitations.</p>
-<p>What it means? You as a developer create the software and test it on your oun local hardware until it works. After this you deploy the application on a remote server. The remote server may be a dedicated machine or a virtual machine that run in a data center.</p>
+<h1 id="from-code-to-production">From Code to Production</h1>
+<p>Building and deploying applications on the cloud requires moving beyond local environments to master distributed systems, infrastructure automation, and operational safety. This roadmap outlines the core competencies, practical exercises, and architectural decisions required to engineer production-ready cloud systems.</p>
 <hr>
-<blockquote>
-<p><strong>Remember:</strong> &ldquo;There is no cloud. It&rsquo;s just someone else&rsquo;s computer.&rdquo;</p>
-</blockquote>
-<p>— Stacy Clark (often attributed to various systems engineers and industry figures)</p>
+<h2 id="phase-1-core-fundamentals--linux">Phase 1: Core Fundamentals &amp; Linux</h2>
+<p>Before touching cloud platforms, you must master the operating system environment that powers 90%+ of cloud infrastructure.</p>
+<h3 id="concepts--definitions">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>Process Management &amp; Daemons:</strong> Understanding how processes run, terminate, and restart (systemd).</li>
+<li><strong>Linux Networking:</strong> IP addressing, TCP/UDP sockets, DNS resolution, and firewall rules (<code>iptables</code> / <code>ufw</code>).</li>
+<li><strong>Permissions &amp; Security:</strong> POSIX file permissions, SSH key-based authentication, and principle of least privilege.</li>
+<li><strong>Environment Configuration:</strong> Managing runtime variables (<code>.env</code>, POSIX environment variables).</li>
+</ul>
+<h3 id="practice-exercises">Practice Exercises</h3>
+<ol>
+<li>Provision a minimal Linux virtual machine locally (using Multipass, QEMU, or Docker).</li>
+<li>Write a systemd service file to keep a custom Node.js, Python, or Go application running continuously on system boot.</li>
+<li>Configure an SSH jump host and disable password-based root login.</li>
+</ol>
+<hr>
+<h2 id="phase-2-containerization--local-simulation">Phase 2: Containerization &amp; Local Simulation</h2>
+<p>Containers decouple applications from underlying host operating systems, ensuring identical behavior from development to production.</p>
+<h3 id="concepts--definitions-1">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>Namespaces &amp; Cgroups:</strong> Linux kernel features that isolate processes, memory, and CPU.</li>
+<li><strong>Container Images vs. Containers:</strong> Immutable layered file systems versus running runtime instances.</li>
+<li><strong>OCI Standards:</strong> Open Container Initiative specifications ensuring interoperability.</li>
+<li><strong>Multi-stage Builds:</strong> Pattern for separating build-time dependencies from lean runtime artifacts.</li>
+</ul>
+<h3 id="practice-exercises-1">Practice Exercises</h3>
+<ol>
+<li>Write a secure, non-root <code>Dockerfile</code> for a web application utilizing multi-stage builds.</li>
+<li>Build and run the image locally, mapping ports and mounting persistent volumes.</li>
+<li>Use <code>docker compose</code> to orchestrate a multi-container local stack (e.g., Application + PostgreSQL + Redis).</li>
+</ol>
+<hr>
+<h2 id="phase-3-cloud-architecture--service-models">Phase 3: Cloud Architecture &amp; Service Models</h2>
+<p>Understanding how cloud providers abstract hardware into programmable APIs.</p>
+<h3 id="concepts--definitions-2">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>IaaS vs. PaaS vs. Serverless:</strong> Trade-offs between operational control and management overhead.</li>
+<li><strong>Virtual Private Cloud (VPC):</strong> Logically isolated networks containing public/private subnets, internet gateways, and route tables.</li>
+<li><strong>Object Storage vs. Block Storage:</strong> Flat-namespace, globally accessible blobs versus attached block devices requiring a filesystem.</li>
+<li><strong>Identity and Access Management (IAM):</strong> Role-based access control (RBAC), policies, and service principals.</li>
+</ul>
+<h3 id="practice-exercises-2">Practice Exercises</h3>
+<ol>
+<li>Design a multi-tier network architecture on paper: Public Load Balancer $\rightarrow$ Public Subnet (API Gateway) $\rightarrow$ Private Subnet (Compute) $\rightarrow$ Isolated Subnet (Database).</li>
+<li>Create an AWS IAM Policy restricting an application to read-only access on a specific S3 bucket prefix.</li>
+</ol>
+<hr>
+<h2 id="phase-4-infrastructure-as-code-iac">Phase 4: Infrastructure as Code (IaC)</h2>
+<p>Manual clickOps configuration in web consoles does not scale. Modern cloud infrastructure is defined entirely as version-controlled code.</p>
+<h3 id="concepts--definitions-3">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>Declarative vs. Imperative:</strong> Describing the <em>desired</em> end state versus writing procedural scripts.</li>
+<li><strong>State Management:</strong> Tracking deployed resources via remote state files, locking, and drift detection.</li>
+<li><strong>Immutability:</strong> Replacing modified servers rather than in-place patching.</li>
+</ul>
+<h3 id="practice-exercises-3">Practice Exercises</h3>
+<ol>
+<li>Write an OpenTofu or Terraform configuration to provision a VPC, a public subnet, and an EC2 instance / Droplet.</li>
+<li>Store the state file in a remote backend (e.g., AWS S3 with DynamoDB locking).</li>
+<li>Parameterize the configuration using variables and output the public IP address.</li>
+</ol>
+<hr>
+<h2 id="phase-5-cicd-pipeline-engineering">Phase 5: CI/CD Pipeline Engineering</h2>
+<p>Automating the path from a git commit to a production deployment.</p>
+<h3 id="concepts--definitions-4">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>Continuous Integration:</strong> Automated linting, unit testing, and artifact building on every merge request.</li>
+<li><strong>Continuous Deployment:</strong> Automated promotion of verified artifacts to staging and production environments.</li>
+<li><strong>Blue-Green &amp; Canary Deployments:</strong> Zero-downtime release patterns that route traffic incrementally to new versions.</li>
+</ul>
+<h3 id="practice-exercises-4">Practice Exercises</h3>
+<ol>
+<li>Build a GitHub Actions workflow that triggers on main branch pushes.</li>
+<li>Configure the pipeline to run tests, build a container image, push it to a registry (e.g., GHCR, Docker Hub, or Cloud Registry), and trigger an infrastructure update.</li>
+</ol>
+<hr>
+<h2 id="phase-6-observability--production-operations">Phase 6: Observability &amp; Production Operations</h2>
+<p>Code in production will fail. Visibility into system health is mandatory.</p>
+<h3 id="concepts--definitions-5">Concepts &amp; Definitions</h3>
+<ul>
+<li><strong>The Three Pillars of Observability:</strong> Metrics (aggregates), Logs (events), and Traces (request lifecycles).</li>
+<li><strong>Health Checks &amp; Liveness Probes:</strong> Endpoints used by load balancers to determine pod/instance availability.</li>
+<li><strong>Rate Limiting &amp; Circuit Breakers:</strong> Defensive patterns to protect downstream services from cascading failures.</li>
+</ul>
+<h3 id="practice-exercises-5">Practice Exercises</h3>
+<ol>
+<li>Implement structured JSON logging within your application.</li>
+<li>Configure a health check endpoint (<code>/healthz</code>) that validates database connectivity.</li>
+<li>Set up uptime monitoring and alerts for error rate spikes.</li>
+</ol>
+<hr>
+<h2 id="configuring-a-project-for-cloud-deployment">Configuring a Project for Cloud Deployment</h2>
+<p>To transition an application from local development to cloud execution, configure the following components:</p>
+<ol>
+<li><strong>Environment Agnostic Configuration:</strong> Read all ports, database connection strings, and secrets from environment variables using standard libraries (e.g., <code>os.Getenv</code>, <code>process.env</code>). Never hardcode configuration.</li>
+<li><strong>Containerization:</strong> Ensure a robust <code>Dockerfile</code> exists at the root of the repository with a specified non-root user and explicit entrypoint.</li>
+<li><strong>Health Check Probes:</strong> Expose unauthenticated endpoints (<code>/healthz</code>, <code>/readyz</code>) that verify internal dependencies (database, cache) before returning <code>200 OK</code>.</li>
+<li><strong>Stateless Architecture:</strong> Ensure the application instances store no session state or uploaded files locally. Persist sessions in Redis/Memcached and uploads directly to Object Storage (S3-compatible APIs).</li>
+<li><strong>Database Migration Strategy:</strong> Decouple database schema migrations from application startup routines, executing them as isolated pre-deployment jobs.</li>
+</ol>
+<hr>
+<h2 id="critical-architectural-choices">Critical Architectural Choices</h2>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: left">Decision Vector</th>
+					<th style="text-align: left">Options</th>
+					<th style="text-align: left">Trade-offs &amp; Selection Criteria</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left"><strong>Compute Primitive</strong></td>
+					<td style="text-align: left">Bare VMs / VPS vs. Containers (ECS/K8s) vs. Serverless (Lambda/Cloud Run)</td>
+					<td style="text-align: left"><strong>VMs:</strong> Full control, high maintenance. <strong>Containers:</strong> Portable, excellent balance of control and abstraction. <strong>Serverless:</strong> Zero idle cost, scale-to-zero, potential cold start latency.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Database Strategy</strong></td>
+					<td style="text-align: left">Managed Relational (RDS/Cloud SQL) vs. Self-Hosted vs. NoSQL</td>
+					<td style="text-align: left"><strong>Managed:</strong> Backups, patching, and scaling handled; higher cost. <strong>Self-Hosted:</strong> Lower cost, high operational risk. <strong>NoSQL:</strong> Optimized for unstructured, high-velocity data.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>Deployment Target</strong></td>
+					<td style="text-align: left">Hyperscaler (AWS/GCP/Azure) vs. Developer Cloud (DigitalOcean/Hetzner/Vercel)</td>
+					<td style="text-align: left"><strong>Hyperscaler:</strong> Massive ecosystem, steep learning curve, enterprise compliance. <strong>Developer Cloud:</strong> Predictable pricing, fast setup, simpler networking.</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"><strong>IaC Tooling</strong></td>
+					<td style="text-align: left">OpenTofu / Terraform vs. Pulumi vs. Cloud-Native (AWS CDK)</td>
+					<td style="text-align: left"><strong>TF/OpenTofu:</strong> Industry standard, declarative HCL. <strong>Pulumi:</strong> Real programming languages (TypeScript, Python, Go). <strong>CDK:</strong> Tightly coupled to single cloud provider.</td>
+			</tr>
+	</tbody>
+</table>
 
 
-
-
-
-<footer class=" footline" >
+<footer class="footline">
 	
 </footer>
 
-        
-            </div> 
         
         </div>
         
@@ -2804,6 +2993,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2822,6 +3012,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2875,10 +3068,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/productivity/testing/" title="Software Testing"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/cloud/demistify/" title="Cloud Platforms"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/cloud/demistify/" title="Cloud Platforms" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/edge/" title="Edge AI &amp; HPC" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2910,3 +3103,4 @@
 
   </body>
 </html>
+
