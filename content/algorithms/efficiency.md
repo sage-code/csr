@@ -46,7 +46,7 @@ While both efficiency and performance are important considerations, the choice b
 
 By understanding the difference between efficiency and performance and carefully analyzing your application's requirements, you can make the best choice for your data structures and achieve optimal performance.
 
-<hr>
+---
 
 Time Complexity and Big O Notation are two fundamental concepts in data structures and algorithms. Understanding these concepts is crucial for evaluating and comparing the efficiency of different algorithms.
 
@@ -117,7 +117,7 @@ Time Complexity and Big O Notation are essential tools for understanding and ana
 
 This lecture has provided a general overview of Time Complexity and Big O Notation. Feel free to ask any questions you may have, and I'll be happy to elaborate further.
 
-<hr>
+---
 
 ## Performance
 

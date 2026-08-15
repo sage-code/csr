@@ -1,13 +1,13 @@
 +++
 title = "Cloud Platforms"
-collection = "platforms"
+collection = "cloud"
 author = "Gemini"
 date = 2024-02-18
-weight = 96
+weight = 111
 chapter = false
 disableToc = false
 pre = "<b>📜</b>"
-tags = ["devops", "patforms"]
+tags = ["devops", "cloud"]
 description = "What are cloud platforms?"
 +++
 

@@ -27,4 +27,4 @@ Welcome, future software engineers! You're about to embark on a journey through 
 {{% children style="li" depth="3" description="true" %}}
 
 ---
-**Disclaim:** Content generated with AI (Bard/Gemini Pro)
+**Disclaim:** Content generated with AI (Gemini Pro)

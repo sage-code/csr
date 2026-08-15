@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Cybersecurity on Sage CS Research</title>
-		<link>https://sage-csr.vercel.app/tags/cybersecurity/</link>
+		<link>http://localhost:1313/tags/cybersecurity/</link>
 		<description>Recent content in Cybersecurity on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sage-csr.vercel.app/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Encryption</title>
-				<link>https://sage-csr.vercel.app/algorithms/encryption/</link>
+				<link>http://localhost:1313/algorithms/encryption/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>https://sage-csr.vercel.app/algorithms/encryption/</guid>
+				<guid>http://localhost:1313/algorithms/encryption/</guid>
 				<description>&lt;p&gt;&lt;strong&gt;What is encryption:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Imagine you have a secret message and want only the intended recipient to read it. Encryption is like a lock and key system for information. You use a special code, called an encryption key, to scramble the message (encrypting it). This makes it unreadable to anyone who doesn&amp;rsquo;t have the key. Only the recipient with the correct key can unscramble the message and read it (decrypting it).&lt;/p&gt;</description>
 			</item>
 	</channel>

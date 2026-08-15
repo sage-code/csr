@@ -2,339 +2,348 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sage-csr.vercel.app/basics/architecture/</loc>
+    <loc>http://localhost:1313/basics/architecture/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/</loc>
+    <loc>http://localhost:1313/basics/</loc>
     <lastmod>2023-12-22T04:48:24-06:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/programming/</loc>
+    <loc>http://localhost:1313/basics/programming/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/symbols/</loc>
+    <loc>http://localhost:1313/basics/symbols/</loc>
     <lastmod>2023-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/expressions/</loc>
+    <loc>http://localhost:1313/basics/expressions/</loc>
     <lastmod>2023-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/objects/</loc>
+    <loc>http://localhost:1313/basics/objects/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/functions/</loc>
+    <loc>http://localhost:1313/basics/functions/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/basics/structures/</loc>
+    <loc>http://localhost:1313/basics/structures/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/</loc>
+    <loc>http://localhost:1313/algorithms/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/overview/</loc>
+    <loc>http://localhost:1313/algorithms/overview/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/problems/</loc>
+    <loc>http://localhost:1313/algorithms/problems/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/efficiency/</loc>
+    <loc>http://localhost:1313/algorithms/efficiency/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/encryption/</loc>
+    <loc>http://localhost:1313/algorithms/encryption/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/traversal/</loc>
+    <loc>http://localhost:1313/algorithms/traversal/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/statistics/</loc>
+    <loc>http://localhost:1313/algorithms/statistics/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/search/</loc>
+    <loc>http://localhost:1313/algorithms/search/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/algorithms/sorting/</loc>
+    <loc>http://localhost:1313/algorithms/sorting/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/</loc>
+    <loc>http://localhost:1313/databases/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/concepts/</loc>
+    <loc>http://localhost:1313/databases/concepts/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/features/</loc>
+    <loc>http://localhost:1313/databases/features/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/vendors/</loc>
+    <loc>http://localhost:1313/databases/vendors/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/design/</loc>
+    <loc>http://localhost:1313/databases/design/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/programming/</loc>
+    <loc>http://localhost:1313/databases/programming/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/databases/optimization/</loc>
+    <loc>http://localhost:1313/databases/optimization/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/interpreters/</loc>
+    <loc>http://localhost:1313/interpreters/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/interpreters/julia/</loc>
+    <loc>http://localhost:1313/interpreters/julia/</loc>
     <lastmod>2023-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/interpreters/bash/</loc>
+    <loc>http://localhost:1313/interpreters/bash/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/interpreters/python/</loc>
+    <loc>http://localhost:1313/interpreters/python/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/compilers/</loc>
+    <loc>http://localhost:1313/compilers/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/compilers/go/</loc>
+    <loc>http://localhost:1313/compilers/go/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/compilers/zig/</loc>
+    <loc>http://localhost:1313/compilers/zig/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/compilers/rust/</loc>
+    <loc>http://localhost:1313/compilers/rust/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/compilers/carbon/</loc>
+    <loc>http://localhost:1313/compilers/carbon/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/</loc>
+    <loc>http://localhost:1313/web-design/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/uxui/</loc>
+    <loc>http://localhost:1313/web-design/uxui/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/html/</loc>
+    <loc>http://localhost:1313/web-design/html/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/interpreters/javascript/</loc>
+    <loc>http://localhost:1313/interpreters/javascript/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/forms/</loc>
+    <loc>http://localhost:1313/web-design/forms/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/css/</loc>
+    <loc>http://localhost:1313/web-design/css/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/front/</loc>
+    <loc>http://localhost:1313/web-design/front/</loc>
     <lastmod>2024-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/backend/</loc>
+    <loc>http://localhost:1313/web-design/backend/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/frameworks/</loc>
+    <loc>http://localhost:1313/web-design/frameworks/</loc>
     <lastmod>2024-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/react/</loc>
+    <loc>http://localhost:1313/web-design/react/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/next/</loc>
+    <loc>http://localhost:1313/web-design/next/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/nuxt/</loc>
+    <loc>http://localhost:1313/web-design/nuxt/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/svelte/</loc>
+    <loc>http://localhost:1313/web-design/svelte/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/angular/</loc>
+    <loc>http://localhost:1313/web-design/angular/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/web-design/services/</loc>
+    <loc>http://localhost:1313/web-design/services/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/</loc>
+    <loc>http://localhost:1313/platforms/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/popular/</loc>
+    <loc>http://localhost:1313/platforms/popular/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/features/</loc>
+    <loc>http://localhost:1313/platforms/features/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/files/</loc>
+    <loc>http://localhost:1313/platforms/files/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/booting/</loc>
+    <loc>http://localhost:1313/platforms/booting/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/cloud/</loc>
+    <loc>http://localhost:1313/platforms/performance/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/performance/</loc>
+    <loc>http://localhost:1313/platforms/devops/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/platforms/devops/</loc>
-    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/_empty/</loc>
+    <loc>http://localhost:1313/_empty/</loc>
     <lastmod>2023-12-22T04:48:24-06:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/</loc>
+    <loc>http://localhost:1313/productivity/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/definition/</loc>
+    <loc>http://localhost:1313/productivity/definition/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/strategy/</loc>
+    <loc>http://localhost:1313/productivity/strategy/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/generative/</loc>
+    <loc>http://localhost:1313/productivity/generative/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/descriptive/</loc>
+    <loc>http://localhost:1313/productivity/descriptive/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/prompting/</loc>
+    <loc>http://localhost:1313/productivity/prompting/</loc>
     <lastmod>2024-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/productivity/testing/</loc>
+    <loc>http://localhost:1313/productivity/testing/</loc>
     <lastmod>2024-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/basics/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/cloud/</loc>
+    <lastmod>2026-08-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/strategy/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/basic/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/concepts/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/features/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/qdvanced/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/secrets/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/sql/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/syntax/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/advanced/</loc>
-    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/framework/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/html5/</loc>
-    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/devops/</loc>
+    <loc>http://localhost:1313/cloud/demistify/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/patforms/</loc>
+    <loc>http://localhost:1313/edge/</loc>
+    <lastmod>2026-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/basics/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/strategy/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/basic/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/concepts/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/features/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/qdvanced/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/secrets/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/sql/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/syntax/</loc>
+    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/advanced/</loc>
+    <lastmod>2024-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/framework/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/html5/</loc>
+    <lastmod>2024-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/ux/ui/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/patforms/</loc>
+    <lastmod>2024-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ux/ui/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/services/</loc>
+    <loc>http://localhost:1313/tags/services/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/bash/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/_credits/</loc>
+    <loc>http://localhost:1313/_credits/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/interpreters/</loc>
+    <loc>http://localhost:1313/tags/interpreters/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/functions/</loc>
+    <loc>http://localhost:1313/tags/functions/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/objects/</loc>
+    <loc>http://localhost:1313/tags/objects/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/algorithms/</loc>
+    <loc>http://localhost:1313/tags/algorithms/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/architecture/</loc>
+    <loc>http://localhost:1313/tags/architecture/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/carbon/</loc>
+    <loc>http://localhost:1313/tags/carbon/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/compilers/</loc>
+    <loc>http://localhost:1313/tags/compilers/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/cybersecurity/</loc>
+    <loc>http://localhost:1313/tags/cybersecurity/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/efficiency/</loc>
+    <loc>http://localhost:1313/tags/efficiency/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/go/</loc>
+    <loc>http://localhost:1313/tags/go/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/introduction/</loc>
+    <loc>http://localhost:1313/tags/introduction/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/problems/</loc>
+    <loc>http://localhost:1313/tags/problems/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/programming/</loc>
+    <loc>http://localhost:1313/tags/programming/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/rust/</loc>
+    <loc>http://localhost:1313/tags/rust/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/search/</loc>
+    <loc>http://localhost:1313/tags/search/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/sorting/</loc>
+    <loc>http://localhost:1313/tags/sorting/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/statistics/</loc>
+    <loc>http://localhost:1313/tags/statistics/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/structures/</loc>
+    <loc>http://localhost:1313/tags/structures/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/traversal/</loc>
+    <loc>http://localhost:1313/tags/traversal/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/zig/</loc>
+    <loc>http://localhost:1313/tags/zig/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/julia/</loc>
+    <loc>http://localhost:1313/tags/julia/</loc>
     <lastmod>2023-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/expressions/</loc>
+    <loc>http://localhost:1313/tags/expressions/</loc>
     <lastmod>2023-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2023-12-22T16:38:50-06:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/empty/</loc>
+    <loc>http://localhost:1313/tags/empty/</loc>
     <lastmod>2023-12-22T04:48:24-06:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/template/</loc>
+    <loc>http://localhost:1313/tags/template/</loc>
     <lastmod>2023-12-22T04:48:24-06:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/tags/symbols/</loc>
+    <loc>http://localhost:1313/tags/symbols/</loc>
     <lastmod>2023-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sage-csr.vercel.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Qdvanced on Sage CS Research</title>
-		<link>https://sage-csr.vercel.app/tags/qdvanced/</link>
+		<link>http://localhost:1313/tags/qdvanced/</link>
 		<description>Recent content in Qdvanced on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sage-csr.vercel.app/tags/qdvanced/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/qdvanced/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Vendors</title>
-				<link>https://sage-csr.vercel.app/databases/vendors/</link>
+				<link>http://localhost:1313/databases/vendors/</link>
 				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-				<guid>https://sage-csr.vercel.app/databases/vendors/</guid>
+				<guid>http://localhost:1313/databases/vendors/</guid>
 				<description>&lt;p&gt;Database vendors are companies that develop and sell database management systems (DBMS) - the software that allows users to create, manage, and interact with databases. These vendors offer a variety of products and services catering to different needs and budgets. Here&amp;rsquo;s a breakdown of the landscape:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Major Players:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Traditional Leaders:&lt;/strong&gt; These established companies have dominated the market for decades, offering robust and feature-rich enterprise-grade DBMS solutions. Examples include:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Oracle&lt;/li&gt;&#xA;&lt;li&gt;Microsoft (SQL Server)&lt;/li&gt;&#xA;&lt;li&gt;IBM (DB2)&lt;/li&gt;&#xA;&lt;li&gt;SAP (SAP HANA)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud-Based Providers:&lt;/strong&gt; Cloud giants like Amazon, Google, and Microsoft have emerged as major players, offering scalable and cost-effective Database-as-a-Service (DBaaS) solutions. These services handle database management and infrastructure, allowing users to focus on their applications. Examples include:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Amazon Web Services (Amazon RDS, Aurora, DynamoDB)&lt;/li&gt;&#xA;&lt;li&gt;Microsoft Azure (Azure SQL Database)&lt;/li&gt;&#xA;&lt;li&gt;Google Cloud Platform (Cloud SQL, Cloud Spanner)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open-Source Alternatives:&lt;/strong&gt; Open-source databases like MySQL, PostgreSQL, and MariaDB offer powerful and feature-rich options with freely available software and strong community support.  These solutions are often popular for smaller businesses or applications with specific needs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Choosing a Database Vendor:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Optimization</title>
-				<link>https://sage-csr.vercel.app/databases/optimization/</link>
+				<link>http://localhost:1313/databases/optimization/</link>
 				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-				<guid>https://sage-csr.vercel.app/databases/optimization/</guid>
+				<guid>http://localhost:1313/databases/optimization/</guid>
 				<description>&lt;p&gt;Database optimization is the process of fine-tuning a database to improve its performance, efficiency, and scalability. It&amp;rsquo;s akin to streamlining an engine to run smoother and faster. Here are some key aspects of database optimization:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Query Optimization:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Analyze and rewrite slow queries to retrieve data more efficiently. This might involve optimizing the logic within the query, leveraging indexes effectively, or breaking down complex queries into simpler ones.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Indexing Strategies:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create and manage indexes on frequently used columns to speed up data retrieval.  Indexes act like lookup tables, allowing the database to quickly find specific data entries.  Proper indexing can significantly reduce query execution times.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Normalization:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

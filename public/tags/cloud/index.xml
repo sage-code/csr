@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cloud on Sage CS Research</title>
+		<link>http://localhost:1313/tags/cloud/</link>
+		<description>Recent content in Cloud on Sage CS Research</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Cloud Platforms</title>
+				<link>http://localhost:1313/cloud/demistify/</link>
+				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/cloud/demistify/</guid>
+				<description>&lt;h2 id=&#34;demystifying-the-cloud&#34;&gt;Demystifying the Cloud&lt;/h2&gt;&#xA;&lt;p&gt;The cloud has become an increasingly crucial part of our digital lives, offering on-demand access to computing resources like storage, servers, and databases. Instead of relying on physical hardware, users can leverage remote infrastructure hosted by cloud providers, offering several advantages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Core Components of the Cloud:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure as a Service (IaaS):&lt;/strong&gt; Rent virtual servers, storage, and networking resources on a pay-as-you-go basis. Popular options include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform as a Service (PaaS):&lt;/strong&gt; Build and deploy applications without managing underlying infrastructure. PaaS platforms handle server, storage, and networking, allowing developers to focus on code. Examples include Heroku, Google App Engine, and Azure App Service.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software as a Service (SaaS):&lt;/strong&gt; Access and use software applications hosted by the cloud provider over the internet. Popular examples include Microsoft Office 365, Salesforce, and Dropbox.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Benefits of the Cloud:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

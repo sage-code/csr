@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Bash on Sage CS Research</title>
-		<link>https://sage-csr.vercel.app/tags/bash/</link>
+		<link>http://localhost:1313/tags/bash/</link>
 		<description>Recent content in Bash on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://sage-csr.vercel.app/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/bash/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Bash Syntax</title>
-				<link>https://sage-csr.vercel.app/interpreters/bash/</link>
+				<link>http://localhost:1313/interpreters/bash/</link>
 				<pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-				<guid>https://sage-csr.vercel.app/interpreters/bash/</guid>
+				<guid>http://localhost:1313/interpreters/bash/</guid>
 				<description>&lt;h2 id=&#34;crash-course&#34;&gt;Crash Course&lt;/h2&gt;&#xA;&lt;p&gt;Welcome, brave adventurer, to the wondrous world of Bash! Fear not, for even the mightiest programmers began with humble &lt;code&gt;echo&lt;/code&gt;s and fumbling file paths. This tutorial will be your trusty guide, illuminating the path to Bash mastery, one command at a time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;First Steps:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Imagine Bash as a powerful toolbelt, each command a trusty instrument. To grab and use them, open your terminal, a portal to the digital realm. Now, let&amp;rsquo;s meet some basic buddies:&lt;/p&gt;</description>
 			</item>
 	</channel>
