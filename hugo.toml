@@ -53,20 +53,20 @@ home = [ "HTML", "RSS", "JSON"]
 
   relativeURLs = true
 
-  startLevel = 2 
+  startLevel = 2
   # Define the starting heading level for TOC inclusion (e.g., 2 for H2).
 
-  endLevel = 3 
+  endLevel = 3
   # Define the ending heading level for TOC inclusion (e.g., 5 for H5).
 
-[[menu.shortcuts]] 
+[[menu.shortcuts]]
 name = "<i class='fas fa-home'></i> Home"
 identifier = "home"
-url = "https://sagecode.pro"
+url = "https://sagecode.org"
 weight = 90
 
 
-[[menu.shortcuts]] 
+[[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
 identifier = "ds"
 url = "https://github.com/sage-code"
