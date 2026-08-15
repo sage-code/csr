@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>carbon on Sage CS Research</title>
-    <link>https://sage-csr.vercel.app/tags/carbon/</link>
-    <description>Recent content in carbon on Sage CS Research</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sage-csr.vercel.app/tags/carbon/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>carbon language</title>
-      <link>https://sage-csr.vercel.app/compilers/carbon/</link>
-      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/compilers/carbon/</guid>
-      <description>Carbon is still under development and lacks certain features like for loops and comparison operators like &amp;lt;. However, we can still achieve the Fibonacci sequence using other techniques. Here&amp;rsquo;s one approach:&#xA;fn Main() -&amp;gt; i32 { let mut number: i32 = -1 let mut previousNumber: i32 = 1 // Prompt user for input Print(&amp;#34;Enter a positive integer: &amp;#34;) let input = ReadLine() // Convert input to i32 let n = Try(input.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Carbon on Sage CS Research</title>
+		<link>https://sage-csr.vercel.app/tags/carbon/</link>
+		<description>Recent content in Carbon on Sage CS Research</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://sage-csr.vercel.app/tags/carbon/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>carbon language</title>
+				<link>https://sage-csr.vercel.app/compilers/carbon/</link>
+				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/compilers/carbon/</guid>
+				<description>&lt;p&gt;Carbon is still under development and lacks certain features like for loops and comparison operators like &lt;code&gt;&amp;lt;&lt;/code&gt;. However, we can still achieve the Fibonacci sequence using other techniques. Here&amp;rsquo;s one approach:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-carbon&#34; data-lang=&#34;carbon&#34;&gt;fn Main() -&amp;gt; i32 {&#xD;&#xA;  let mut number: i32 = -1&#xD;&#xA;  let mut previousNumber: i32 = 1&#xD;&#xA;&#xD;&#xA;  // Prompt user for input&#xD;&#xA;  Print(&amp;#34;Enter a positive integer: &amp;#34;)&#xD;&#xA;  let input = ReadLine()&#xD;&#xA;&#xD;&#xA;  // Convert input to i32&#xD;&#xA;  let n = Try(input.Trim().Parse())&#xD;&#xA;&#xD;&#xA;  // Handle potential parsing errors&#xD;&#xA;  if n.IsError() {&#xD;&#xA;    Print(&amp;#34;Invalid input. Please enter a positive integer.&amp;#34;)&#xD;&#xA;    return 1&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  // Iterate n times with custom loop logic&#xD;&#xA;  while n.Value() &amp;gt; 0 {&#xD;&#xA;    // Calculate next number and update previous&#xD;&#xA;    let nextNumber = number + previousNumber&#xD;&#xA;    previousNumber = number&#xD;&#xA;    number = nextNumber&#xD;&#xA;&#xD;&#xA;    // Decrease iteration counter&#xD;&#xA;    n.Value() -= 1&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  // Print the result&#xD;&#xA;  Print(&amp;#34;The nth Fibonacci number is {0}&amp;#34;, number)&#xD;&#xA;  return 0&#xD;&#xA;}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Explanation:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

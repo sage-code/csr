@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Functional programming in Julia">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1688,7 +1688,7 @@
 <li>Designed for performance and numerical computing.</li>
 </ul>
 <p><strong>Example (Julia):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> square(x)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> square(x)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">*</span> x
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1708,7 +1708,7 @@
 <li><strong>Purpose:</strong> Allow functions to be flexible and adaptable to different situations.</li>
 <li><strong>Example:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(name)  <span style="color:#75715e"># &#34;name&#34; is the parameter</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(name)  <span style="color:#75715e"># &#34;name&#34; is the parameter</span>
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Hello, &#34;</span>, name)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1719,7 +1719,7 @@
 <li><strong>Purpose:</strong> Provide the output of the function&rsquo;s computation to the caller.</li>
 <li><strong>Example:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> add(x, y)  <span style="color:#75715e"># &#34;x&#34; and &#34;y&#34; are parameters</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> add(x, y)  <span style="color:#75715e"># &#34;x&#34; and &#34;y&#34; are parameters</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y  <span style="color:#75715e"># The function returns the sum of x and y</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1731,7 +1731,7 @@
 <li><strong>Optional Arguments:</strong> Functions can have default values for parameters.</li>
 </ul>
 <p><strong>Example with Multiple Arguments and Return Values:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> calculate_stats(values)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> calculate_stats(values)
 </span></span><span style="display:flex;"><span>    mean <span style="color:#f92672">=</span> sum(values) <span style="color:#f92672">/</span> length(values)
 </span></span><span style="display:flex;"><span>    stddev <span style="color:#f92672">=</span> std(values)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> mean, stddev  <span style="color:#75715e"># Return a tuple of mean and standard deviation</span>
@@ -1746,7 +1746,7 @@
 <li><strong>Purpose:</strong> Combine data and behavior, allowing for functions that encapsulate state and additional methods.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Counter</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Counter</span>
 </span></span><span style="display:flex;"><span>    count<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1826,7 +1826,7 @@
 <li><strong>Definition:</strong> Functions that capture variables from their enclosing scope, even when executed outside that scope.</li>
 <li><strong>Example:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> create_multiplier(x)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> create_multiplier(x)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> inner(y)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> x <span style="color:#f92672">*</span> y
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
@@ -1878,7 +1878,7 @@
 <li><strong>Purpose:</strong> Defer execution, handle events, and customize behavior without tight coupling between components.</li>
 </ul>
 <p><strong>Example (Julia):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> delayed_greeting(name, callback)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> delayed_greeting(name, callback)
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Preparing delayed greeting...&#34;</span>)
 </span></span><span style="display:flex;"><span>    sleep(<span style="color:#ae81ff">2</span>)  <span style="color:#75715e"># Simulate a delay</span>
 </span></span><span style="display:flex;"><span>    callback(name)  <span style="color:#75715e"># Call the callback function with the name</span>
@@ -1918,7 +1918,7 @@
 <li>Tasks can be suspended and resumed explicitly using <code>yieldto</code>.</li>
 <li>Example:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@async</span> <span style="color:#66d9ef">begin</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@async</span> <span style="color:#66d9ef">begin</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Task 1: Do some work</span>
 </span></span><span style="display:flex;"><span>    yieldto(task2)  <span style="color:#75715e"># Switch to Task 2</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Task 1 continues...</span>
@@ -2014,7 +2014,7 @@
 <strong>- Generic Functions with Constant Arguments:</strong> When a generic function is called with constant arguments, the compiler can often specialize and inline it more effectively.
 <strong>- Short Helper Functions:</strong> Consider inlining small helper functions that are primarily used to improve code readability and modularity, but where function call overhead might be noticeable.</p>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@inline</span> <span style="color:#66d9ef">function</span> square(x)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@inline</span> <span style="color:#66d9ef">function</span> square(x)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">*</span> x
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -2045,7 +2045,7 @@
 </li>
 </ul>
 <p><strong>Example (Julia):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> add(x, y)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> add(x, y)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -2070,7 +2070,7 @@
 </li>
 </ul>
 <p><strong>Example (Julia):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Random
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Random
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> roll_die()
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> rand(<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">6</span>)  <span style="color:#75715e"># Generate a random integer between 1 and 6</span>
@@ -2109,7 +2109,7 @@
 </li>
 <li><strong>Example (Julia):</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial(n)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial(n)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>  <span style="color:#75715e"># Base case</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
@@ -2135,7 +2135,7 @@
 </li>
 </ul>
 <p><strong>Example (Iterative Factorial):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_iterative(n)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_iterative(n)
 </span></span><span style="display:flex;"><span>    stack <span style="color:#f92672">=</span> [n]  <span style="color:#75715e"># Initialize stack</span>
 </span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(stack)
@@ -2180,7 +2180,7 @@
 </li>
 </ul>
 <p><strong>Example (Memoized Factorial):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_memoized(n)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_memoized(n)
 </span></span><span style="display:flex;"><span>    cache <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>()  <span style="color:#75715e"># Cache to store results</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> inner_factorial(n)
@@ -2228,7 +2228,7 @@
 <li><strong>No Captured Variables:</strong> The recursive call must not capture any variables from the surrounding scope.</li>
 </ul>
 <p><strong>Example (Tail-Recursive Factorial):</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_tail(n, acc <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> factorial_tail(n, acc <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> acc
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>
@@ -2297,7 +2297,7 @@
 <h4 id="examples">Examples</h4>
 <p>Here are some examples of lazy evaluation in Julia, along with explanations:</p>
 <p><strong>1. Lazy Arrays:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> LazyArrays
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> LazyArrays
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a lazy array that generates squares on demand</span>
 </span></span><span style="display:flex;"><span>lazy_squares <span style="color:#f92672">=</span> <span style="color:#a6e22e">@&gt;</span> [<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>]<span style="color:#f92672">^</span><span style="color:#ae81ff">2</span>
@@ -2306,7 +2306,7 @@
 </span></span><span style="display:flex;"><span>println(lazy_squares[<span style="color:#ae81ff">3</span>])  <span style="color:#75715e"># Output: 9</span>
 </span></span><span style="display:flex;"><span>println(lazy_squares[<span style="color:#ae81ff">8</span>])  <span style="color:#75715e"># Output: 64</span>
 </span></span></code></pre></div><p><strong>2. Iterators:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define an iterator that generates Fibonacci numbers</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define an iterator that generates Fibonacci numbers</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> fibonacci()
 </span></span><span style="display:flex;"><span>    a, b <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> true
@@ -2319,7 +2319,7 @@
 </span></span><span style="display:flex;"><span>first_10 <span style="color:#f92672">=</span> Iterators<span style="color:#f92672">.</span>take(fibonacci(), <span style="color:#ae81ff">10</span>)
 </span></span><span style="display:flex;"><span>println(collect(first_10))  <span style="color:#75715e"># Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]</span>
 </span></span></code></pre></div><p><strong>3. Generators:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a generator that produces even numbers lazily</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a generator that produces even numbers lazily</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> even_numbers()
 </span></span><span style="display:flex;"><span>    i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> true
@@ -2333,7 +2333,7 @@
 </span></span><span style="display:flex;"><span>    println(num)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>4. Function Chaining:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define functions that filter, map, and sum a list</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define functions that filter, map, and sum a list</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> filter_even(xs)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> filter(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>, xs)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
@@ -2362,25 +2362,25 @@
 <ul>
 <li>Store the result of a function call in a variable and reuse it instead of calling the function multiple times.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> expensive_function(x)  <span style="color:#75715e"># Call once and store</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> expensive_function(x)  <span style="color:#75715e"># Call once and store</span>
 </span></span><span style="display:flex;"><span>use_result_multiple_times(result)
 </span></span></code></pre></div><p><strong>2. Short-Circuiting Boolean Expressions:</strong></p>
 <ul>
 <li>Julia short-circuits <code>&amp;&amp;</code> and <code>||</code> operators, evaluating only necessary expressions.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> condition1 <span style="color:#f92672">&amp;&amp;</span> expensive_function(x)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> condition1 <span style="color:#f92672">&amp;&amp;</span> expensive_function(x)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ...</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>3. Conditional Expressions:</strong></p>
 <ul>
 <li>Use conditional expressions (ternary operator) for concise decision-making without extra calls.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>value <span style="color:#f92672">=</span> condition <span style="color:#f92672">?</span> expensive_function(x) <span style="color:#f92672">:</span> default_value
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>value <span style="color:#f92672">=</span> condition <span style="color:#f92672">?</span> expensive_function(x) <span style="color:#f92672">:</span> default_value
 </span></span></code></pre></div><p><strong>4. Array Comprehensions and Generator Expressions:</strong></p>
 <ul>
 <li>Create arrays or iterate without explicit calls to <code>push!</code> or loops.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>array <span style="color:#f92672">=</span> [expensive_function(x) <span style="color:#66d9ef">for</span> x <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>array <span style="color:#f92672">=</span> [expensive_function(x) <span style="color:#66d9ef">for</span> x <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>]
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> y <span style="color:#66d9ef">in</span> (expensive_function(x) <span style="color:#66d9ef">for</span> x <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ...</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
@@ -2388,7 +2388,7 @@
 <ul>
 <li>Perform operations on entire arrays or matrices efficiently without element-wise function calls.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> expensive_function<span style="color:#f92672">.</span>(A)  <span style="color:#75715e"># Apply to each element of A</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> expensive_function<span style="color:#f92672">.</span>(A)  <span style="color:#75715e"># Apply to each element of A</span>
 </span></span></code></pre></div><p><strong>6. Type-Stability and Method Caching:</strong></p>
 <ul>
 <li>Julia caches methods for specific argument types, reducing dispatch overhead for subsequent calls.</li>
@@ -2398,7 +2398,7 @@
 <ul>
 <li>Suggest compiler to inline small, frequently used functions for potential overhead reduction.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@inline</span> <span style="color:#66d9ef">function</span> square(x)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#a6e22e">@inline</span> <span style="color:#66d9ef">function</span> square(x)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">*</span> x
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>8. Avoiding Global Variables:</strong></p>
@@ -2430,25 +2430,25 @@
 </li>
 </ul>
 <p><strong>Syntax:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>(arguments) <span style="color:#f92672">-&gt;</span> expression
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>(arguments) <span style="color:#f92672">-&gt;</span> expression
 </span></span></code></pre></div><p><strong>Examples:</strong></p>
 <ol>
 <li><strong>Sorting:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">2</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">2</span>]
 </span></span><span style="display:flex;"><span>sorted_numbers <span style="color:#f92672">=</span> sort(numbers, by <span style="color:#f92672">=</span> x <span style="color:#f92672">-&gt;</span> x<span style="color:#f92672">^</span><span style="color:#ae81ff">2</span>)  <span style="color:#75715e"># Sort by squares</span>
 </span></span></code></pre></div><ol start="2">
 <li><strong>Mapping:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>doubled_numbers <span style="color:#f92672">=</span> map(x <span style="color:#f92672">-&gt;</span> <span style="color:#ae81ff">2</span>x, numbers)  <span style="color:#75715e"># Double each number</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>doubled_numbers <span style="color:#f92672">=</span> map(x <span style="color:#f92672">-&gt;</span> <span style="color:#ae81ff">2</span>x, numbers)  <span style="color:#75715e"># Double each number</span>
 </span></span></code></pre></div><ol start="3">
 <li><strong>Filtering:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>even_numbers <span style="color:#f92672">=</span> filter(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>, numbers)  <span style="color:#75715e"># Select even numbers</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>even_numbers <span style="color:#f92672">=</span> filter(x <span style="color:#f92672">-&gt;</span> x <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>, numbers)  <span style="color:#75715e"># Select even numbers</span>
 </span></span></code></pre></div><ol start="4">
 <li><strong>Custom Comparator:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>compare_lengths <span style="color:#f92672">=</span> (str1, str2) <span style="color:#f92672">-&gt;</span> length(str1) <span style="color:#f92672">&lt;</span> length(str2)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>compare_lengths <span style="color:#f92672">=</span> (str1, str2) <span style="color:#f92672">-&gt;</span> length(str1) <span style="color:#f92672">&lt;</span> length(str2)
 </span></span><span style="display:flex;"><span>shortest_string <span style="color:#f92672">=</span> findmin([<span style="color:#e6db74">&#34;apple&#34;</span>, <span style="color:#e6db74">&#34;banana&#34;</span>, <span style="color:#e6db74">&#34;cherry&#34;</span>], compare_lengths)
 </span></span></code></pre></div><p><strong>Key Points:</strong></p>
 <ul>

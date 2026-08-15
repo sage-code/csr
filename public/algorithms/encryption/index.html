@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Fundamental concerns of cybersecurity.">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1758,7 +1758,7 @@
 <h2 id="creating-ssh-keys">Creating SSH Keys</h2>
 <h3 id="on-linux">On Linux:</h3>
 <p><strong>1. Generate SSH key pair:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-keygen
 </span></span></code></pre></div><p>Follow the prompts:</p>
 <ul>
 <li>Enter a file to save the private key (default: <code>id_rsa</code>).</li>
@@ -1766,17 +1766,17 @@
 <li>Confirm the passphrase.</li>
 </ul>
 <p><strong>2. Copy the public key:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ~/.ssh/id_rsa.pub
 </span></span></code></pre></div><p><strong>3. Add the public key to your server:</strong></p>
 <ul>
 <li>You can copy the key manually or use the <code>ssh-copy-id</code> command:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_address
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-copy-id -i ~/.ssh/id_rsa.pub username@server_address
 </span></span></code></pre></div><ul>
 <li>Enter the server&rsquo;s password when prompted.</li>
 </ul>
 <p><strong>4. Test the SSH connection:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh username@server_address
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh username@server_address
 </span></span></code></pre></div><p>You should be able to connect without entering a password.</p>
 <h3 id="on-windows">On Windows:</h3>
 <p><strong>1. Install PuTTY:</strong></p>
@@ -1795,7 +1795,7 @@
 <ul>
 <li>You can copy the key manually or use the <code>ssh-copy-id</code> command:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ssh-copy-id -i path/to/public_key username@server_address
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>ssh-copy-id -i path/to/public_key username@server_address
 </span></span></code></pre></div><ul>
 <li>Enter the server&rsquo;s password when prompted.</li>
 </ul>
@@ -1959,9 +1959,9 @@
 <h2 id="julia-example">Julia example</h2>
 <p>This program demonstrates basic encryption and decryption using the <strong>AES</strong> algorithm in Julia. It utilizes the <strong>Nettle.jl</strong> package, which provides a wrapper around the <strong>Nettle</strong> cryptographic library.</p>
 <p><strong>1. Dependencies:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Nettle
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Nettle
 </span></span></code></pre></div><p><strong>2. Function to encrypt plaintext:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> encrypt(plaintext, key)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> encrypt(plaintext, key)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Create an AES256 cipher object with the key.</span>
 </span></span><span style="display:flex;"><span>    cipher <span style="color:#f92672">=</span> Encryptor(<span style="color:#e6db74">&#34;AES256&#34;</span>, key)
 </span></span><span style="display:flex;"><span>
@@ -1975,7 +1975,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> Base64<span style="color:#f92672">.</span>encode(ciphertext_bytes)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>3. Function to decrypt cipher text:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> decrypt(ciphertext, key)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> decrypt(ciphertext, key)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Create an AES256 decipher object with the key.</span>
 </span></span><span style="display:flex;"><span>    decipher <span style="color:#f92672">=</span> Decryptor(<span style="color:#e6db74">&#34;AES256&#34;</span>, key)
 </span></span><span style="display:flex;"><span>
@@ -1989,7 +1989,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">String</span>(Base64<span style="color:#f92672">.</span>decode(decrypted_bytes))
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>4. Example Usage:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define the plaintext and key.</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define the plaintext and key.</span>
 </span></span><span style="display:flex;"><span>plaintext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;This is a secret message!&#34;</span>
 </span></span><span style="display:flex;"><span>key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1234567890abcdef&#34;</span>
 </span></span><span style="display:flex;"><span>

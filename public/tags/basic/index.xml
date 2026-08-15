@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>basic on Sage CS Research</title>
-    <link>https://sage-csr.vercel.app/tags/basic/</link>
-    <description>Recent content in basic on Sage CS Research</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sage-csr.vercel.app/tags/basic/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Concepts</title>
-      <link>https://sage-csr.vercel.app/databases/concepts/</link>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/databases/concepts/</guid>
-      <description>What are databases? Databases are the backbone of many data-centric applications. Here&amp;rsquo;s a breakdown of the fundamental concepts and lingo programmers use:&#xA;Building Blocks:&#xA;Database: An organized collection of structured data, typically stored electronically. Think of it as a digital filing cabinet for information. Table: The core unit of organization within a database. Imagine a table like a spreadsheet with rows and columns. Each table stores data about a specific subject, like &amp;ldquo;Customers&amp;rdquo; or &amp;ldquo;Products.</description>
-    </item>
-    <item>
-      <title>Features</title>
-      <link>https://sage-csr.vercel.app/databases/features/</link>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/databases/features/</guid>
-      <description>Database features encompass functionalities offered by database management systems (DBMS) to manage data effectively. Here&amp;rsquo;s a breakdown of some prominent features:&#xA;Data Structuring and Manipulation:&#xA;Data Definition Language (DDL): This language allows you to create, modify, and remove the structure of a database, including tables, columns, and constraints. Data Manipulation Language (DML): This is the workhorse for interacting with data. DML commands like INSERT, UPDATE, and DELETE enable you to add, modify, and remove data within the database.</description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>https://sage-csr.vercel.app/databases/design/</link>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://sage-csr.vercel.app/databases/design/</guid>
-      <description>Database design principles are the guiding lights for creating a well-structured, efficient, and maintainable database. Here are some key principles to consider:&#xA;Data Integrity:&#xA;Minimizing Redundancy: Avoid storing the same piece of data in multiple places. This reduces errors and inconsistencies when data needs to be updated. Data Validation: Enforce rules to ensure data accuracy. For example, a &amp;ldquo;Customer Age&amp;rdquo; field might only accept values between 18 and 120. Constraints: Use database constraints like primary keys, foreign keys, and data types to restrict invalid data entry.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Basic on Sage CS Research</title>
+		<link>https://sage-csr.vercel.app/tags/basic/</link>
+		<description>Recent content in Basic on Sage CS Research</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://sage-csr.vercel.app/tags/basic/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Concepts</title>
+				<link>https://sage-csr.vercel.app/databases/concepts/</link>
+				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/databases/concepts/</guid>
+				<description>&lt;h2 id=&#34;what-are-databases&#34;&gt;What are databases?&lt;/h2&gt;&#xA;&lt;p&gt;Databases are the backbone of many data-centric applications. Here&amp;rsquo;s a breakdown of the fundamental concepts and lingo programmers use:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Building Blocks:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Database:&lt;/strong&gt;  An organized collection of structured data, typically stored electronically. Think of it as a digital filing cabinet for information.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Table:&lt;/strong&gt;  The core unit of organization within a database. Imagine a table like a spreadsheet with rows and columns. Each table stores data about a specific subject, like &amp;ldquo;Customers&amp;rdquo; or &amp;ldquo;Products.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Row:&lt;/strong&gt;  A horizontal entry in a table, representing a single instance of data. In the &amp;ldquo;Customers&amp;rdquo; table, each row might represent a customer.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Column (Field):&lt;/strong&gt;  A vertical category in a table, containing a specific type of data about each row. In the &amp;ldquo;Customers&amp;rdquo; table, columns might hold data like &amp;ldquo;Customer ID,&amp;rdquo; &amp;ldquo;Name,&amp;rdquo; or &amp;ldquo;Email.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Keys and Relationships:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Features</title>
+				<link>https://sage-csr.vercel.app/databases/features/</link>
+				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/databases/features/</guid>
+				<description>&lt;p&gt;Database features encompass functionalities offered by database management systems (DBMS) to manage data effectively. Here&amp;rsquo;s a breakdown of some prominent features:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Structuring and Manipulation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Definition Language (DDL):&lt;/strong&gt;  This language allows you to create, modify, and remove the structure of a database, including tables, columns, and constraints.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Manipulation Language (DML):&lt;/strong&gt;  This is the workhorse for interacting with data.  DML commands like INSERT, UPDATE, and DELETE enable you to add, modify, and remove data within the database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Types:&lt;/strong&gt;  The DBMS offers various data types like integers, strings, dates, and booleans to define the format and content allowed in each column.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Retrieval and Analysis:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Design</title>
+				<link>https://sage-csr.vercel.app/databases/design/</link>
+				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/databases/design/</guid>
+				<description>&lt;p&gt;Database design principles are the guiding lights for creating a well-structured, efficient, and maintainable database. Here are some key principles to consider:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Integrity:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Minimizing Redundancy:&lt;/strong&gt;  Avoid storing the same piece of data in multiple places. This reduces errors and inconsistencies when data needs to be updated.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Validation:&lt;/strong&gt;  Enforce rules to ensure data accuracy.  For example, a &amp;ldquo;Customer Age&amp;rdquo; field might only accept values between 18 and 120.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Constraints:&lt;/strong&gt;  Use database constraints like primary keys, foreign keys, and data types to restrict invalid data entry.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Performance:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

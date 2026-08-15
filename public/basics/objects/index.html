@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Object Oriented Programming in Julia">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1735,7 +1735,7 @@
 <li><strong>Creating Custom Data Types:</strong> You can define custom data types to model real-world entities or concepts, tailored to your specific needs.</li>
 </ul>
 <p><strong>Example in Julia:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
 </span></span><span style="display:flex;"><span>    name<span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>
 </span></span><span style="display:flex;"><span>    age<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span>    address<span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>
@@ -1784,7 +1784,7 @@
 <li>This enables modeling hierarchical or tree-like structures where elements can have children of the same type.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">TreeNode</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">TreeNode</span>
 </span></span><span style="display:flex;"><span>    value<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span>    left<span style="color:#f92672">::</span><span style="color:#66d9ef">Union</span>{<span style="color:#66d9ef">TreeNode</span>, <span style="color:#66d9ef">Nothing</span>}
 </span></span><span style="display:flex;"><span>    right<span style="color:#f92672">::</span><span style="color:#66d9ef">Union</span>{<span style="color:#66d9ef">TreeNode</span>, <span style="color:#66d9ef">Nothing</span>}
@@ -1800,11 +1800,11 @@
 </li>
 </ul>
 <p><strong>Creating a Simple Tree:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>root <span style="color:#f92672">=</span> TreeNode(<span style="color:#ae81ff">10</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>root <span style="color:#f92672">=</span> TreeNode(<span style="color:#ae81ff">10</span>)
 </span></span><span style="display:flex;"><span>root<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> TreeNode(<span style="color:#ae81ff">5</span>)
 </span></span><span style="display:flex;"><span>root<span style="color:#f92672">.</span>right <span style="color:#f92672">=</span> TreeNode(<span style="color:#ae81ff">15</span>)
 </span></span></code></pre></div><p><strong>Accessing Node Values:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>println(root<span style="color:#f92672">.</span>value)   <span style="color:#75715e"># Output: 10</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>println(root<span style="color:#f92672">.</span>value)   <span style="color:#75715e"># Output: 10</span>
 </span></span><span style="display:flex;"><span>println(root<span style="color:#f92672">.</span>left<span style="color:#f92672">.</span>value)  <span style="color:#75715e"># Output: 5</span>
 </span></span></code></pre></div><p><strong>Applications:</strong></p>
 <ul>
@@ -1833,7 +1833,7 @@
 <li>This enables flexible behavior adaptation without traditional inheritance.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Point</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Point</span>
 </span></span><span style="display:flex;"><span>    x<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span>    y<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
@@ -1871,7 +1871,7 @@
 <ul>
 <li>Create a struct to represent the object&rsquo;s data fields:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
 </span></span><span style="display:flex;"><span>    name<span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>
 </span></span><span style="display:flex;"><span>    age<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
@@ -1879,7 +1879,7 @@
 <ul>
 <li>Define functions outside the struct to act as methods, operating on struct instances:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(person<span style="color:#f92672">::</span><span style="color:#66d9ef">Person</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(person<span style="color:#f92672">::</span><span style="color:#66d9ef">Person</span>)
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Hello, my name is </span><span style="color:#e6db74">$</span>(person<span style="color:#f92672">.</span>name)<span style="color:#e6db74">!&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1897,7 +1897,7 @@
 <li>Concrete types can subtype abstract types, ensuring they provide required methods.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span> <span style="color:#66d9ef">end</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span> <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> area(shape<span style="color:#f92672">::</span><span style="color:#66d9ef">Shape</span>)
 </span></span><span style="display:flex;"><span>    error(<span style="color:#e6db74">&#34;Abstract method area not implemented for </span><span style="color:#e6db74">$</span>(typeof(shape))<span style="color:#e6db74">&#34;</span>)
@@ -1925,7 +1925,7 @@
 <li>This enables sharing behavior across unrelated types without creating a strict hierarchy.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> print(obj<span style="color:#f92672">::</span><span style="color:#66d9ef">Printable</span>)
 </span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;Printable object: </span><span style="color:#e6db74">$</span>(obj)<span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
@@ -1948,11 +1948,11 @@
 <li>Understanding these alternatives is crucial for designing well-structured and performant code in Julia.
 f the struct:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>person1 <span style="color:#f92672">=</span> Person(<span style="color:#e6db74">&#34;Bob&#34;</span>, <span style="color:#ae81ff">35</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>person1 <span style="color:#f92672">=</span> Person(<span style="color:#e6db74">&#34;Bob&#34;</span>, <span style="color:#ae81ff">35</span>)
 </span></span></code></pre></div><ul>
 <li>Use functions like methods on the instance:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>greet(person1)  <span style="color:#75715e"># Output: Hello, my name is Bob!</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>greet(person1)  <span style="color:#75715e"># Output: Hello, my name is Bob!</span>
 </span></span><span style="display:flex;"><span>age_up(person1)
 </span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;New age:&#34;</span>, person1<span style="color:#f92672">.</span>age)  <span style="color:#75715e"># Output: New age: 36</span>
 </span></span></code></pre></div><h3 id="why-julias-approach">Why Julia&rsquo;s Approach:</h3>
@@ -2010,7 +2010,7 @@ f the struct:</li>
 <li>This signals that these elements are intended for internal use and discourages external access.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#66d9ef">Person</span>
 </span></span><span style="display:flex;"><span>    name<span style="color:#f92672">::</span><span style="color:#66d9ef">String</span>
 </span></span><span style="display:flex;"><span>    age<span style="color:#f92672">::</span><span style="color:#66d9ef">Int</span>
 </span></span><span style="display:flex;"><span>
@@ -2048,7 +2048,7 @@ f the struct:</li>
 <li>Concrete types can subtype abstract types, ensuring they provide required methods.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span> <span style="color:#66d9ef">end</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span> <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> area(shape<span style="color:#f92672">::</span><span style="color:#66d9ef">Shape</span>)
 </span></span><span style="display:flex;"><span>    error(<span style="color:#e6db74">&#34;Abstract method area not implemented for </span><span style="color:#e6db74">$</span>(typeof(shape))<span style="color:#e6db74">&#34;</span>)
@@ -2076,7 +2076,7 @@ f the struct:</li>
 <li>This enables sharing behavior across unrelated types without creating a strict hierarchy.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> print(obj<span style="color:#f92672">::</span><span style="color:#66d9ef">Printable</span>)
 </span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;Printable object: </span><span style="color:#e6db74">$</span>(obj)<span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
@@ -2112,7 +2112,7 @@ f the struct:</li>
 </li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">abstract type</span> <span style="color:#66d9ef">Shape</span>
 </span></span><span style="display:flex;"><span>    area()
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -2143,7 +2143,7 @@ f the struct:</li>
 </li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>trait Printable
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">function</span> print(obj<span style="color:#f92672">::</span><span style="color:#66d9ef">Printable</span>)
 </span></span><span style="display:flex;"><span>        println(<span style="color:#e6db74">&#34;Printable object: </span><span style="color:#e6db74">$</span>(obj)<span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
@@ -2179,7 +2179,7 @@ f the struct:</li>
 <li>Julia dispatches to the correct version at runtime, ensuring the most appropriate behavior.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(person<span style="color:#f92672">::</span><span style="color:#66d9ef">Person</span>)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(person<span style="color:#f92672">::</span><span style="color:#66d9ef">Person</span>)
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Hello, </span><span style="color:#e6db74">$</span>(person<span style="color:#f92672">.</span>name)<span style="color:#e6db74">!&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -2219,7 +2219,7 @@ f the struct:</li>
 <li>This creates generic-like constructs that can adapt to various data types.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Parametric function using multiple dispatch</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Parametric function using multiple dispatch</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#66d9ef">add</span>{<span style="color:#66d9ef">T</span>}(x<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>, y<span style="color:#f92672">::</span><span style="color:#66d9ef">T</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
@@ -2290,7 +2290,7 @@ f the struct:</li>
 <li><strong>Docstrings:</strong> Provide clear documentation for modules, functions, and types to explain their purpose and usage.</li>
 </ul>
 <p><strong>Example Structure for Handling an Object Type:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">module</span> MyObjectLibrary
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">module</span> MyObjectLibrary
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">export</span> MyObjectType, create_object, get_value, set_value
 </span></span><span style="display:flex;"><span>

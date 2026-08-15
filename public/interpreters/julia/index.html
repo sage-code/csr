@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Essential Julia syntax elements">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1681,7 +1681,7 @@
 <ul>
 <li><strong>Single quotes:</strong> <code>'Hello, world!'</code></li>
 <li><strong>Double quotes:</strong> <code>&quot;This is a string too.&quot;</code></li>
-<li><strong>Triple quotes:</strong> <code>&quot;&quot;&quot;Multi-line strings can span multiple lines.&quot;&quot;&quot;</code></li>
+<li><strong>Triple quotes:</strong> <code>&quot;&quot;&quot;Multi-line strings can span multiple lines.&quot;&quot;&quot;</code></li>
 <li><strong>Raw strings (prefixed with <code>r</code>):</strong> <code>r&quot;No need to escape backslashes \&quot;</code></li>
 </ul>
 <p><strong>3. Boolean Literals:</strong></p>
@@ -1759,14 +1759,14 @@
 <li>Start with <code>#</code></li>
 <li>Used to explain code without affecting execution:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># This is a comment</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># This is a comment</span>
 </span></span><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>  <span style="color:#75715e"># Assigning the value 5 to variable x</span>
 </span></span></code></pre></div><p><strong>2. Variables:</strong></p>
 <ul>
 <li>Store values using <code>=</code></li>
 <li>Names are case-sensitive:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alice&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Alice&#34;</span>
 </span></span><span style="display:flex;"><span>age <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
 </span></span><span style="display:flex;"><span>is_student <span style="color:#f92672">=</span> true
 </span></span></code></pre></div><p><strong>3. Basic Data Types:</strong></p>
@@ -1779,17 +1779,17 @@
 <ul>
 <li><code>+</code>, <code>-</code>, <code>*</code>, <code>/</code> (division), <code>^</code> (exponentiation)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>  <span style="color:#75715e"># Order of operations applies</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>  <span style="color:#75715e"># Order of operations applies</span>
 </span></span></code></pre></div><p><strong>5. Printing Output:</strong></p>
 <ul>
 <li>Use <code>println()</code> for printing with a newline:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;The result is:&#34;</span>, result)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;The result is:&#34;</span>, result)
 </span></span></code></pre></div><p><strong>6. Functions:</strong></p>
 <ul>
 <li>Define using <code>function</code> keyword:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(name)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> greet(name)
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Hello, &#34;</span>, name, <span style="color:#e6db74">&#34;!&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span>
@@ -1798,7 +1798,7 @@
 <ul>
 <li>Use <code>if</code>, <code>elseif</code>, <code>else</code> for decision-making:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">18</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">18</span>
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;You are an adult.&#34;</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;You are a minor.&#34;</span>)
@@ -1807,13 +1807,13 @@
 <ul>
 <li><code>for</code> loop for iterating over collections:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">5</span>  <span style="color:#75715e"># Iterate from 1 to 5</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">5</span>  <span style="color:#75715e"># Iterate from 1 to 5</span>
 </span></span><span style="display:flex;"><span>    println(i)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><ul>
 <li><code>while</code> loop for repeating as long as a condition is true:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> count <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Counting:&#34;</span>, count)
 </span></span><span style="display:flex;"><span>    count <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>  <span style="color:#75715e"># Increment count</span>
@@ -1822,13 +1822,13 @@
 <ul>
 <li>Collect multiple values under a single name:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">8</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">8</span>]
 </span></span><span style="display:flex;"><span>println(numbers[<span style="color:#ae81ff">2</span>])  <span style="color:#75715e"># Accessing elements (indexing starts at 1)</span>
 </span></span></code></pre></div><p><strong>10. Packages:</strong></p>
 <ul>
 <li>Expand functionality using <code>using</code> keyword:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Plots  <span style="color:#75715e"># For plotting</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Plots  <span style="color:#75715e"># For plotting</span>
 </span></span></code></pre></div><hr>
 <h2 id="julias-scope-model">Julia&rsquo;s Scope Model</h2>
 <p>Here&rsquo;s an explanation of Julia&rsquo;s scope model and its influence on modern languages:</p>
@@ -2000,7 +2000,7 @@
 </li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>
 </span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> calculate_risky_value()  <span style="color:#75715e"># Might throw an error</span>
 </span></span><span style="display:flex;"><span>    println(<span style="color:#e6db74">&#34;Result:&#34;</span>, result)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">catch</span> e

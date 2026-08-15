@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Explain what are search algorithms?">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1710,7 +1710,7 @@
 <ol>
 <li><strong>Linear Search (Sequential Search):</strong> This is the simplest search algorithm. It iterates through each element of the array and compares it to the target element. If the target is found, the function returns the index of the element. Otherwise, it returns nothing or a specific value indicating non-existence.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> linear_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractArray</span>, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> linear_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractArray</span>, target)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#66d9ef">in</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>length(array)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> array[i] <span style="color:#f92672">==</span> target
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span> i
@@ -1725,7 +1725,7 @@
 <ol>
 <li><strong>Binary Search:</strong> This algorithm takes advantage of the sorted nature of the array. It repeatedly divides the search space in half by comparing the target element to the middle element. If the target is found, the function returns the index. Otherwise, the search continues in the appropriate half until the target is found or determined not to exist.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> binary_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> binary_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
 </span></span><span style="display:flex;"><span>    low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>    high <span style="color:#f92672">=</span> length(array)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> low <span style="color:#f92672">&lt;=</span> high
@@ -1743,7 +1743,7 @@
 </span></span></code></pre></div><ol start="2">
 <li><strong>Interpolation Search:</strong> This algorithm is a variant of binary search that estimates the position of the target element based on its value and the values of surrounding elements. This can be faster than binary search for uniformly distributed elements.</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> interpolation_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> interpolation_search(array<span style="color:#f92672">::</span><span style="color:#66d9ef">AbstractVector</span>, target)
 </span></span><span style="display:flex;"><span>    low <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>    high <span style="color:#f92672">=</span> length(array)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> low <span style="color:#f92672">&lt;=</span> high
@@ -1760,35 +1760,35 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>Comparison:</strong></p>
 <table>
-<thead>
-<tr>
-<th>Algorithm</th>
-<th>Unsorted</th>
-<th>Sorted</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Linear Search</td>
-<td>Simple and efficient for small arrays</td>
-<td>Less efficient compared to other options</td>
-</tr>
-<tr>
-<td>Binary Search</td>
-<td>Inefficient</td>
-<td>Efficient, best choice for large sorted arrays</td>
-</tr>
-<tr>
-<td>Hash Table Search</td>
-<td>Efficient for large arrays</td>
-<td>Requires additional overhead for creating and managing the hash table</td>
-</tr>
-<tr>
-<td>Interpolation Search</td>
-<td>More efficient than linear search for unsorted arrays</td>
-<td>Less efficient than binary search for sorted arrays</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Algorithm</th>
+					<th>Unsorted</th>
+					<th>Sorted</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Linear Search</td>
+					<td>Simple and efficient for small arrays</td>
+					<td>Less efficient compared to other options</td>
+			</tr>
+			<tr>
+					<td>Binary Search</td>
+					<td>Inefficient</td>
+					<td>Efficient, best choice for large sorted arrays</td>
+			</tr>
+			<tr>
+					<td>Hash Table Search</td>
+					<td>Efficient for large arrays</td>
+					<td>Requires additional overhead for creating and managing the hash table</td>
+			</tr>
+			<tr>
+					<td>Interpolation Search</td>
+					<td>More efficient than linear search for unsorted arrays</td>
+					<td>Less efficient than binary search for sorted arrays</td>
+			</tr>
+	</tbody>
 </table>
 <p>Choosing the right search algorithm depends on your specific needs:</p>
 <ul>
@@ -1802,7 +1802,7 @@
 <h3 id="1-tree-search">1. Tree Search</h3>
 <p>Tree search aims to find a specific node based on its value. We can use different search strategies, such as:</p>
 <p><strong>a. Depth-first search (DFS):</strong> This method explores each branch as far as possible before backtracking. It can be implemented recursively or iteratively.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(node, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(node, target)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> node<span style="color:#f92672">.</span>value <span style="color:#f92672">==</span> target
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> node
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> <span style="color:#f92672">!</span>is_empty_node(node<span style="color:#f92672">.</span>left)
@@ -1820,7 +1820,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> nothing
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>b. Breadth-first search (BFS):</strong> This method explores all nodes at the current level before moving to the next level. It can be implemented using a queue data structure.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bfs(node, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bfs(node, target)
 </span></span><span style="display:flex;"><span>    queue <span style="color:#f92672">=</span> [node]
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(queue)
 </span></span><span style="display:flex;"><span>        current_node <span style="color:#f92672">=</span> popfirst(queue)
@@ -1834,7 +1834,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><h3 id="2-tree-insertion">2. Tree Insertion</h3>
 <p>Tree insertion involves adding a new node to the tree at the appropriate position based on its value.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> insert(node, new_node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> insert(node, new_node)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> new_node<span style="color:#f92672">.</span>value <span style="color:#f92672">&lt;</span> node<span style="color:#f92672">.</span>value
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> is_empty_node(node<span style="color:#f92672">.</span>left)
 </span></span><span style="display:flex;"><span>            node<span style="color:#f92672">.</span>left <span style="color:#f92672">=</span> new_node
@@ -1851,7 +1851,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><h3 id="3-tree-deletion">3. Tree Deletion</h3>
 <p>Tree deletion removes a specific node from the tree. It involves handling different cases depending on the node&rsquo;s children and position in the tree.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> delete(node, target)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> delete(node, target)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> isnothing(node)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> nothing
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">elseif</span> target <span style="color:#f92672">&lt;</span> node<span style="color:#f92672">.</span>value
@@ -1877,7 +1877,7 @@
 <p>Graphs are powerful data structures representing relationships between objects. Julia boasts a rich ecosystem for graph manipulation and analysis through packages like Graphs.jl and LightGraphs.jl. Let&rsquo;s explore some fundamental graph algorithms with examples in Julia:</p>
 <h3 id="1-breadth-first-search-bfs">1. Breadth-First Search (BFS)</h3>
 <p>BFS systematically explores all nodes in a graph level-by-level. It can find the shortest path between two nodes and identify connected components.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Graphs
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> Graphs
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> bfs(g, start_node)
 </span></span><span style="display:flex;"><span>  queue <span style="color:#f92672">=</span> [start_node]
@@ -1905,7 +1905,7 @@
 </span></span><span style="display:flex;"><span>println(visited)
 </span></span></code></pre></div><h3 id="2-depth-first-search-dfs">2. Depth-First Search (DFS)</h3>
 <p>DFS explores each branch as deeply as possible before backtracking. It&rsquo;s useful for finding topological order, cycles, and strongly connected components.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(g, start_node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dfs(g, start_node)
 </span></span><span style="display:flex;"><span>  stack <span style="color:#f92672">=</span> [start_node]
 </span></span><span style="display:flex;"><span>  visited <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Bool</span>}()
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">while</span> <span style="color:#f92672">!</span>isempty(stack)
@@ -1933,7 +1933,7 @@
 </span></span><span style="display:flex;"><span>println(visited)
 </span></span></code></pre></div><h3 id="3-dijkstras-algorithm">3. Dijkstra&rsquo;s Algorithm</h3>
 <p>Dijkstra&rsquo;s algorithm finds the shortest path between two nodes in a weighted graph with non-negative edge weights.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dijkstra(g, start_node, end_node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> dijkstra(g, start_node, end_node)
 </span></span><span style="display:flex;"><span>  distance <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Float64</span>}()
 </span></span><span style="display:flex;"><span>  predecessor <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Int</span>}()
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> node <span style="color:#66d9ef">in</span> nodes(g)
@@ -1977,7 +1977,7 @@
 </span></span><span style="display:flex;"><span>println(<span style="color:#e6db74">&#34;Distance:&#34;</span>, distance)
 </span></span></code></pre></div><h3 id="4-minimum-spanning-tree-mst">4. Minimum Spanning Tree (MST)</h3>
 <p>MST algorithms like Prim&rsquo;s and Kruskal&rsquo;s algorithms find a subset of edges in a weighted graph that connects all nodes with the minimum total weight.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> prim(g)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> prim(g)
 </span></span><span style="display:flex;"><span>  used <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Bool</span>}()
 </span></span><span style="display:flex;"><span>  distance <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>, <span style="color:#66d9ef">Float64</span>}()
 </span></span><span style="display:flex;"><span>  predecessor <span style="color:#f92672">=</span> <span style="color:#66d9ef">Dict</span>{<span style="color:#66d9ef">Int</span>}()

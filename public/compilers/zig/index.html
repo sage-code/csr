@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Zig programming language overview">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1676,25 +1676,25 @@
 <hr>
 <h3 id="fibonacci-example">Fibonacci Example</h3>
 <p>Here&rsquo;s a Zig program that demonstrates Fibonacci function with comments and notes:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> std <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> std <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Function to calculate the nth Fibonacci number
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">fn</span> fibonacci(n<span style="color:#f92672">:</span> <span style="color:#66d9ef">u32</span>) <span style="color:#66d9ef">u32</span> {
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Function to calculate the nth Fibonacci number</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">fibonacci</span>(n: <span style="color:#66d9ef">u32</span>) <span style="color:#66d9ef">u32</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Base cases: 0th and 1st Fibonacci numbers are 0 and 1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> n;
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Base cases: 0th and 1st Fibonacci numbers are 0 and 1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> n;
 </span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Recursive calls to calculate the previous two Fibonacci numbers
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">return</span> fibonacci(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> fibonacci(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Recursive calls to calculate the previous two Fibonacci numbers</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">fibonacci</span>(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">fibonacci</span>(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Main function
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">fn</span> main() <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> n <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>; <span style="color:#75715e">// Number for which to calculate the Fibonacci
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">const</span> fib_result <span style="color:#f92672">=</span> fibonacci(n);
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Main function</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> n <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>; <span style="color:#75715e">// Number for which to calculate the Fibonacci</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">const</span> fib_result <span style="color:#f92672">=</span> <span style="color:#a6e22e">fibonacci</span>(n);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    std.print(<span style="color:#e6db74">&#34;The {}th Fibonacci number is {}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, .{ n, fib_result });
+</span></span><span style="display:flex;"><span>    std.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;The {}th Fibonacci number is {}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>, .{ n, fib_result });
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Explanation:</strong></p>
 <ol>
@@ -1754,76 +1754,76 @@ This will output: The 10th Fibonacci number is 55</li>
 <p><strong>Native Types:</strong></p>
 <p>Here&rsquo;s a table explaining Zig&rsquo;s data types, incorporating literal examples and descriptions:</p>
 <table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Declaration</th>
-<th>Literal Example</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Integers</td>
-<td>comptime_int, isize, usize, intN, uintN</td>
-<td>123, -456, 0xDEADBEEF</td>
-<td>Whole numbers (signed and unsigned)</td>
-</tr>
-<tr>
-<td>Floats</td>
-<td>f16, f32, f64, f128</td>
-<td>3.14159, 1.23e-4</td>
-<td>Floating-point numbers (decimals)</td>
-</tr>
-<tr>
-<td>Boolean</td>
-<td>bool</td>
-<td>true, false</td>
-<td>Logical values (true or false)</td>
-</tr>
-<tr>
-<td>Pointers</td>
-<td>*const T, *mut T, @TypeOf(expr)</td>
-<td>*const u8, *mut bool</td>
-<td>References to memory locations</td>
-</tr>
-<tr>
-<td>Arrays</td>
-<td>[N]T</td>
-<td>[1, 2, 3]</td>
-<td>Fixed-size collections of elements</td>
-</tr>
-<tr>
-<td>Slices</td>
-<td>[*]T</td>
-<td>numbers[1..]</td>
-<td>Mutable views into arrays or other slices</td>
-</tr>
-<tr>
-<td>Strings</td>
-<td>const char *, []const u8</td>
-<td>&ldquo;Hello, world!&rdquo;</td>
-<td>Sequences of characters (UTF-8 encoded)</td>
-</tr>
-<tr>
-<td>void</td>
-<td>void</td>
-<td>N/A (no value)</td>
-<td>Represents the absence of type</td>
-</tr>
-<tr>
-<td>anyerror</td>
-<td>anyerror</td>
-<td>N/A (error container)</td>
-<td>Encapsulates all possible error types</td>
-</tr>
-<tr>
-<td>noreturn</td>
-<td>noreturn</td>
-<td>N/A (function attribute)</td>
-<td>Indicates a function that doesn&rsquo;t return</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>Declaration</th>
+					<th>Literal Example</th>
+					<th>Description</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Integers</td>
+					<td>comptime_int, isize, usize, intN, uintN</td>
+					<td>123, -456, 0xDEADBEEF</td>
+					<td>Whole numbers (signed and unsigned)</td>
+			</tr>
+			<tr>
+					<td>Floats</td>
+					<td>f16, f32, f64, f128</td>
+					<td>3.14159, 1.23e-4</td>
+					<td>Floating-point numbers (decimals)</td>
+			</tr>
+			<tr>
+					<td>Boolean</td>
+					<td>bool</td>
+					<td>true, false</td>
+					<td>Logical values (true or false)</td>
+			</tr>
+			<tr>
+					<td>Pointers</td>
+					<td>*const T, *mut T, @TypeOf(expr)</td>
+					<td>*const u8, *mut bool</td>
+					<td>References to memory locations</td>
+			</tr>
+			<tr>
+					<td>Arrays</td>
+					<td>[N]T</td>
+					<td>[1, 2, 3]</td>
+					<td>Fixed-size collections of elements</td>
+			</tr>
+			<tr>
+					<td>Slices</td>
+					<td>[*]T</td>
+					<td>numbers[1..]</td>
+					<td>Mutable views into arrays or other slices</td>
+			</tr>
+			<tr>
+					<td>Strings</td>
+					<td>const char *, []const u8</td>
+					<td>&ldquo;Hello, world!&rdquo;</td>
+					<td>Sequences of characters (UTF-8 encoded)</td>
+			</tr>
+			<tr>
+					<td>void</td>
+					<td>void</td>
+					<td>N/A (no value)</td>
+					<td>Represents the absence of type</td>
+			</tr>
+			<tr>
+					<td>anyerror</td>
+					<td>anyerror</td>
+					<td>N/A (error container)</td>
+					<td>Encapsulates all possible error types</td>
+			</tr>
+			<tr>
+					<td>noreturn</td>
+					<td>noreturn</td>
+					<td>N/A (function attribute)</td>
+					<td>Indicates a function that doesn&rsquo;t return</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Key Points:</strong></p>
 <ul>
@@ -1834,13 +1834,13 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Understanding these types is crucial for writing correct and efficient Zig code.</li>
 </ul>
 <p><strong>Code Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> age<span style="color:#f92672">:</span> <span style="color:#66d9ef">i32</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;  <span style="color:#75715e">// Declare an integer with type annotation
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> pi<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14159</span>;  <span style="color:#75715e">// Declare a float
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> is_valid<span style="color:#f92672">:</span> <span style="color:#66d9ef">bool</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;  <span style="color:#75715e">// Declare a boolean
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> name<span style="color:#f92672">:</span> [<span style="color:#f92672">*:</span><span style="color:#ae81ff">0</span>]<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">u8</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bard&#34;</span>;  <span style="color:#75715e">// Declare a null-terminated string
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> calculate_area(radius<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">f32</span> {  <span style="color:#75715e">// Function with typed parameter
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">return</span> pi <span style="color:#f92672">*</span> radius <span style="color:#f92672">*</span> radius;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> age: <span style="color:#66d9ef">i32</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;  <span style="color:#75715e">// Declare an integer with type annotation</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> pi: <span style="color:#66d9ef">f32</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.14159</span>;  <span style="color:#75715e">// Declare a float</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> is_valid: <span style="color:#66d9ef">bool</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;  <span style="color:#75715e">// Declare a boolean</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> name: [<span style="color:#f92672">*</span>:<span style="color:#ae81ff">0</span>]<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">u8</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bard&#34;</span>;  <span style="color:#75715e">// Declare a null-terminated string</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">calculate_area</span>(radius: <span style="color:#66d9ef">f32</span>) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">f32</span> {  <span style="color:#75715e">// Function with typed parameter</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> pi <span style="color:#f92672">*</span> radius <span style="color:#f92672">*</span> radius;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Notes:</strong></p>
 <ul>
@@ -1884,13 +1884,13 @@ This will output: The 10th Fibonacci number is 55</li>
 <p><strong>Breaking Long Expressions into Multiple Lines:</strong></p>
 <ul>
 <li>Use parentheses to create implicit line continuation:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>long_expression <span style="color:#f92672">=</span> (value1
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>long_expression <span style="color:#f92672">=</span> (value1
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">+</span> value2
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">*</span> value3)
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">/</span> value4;
 </span></span></code></pre></div></li>
 <li>Use the <code>\</code> operator for explicit line continuation:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>long_expression <span style="color:#f92672">=</span> value1 <span style="color:#960050;background-color:#1e0010">\</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>long_expression <span style="color:#f92672">=</span> value1 <span style="color:#960050;background-color:#1e0010">\</span>
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">+</span> value2 <span style="color:#960050;background-color:#1e0010">\</span>
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">*</span> value3 <span style="color:#960050;background-color:#1e0010">\</span>
 </span></span><span style="display:flex;"><span>                    <span style="color:#f92672">/</span> value4;
@@ -1915,23 +1915,23 @@ This will output: The 10th Fibonacci number is 55</li>
 </ul>
 <p><strong>Examples and Code:</strong></p>
 <p><strong>1. Simple Statements:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>let x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;              <span style="color:#75715e">// Assign a value to a variable
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>print(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>);  <span style="color:#75715e">// Print to console
-</span></span></span></code></pre></div><p><strong>2. Function Subprogram:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> calculate_area(width<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>, height<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">f32</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> width <span style="color:#f92672">*</span> height;  <span style="color:#75715e">// Calculate and return area
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>let x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;              <span style="color:#75715e">// Assign a value to a variable</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Hello, world!&#34;</span>);  <span style="color:#75715e">// Print to console</span>
+</span></span></code></pre></div><p><strong>2. Function Subprogram:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">calculate_area</span>(width: <span style="color:#66d9ef">f32</span>, height: <span style="color:#66d9ef">f32</span>) <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">f32</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> width <span style="color:#f92672">*</span> height;  <span style="color:#75715e">// Calculate and return area</span>
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>let rectangle_area <span style="color:#f92672">=</span> calculate_area(<span style="color:#ae81ff">4.0</span>, <span style="color:#ae81ff">5.0</span>);  <span style="color:#75715e">// Call the function
-</span></span></span></code></pre></div><p><strong>3. Control Flow:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">18</span>) {
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;You are eligible to vote.&#34;</span>);
+</span></span><span style="display:flex;"><span>let rectangle_area <span style="color:#f92672">=</span> <span style="color:#a6e22e">calculate_area</span>(<span style="color:#ae81ff">4.0</span>, <span style="color:#ae81ff">5.0</span>);  <span style="color:#75715e">// Call the function</span>
+</span></span></code></pre></div><p><strong>3. Control Flow:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">18</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;You are eligible to vote.&#34;</span>);
 </span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;You are not yet eligible to vote.&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;You are not yet eligible to vote.&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Iteration: &#34;</span>, i);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Iteration: &#34;</span>, i);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Notes:</strong></p>
 <ul>
@@ -1953,20 +1953,20 @@ This will output: The 10th Fibonacci number is 55</li>
 <ul>
 <li><strong><code>for</code> Loop:</strong> This leader knows exactly how many times the task needs to be done. It assigns each task to a worker, keeps track of progress, and stops when the job is complete.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Example: Printing each number in an array
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>];
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> numbers.len; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {  <span style="color:#75715e">// Loop through each item
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    print(<span style="color:#e6db74">&#34;Number: &#34;</span>, numbers[i]);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Example: Printing each number in an array</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>];
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> numbers.len; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {  <span style="color:#75715e">// Loop through each item</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Number: &#34;</span>, numbers[i]);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><ul>
 <li><strong><code>while</code> Loop:</strong> This leader keeps going as long as a certain condition holds true. It&rsquo;s like a supervisor who says, &ldquo;Keep working until I say stop!&rdquo;</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Example: Counting down from 5
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>let count <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Example: Counting down from 5</span>
+</span></span><span style="display:flex;"><span>let count <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (count <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Countdown: &#34;</span>, count);
-</span></span><span style="display:flex;"><span>    count <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Decrease count for the next iteration
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Countdown: &#34;</span>, count);
+</span></span><span style="display:flex;"><span>    count <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">// Decrease count for the next iteration</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Key Points to Remember:</strong></p>
 <ul>
 <li>Use arrays for fixed collections and slices for flexible views into arrays.</li>
@@ -1986,26 +1986,26 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Represent grids or matrices with elements arranged in multiple dimensions.</li>
 <li>Declared using nested array brackets:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> matrix<span style="color:#f92672">:</span> [[<span style="color:#ae81ff">2</span>]<span style="color:#66d9ef">i32</span>; <span style="color:#ae81ff">3</span>] <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>], [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>], [<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>]]; <span style="color:#75715e">// 2x3 matrix
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>print(matrix[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]); <span style="color:#75715e">// Access element at row 1, column 0 (prints 3)
-</span></span></span></code></pre></div><p><strong>Other Collection Types:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> matrix: [[<span style="color:#ae81ff">2</span>]<span style="color:#66d9ef">i32</span>; <span style="color:#ae81ff">3</span>] <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>], [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>], [<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>]]; <span style="color:#75715e">// 2x3 matrix</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(matrix[<span style="color:#ae81ff">1</span>][<span style="color:#ae81ff">0</span>]); <span style="color:#75715e">// Access element at row 1, column 0 (prints 3)</span>
+</span></span></code></pre></div><p><strong>Other Collection Types:</strong></p>
 <ul>
 <li><strong><code>std.ArrayList</code>:</strong> Dynamically resizable arrays for flexible storage.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> list <span style="color:#f92672">=</span> std.ArrayList(<span style="color:#66d9ef">i32</span>).init(allocator); <span style="color:#75715e">// Create an empty list
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>list.append(<span style="color:#ae81ff">42</span>); <span style="color:#75715e">// Add elements
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>list.remove(<span style="color:#ae81ff">0</span>); <span style="color:#75715e">// Remove elements
-</span></span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> list <span style="color:#f92672">=</span> std.<span style="color:#a6e22e">ArrayList</span>(<span style="color:#66d9ef">i32</span>).<span style="color:#a6e22e">init</span>(allocator); <span style="color:#75715e">// Create an empty list</span>
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">append</span>(<span style="color:#ae81ff">42</span>); <span style="color:#75715e">// Add elements</span>
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">remove</span>(<span style="color:#ae81ff">0</span>); <span style="color:#75715e">// Remove elements</span>
+</span></span></code></pre></div></li>
 <li><strong><code>std.AutoHashMap</code>:</strong> Hash maps for efficient key-value storage.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> map <span style="color:#f92672">=</span> std.AutoHashMap(<span style="color:#66d9ef">i32</span>, <span style="color:#66d9ef">i32</span>).init(allocator); <span style="color:#75715e">// Create a map
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>map.put(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">10</span>); <span style="color:#75715e">// Associate a key with a value
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>print(map.get(<span style="color:#ae81ff">5</span>)); <span style="color:#75715e">// Retrieve a value by its key
-</span></span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> map <span style="color:#f92672">=</span> std.<span style="color:#a6e22e">AutoHashMap</span>(<span style="color:#66d9ef">i32</span>, <span style="color:#66d9ef">i32</span>).<span style="color:#a6e22e">init</span>(allocator); <span style="color:#75715e">// Create a map</span>
+</span></span><span style="display:flex;"><span>map.<span style="color:#a6e22e">put</span>(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">10</span>); <span style="color:#75715e">// Associate a key with a value</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(map.<span style="color:#a6e22e">get</span>(<span style="color:#ae81ff">5</span>)); <span style="color:#75715e">// Retrieve a value by its key</span>
+</span></span></code></pre></div></li>
 <li><strong><code>std.LinkedList</code>:</strong> Linked lists for frequent insertions and deletions.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> list <span style="color:#f92672">=</span> std.LinkedList(<span style="color:#66d9ef">i32</span>).init(allocator); <span style="color:#75715e">// Create a linked list
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>list.append(<span style="color:#ae81ff">1</span>);
-</span></span><span style="display:flex;"><span>list.prepend(<span style="color:#ae81ff">0</span>); <span style="color:#75715e">// Add elements at the beginning or end
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>list.pop(); <span style="color:#75715e">// Remove elements
-</span></span></span></code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> list <span style="color:#f92672">=</span> std.<span style="color:#a6e22e">LinkedList</span>(<span style="color:#66d9ef">i32</span>).<span style="color:#a6e22e">init</span>(allocator); <span style="color:#75715e">// Create a linked list</span>
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">append</span>(<span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">prepend</span>(<span style="color:#ae81ff">0</span>); <span style="color:#75715e">// Add elements at the beginning or end</span>
+</span></span><span style="display:flex;"><span>list.<span style="color:#a6e22e">pop</span>(); <span style="color:#75715e">// Remove elements</span>
+</span></span></code></pre></div></li>
 </ul>
 <p><strong>Key Points:</strong></p>
 <ul>
@@ -2035,43 +2035,43 @@ This will output: The 10th Fibonacci number is 55</li>
 </ul>
 <p><strong>Examples:</strong></p>
 <p><strong>1. Simple Loops:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Break in a for loop
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Break in a for loop</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;  <span style="color:#75715e">// Exit the loop when i is 5
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Iteration: &#34;</span>, i);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;  <span style="color:#75715e">// Exit the loop when i is 5</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Iteration: &#34;</span>, i);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Continue in a while loop
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>let j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Continue in a while loop</span>
+</span></span><span style="display:flex;"><span>let j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">while</span> (j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (j <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
 </span></span><span style="display:flex;"><span>        j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>;  <span style="color:#75715e">// Skip even numbers
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Odd number: &#34;</span>, j);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">continue</span>;  <span style="color:#75715e">// Skip even numbers</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Odd number: &#34;</span>, j);
 </span></span><span style="display:flex;"><span>    j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>2. Nested Loops:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (let j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">==</span> j) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;  <span style="color:#75715e">// Exits only the inner loop
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        }
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;i: &#34;</span>, i, <span style="color:#e6db74">&#34; j: &#34;</span>, j);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span>;  <span style="color:#75715e">// Exits only the inner loop</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;i: &#34;</span>, i, <span style="color:#e6db74">&#34; j: &#34;</span>, j);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>3. Labels:</strong></p>
 <ul>
 <li>Used to identify specific loops and control which one <code>break</code> or <code>continue</code> affects.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>outer_loop<span style="color:#f92672">:</span> <span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span>outer_loop: <span style="color:#66d9ef">for</span> (let i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (let j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">3</span>; j <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (i <span style="color:#f92672">*</span> j <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span>) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span> outer_loop;  <span style="color:#75715e">// Exits the outer loop
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        }
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;i: &#34;</span>, i, <span style="color:#e6db74">&#34; j: &#34;</span>, j);
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span> outer_loop;  <span style="color:#75715e">// Exits the outer loop</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;i: &#34;</span>, i, <span style="color:#e6db74">&#34; j: &#34;</span>, j);
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Key Points:</strong></p>
@@ -2090,17 +2090,17 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Provides a cleaner alternative to multiple <code>if-else if</code> chains when handling multiple potential values.</li>
 </ul>
 <p><strong>Syntax:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">switch</span> (expression) {
-</span></span><span style="display:flex;"><span>    case value1<span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression matches value1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>    case value2<span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression matches value2
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... more cases
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    default<span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression doesn&#39;t match any case
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">switch</span> (expression) {
+</span></span><span style="display:flex;"><span>    case value1:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression matches value1</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    case value2:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression matches value2</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... more cases</span>
+</span></span><span style="display:flex;"><span>    default:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Code to execute if expression doesn&#39;t match any case</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Key Points:</strong></p>
 <ul>
 <li><code>expression</code> is the value to compare against the cases.</li>
@@ -2109,21 +2109,21 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>The <code>default</code> section is optional and handles unmatched values.</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> day_of_week <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;  <span style="color:#75715e">// Wednesday
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> day_of_week <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;  <span style="color:#75715e">// Wednesday</span>
+</span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">switch</span> (day_of_week) {
-</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;It&#39;s Monday!&#34;</span>);
+</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">1</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;It&#39;s Monday!&#34;</span>);
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">2</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;It&#39;s Tuesday!&#34;</span>);
+</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">2</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;It&#39;s Tuesday!&#34;</span>);
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">3</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;It&#39;s Wednesday!&#34;</span>);
+</span></span><span style="display:flex;"><span>    case <span style="color:#ae81ff">3</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;It&#39;s Wednesday!&#34;</span>);
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">break</span>;
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... more cases
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    default<span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;It&#39;s the weekend!&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... more cases</span>
+</span></span><span style="display:flex;"><span>    default:
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;It&#39;s the weekend!&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Additional Notes:</strong></p>
 <ul>
@@ -2163,31 +2163,31 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Allow stateful functions and partial applications.</li>
 <li>Example:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> make_counter() <span style="color:#66d9ef">fn</span>() <span style="color:#66d9ef">usize</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> count<span style="color:#f92672">:</span> <span style="color:#66d9ef">usize</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">make_counter</span>() <span style="color:#66d9ef">fn</span>() <span style="color:#66d9ef">usize</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> count: <span style="color:#66d9ef">usize</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">fn</span>() <span style="color:#66d9ef">usize</span> {
 </span></span><span style="display:flex;"><span>        count <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> count;
 </span></span><span style="display:flex;"><span>    };
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>let counter <span style="color:#f92672">=</span> make_counter();
-</span></span><span style="display:flex;"><span>print(counter());  <span style="color:#75715e">// 1
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>print(counter());  <span style="color:#75715e">// 2
-</span></span></span></code></pre></div><p><strong>Callbacks:</strong></p>
+</span></span><span style="display:flex;"><span>let counter <span style="color:#f92672">=</span> <span style="color:#a6e22e">make_counter</span>();
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#a6e22e">counter</span>());  <span style="color:#75715e">// 1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#a6e22e">counter</span>());  <span style="color:#75715e">// 2</span>
+</span></span></code></pre></div><p><strong>Callbacks:</strong></p>
 <ul>
 <li>Functions passed as arguments to other functions, enabling delayed or event-driven execution.</li>
 <li>Common for asynchronous operations and user interfaces.</li>
 <li>Example:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> request_data(callback<span style="color:#f92672">:</span> <span style="color:#66d9ef">fn</span>(data<span style="color:#f92672">:</span> []<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">u8</span>) <span style="color:#66d9ef">void</span>) <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Simulate fetching data asynchronously
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std.time.sleep(<span style="color:#ae81ff">1000</span>);  <span style="color:#75715e">// Delay for 1 second
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    callback(<span style="color:#e6db74">&#34;Data received</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>.<span style="color:#f92672">*</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">request_data</span>(callback: <span style="color:#66d9ef">fn</span>(data: []<span style="color:#66d9ef">const</span> <span style="color:#66d9ef">u8</span>) <span style="color:#66d9ef">void</span>) <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Simulate fetching data asynchronously</span>
+</span></span><span style="display:flex;"><span>    std.time.<span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">1000</span>);  <span style="color:#75715e">// Delay for 1 second</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">callback</span>(<span style="color:#e6db74">&#34;Data received</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span><span style="color:#f92672">.*</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>request_data(<span style="color:#66d9ef">fn</span>(data) {
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Received data: &#34;</span>, data);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">request_data</span>(<span style="color:#66d9ef">fn</span>(data) {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Received data: &#34;</span>, data);
 </span></span><span style="display:flex;"><span>});
 </span></span></code></pre></div><p><strong>Suspended Functions (Co-routines):</strong></p>
 <ul>
@@ -2196,28 +2196,28 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Useful for cooperative multitasking and non-blocking I/O.</li>
 <li>Syntax (subject to change):</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Simplified co-routine declaration (syntax might change)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">fn</span> my_co_routine() <span style="color:#66d9ef">void</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Simplified co-routine declaration (syntax might change)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">my_co_routine</span>() <span style="color:#66d9ef">void</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Do some work
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        print(<span style="color:#e6db74">&#34;Co-routine doing work...</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Do some work</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Co-routine doing work...</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Pause execution
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">suspend</span>();
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Pause execution</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">suspend</span>();
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> main() <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Create a co-routine frame (specifics might vary)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">var</span> co_routine_frame <span style="color:#f92672">=</span> my_co_routine.begin();
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Create a co-routine frame (specifics might vary)</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> co_routine_frame <span style="color:#f92672">=</span> my_co_routine.<span style="color:#a6e22e">begin</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Call and resume the co-routine repeatedly
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>) {
-</span></span><span style="display:flex;"><span>        co_routine_frame.<span style="color:#66d9ef">resume</span>();  <span style="color:#75715e">// Resume execution
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Do other tasks in the main thread
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        std.time.sleep(<span style="color:#ae81ff">500</span>);  <span style="color:#75715e">// Simulate other work
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Call and resume the co-routine repeatedly</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>) {
+</span></span><span style="display:flex;"><span>        co_routine_frame.<span style="color:#66d9ef">resume</span>();  <span style="color:#75715e">// Resume execution</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Do other tasks in the main thread</span>
+</span></span><span style="display:flex;"><span>        std.time.<span style="color:#a6e22e">sleep</span>(<span style="color:#ae81ff">500</span>);  <span style="color:#75715e">// Simulate other work</span>
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Explanation:</strong></p>
 <ol>
@@ -2265,12 +2265,12 @@ This will output: The 10th Fibonacci number is 55</li>
 </li>
 </ul>
 <p><strong>Example of OOP-Like Structure:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> Point {
-</span></span><span style="display:flex;"><span>    x<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>,
-</span></span><span style="display:flex;"><span>    y<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> Point {
+</span></span><span style="display:flex;"><span>    x: <span style="color:#66d9ef">f32</span>,
+</span></span><span style="display:flex;"><span>    y: <span style="color:#66d9ef">f32</span>,
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> Point.translate(self<span style="color:#f92672">:</span> <span style="color:#f92672">*</span>Point, dx<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>, dy<span style="color:#f92672">:</span> <span style="color:#66d9ef">f32</span>) <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> Point.<span style="color:#a6e22e">translate</span>(self: <span style="color:#f92672">*</span>Point, dx: <span style="color:#66d9ef">f32</span>, dy: <span style="color:#66d9ef">f32</span>) <span style="color:#66d9ef">void</span> {
 </span></span><span style="display:flex;"><span>    self.x <span style="color:#f92672">+=</span> dx;
 </span></span><span style="display:flex;"><span>    self.y <span style="color:#f92672">+=</span> dy;
 </span></span><span style="display:flex;"><span>}
@@ -2318,21 +2318,21 @@ This will output: The 10th Fibonacci number is 55</li>
 </li>
 </ol>
 <p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Global scope
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">const</span> global_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Global scope</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> global_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> my_function() <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Block scope within the function
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">var</span> block_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">my_function</span>() <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Block scope within the function</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> block_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">true</span>) {
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Inner block scope
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">var</span> inner_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;
-</span></span><span style="display:flex;"><span>        print(global_var);  <span style="color:#75715e">// Accessible from global scope
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    }
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Inner block scope</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">var</span> inner_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(global_var);  <span style="color:#75715e">// Accessible from global scope</span>
+</span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// print(inner_var); // Error: inner_var not accessible here
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// print(inner_var); // Error: inner_var not accessible here</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Additional Key Points:</strong></p>
 <ul>
 <li><strong>Function Parameters:</strong> Have block scope within the function body.</li>
@@ -2400,30 +2400,30 @@ This will output: The 10th Fibonacci number is 55</li>
 <ol>
 <li><strong>Allocating an Array:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> arr <span style="color:#f92672">=</span> std.mem.alloc(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>); <span style="color:#75715e">// Allocate 10 i32s
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Use the array...
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span>std.mem.free(arr); <span style="color:#75715e">// Free the memory!
-</span></span></span></code></pre></div><ol start="2">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> arr <span style="color:#f92672">=</span> std.mem.<span style="color:#a6e22e">alloc</span>(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>); <span style="color:#75715e">// Allocate 10 i32s</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Use the array...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>std.mem.<span style="color:#a6e22e">free</span>(arr); <span style="color:#75715e">// Free the memory!</span>
+</span></span></code></pre></div><ol start="2">
 <li><strong>Using <code>defer</code> for automatic deallocation:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> std.mem.free(std.mem.alloc(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>)); <span style="color:#75715e">// Allocated memory automatically freed when the scope exits.
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// No need to manually call `free` here.
-</span></span></span></code></pre></div><ol start="3">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> std.mem.<span style="color:#a6e22e">free</span>(std.mem.<span style="color:#a6e22e">alloc</span>(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>)); <span style="color:#75715e">// Allocated memory automatically freed when the scope exits.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// No need to manually call `free` here.</span>
+</span></span></code></pre></div><ol start="3">
 <li><strong>Custom Allocator:</strong></li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> MyAllocator {
-</span></span><span style="display:flex;"><span>    heap<span style="color:#f92672">:</span> <span style="color:#66d9ef">usize</span>,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> MyAllocator {
+</span></span><span style="display:flex;"><span>    heap: <span style="color:#66d9ef">usize</span>,
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> MyAllocator.alloc(self, size<span style="color:#f92672">:</span> <span style="color:#66d9ef">usize</span>) <span style="color:#f92672">!</span><span style="color:#66d9ef">usize</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... custom allocation logic using `self.heap` ...
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> MyAllocator.<span style="color:#a6e22e">alloc</span>(self, size: <span style="color:#66d9ef">usize</span>) <span style="color:#f92672">!</span><span style="color:#66d9ef">usize</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... custom allocation logic using `self.heap` ...</span>
+</span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Use your custom allocator with `MyAllocator().alloc(size)`
-</span></span></span></code></pre></div><p><strong>Notes:</strong></p>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Use your custom allocator with `MyAllocator().alloc(size)`</span>
+</span></span></code></pre></div><p><strong>Notes:</strong></p>
 <ul>
 <li><strong>Pay attention to errors!</strong> Handle allocation and deallocation errors to avoid crashes.</li>
 <li><strong>Use tools like leak checkers.</strong> They can identify potential leaks and improve code hygiene.</li>
@@ -2474,54 +2474,54 @@ This will output: The 10th Fibonacci number is 55</li>
 <ul>
 <li>Allocate memory on the heap using <code>std.mem.alloc</code> and access it through pointers:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> ptr <span style="color:#f92672">=</span> std.mem.alloc(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>);  <span style="color:#75715e">// Allocate space for 10 i32 values
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>ptr[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span>;                        <span style="color:#75715e">// Assign a value to the first element
-</span></span></span></code></pre></div><p><strong>2. Array Manipulation:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> ptr <span style="color:#f92672">=</span> std.mem.<span style="color:#a6e22e">alloc</span>(<span style="color:#66d9ef">i32</span>, <span style="color:#ae81ff">10</span>);  <span style="color:#75715e">// Allocate space for 10 i32 values</span>
+</span></span><span style="display:flex;"><span>ptr[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">42</span>;                        <span style="color:#75715e">// Assign a value to the first element</span>
+</span></span></code></pre></div><p><strong>2. Array Manipulation:</strong></p>
 <ul>
 <li>Pass arrays to functions by reference using pointers:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> print_array(arr<span style="color:#f92672">:</span> <span style="color:#f92672">*</span><span style="color:#66d9ef">const</span> <span style="color:#66d9ef">i32</span>, len<span style="color:#f92672">:</span> <span style="color:#66d9ef">usize</span>) <span style="color:#66d9ef">void</span> {
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">print_array</span>(arr: <span style="color:#f92672">*</span><span style="color:#66d9ef">const</span> <span style="color:#66d9ef">i32</span>, len: <span style="color:#66d9ef">usize</span>) <span style="color:#66d9ef">void</span> {
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (arr) <span style="color:#f92672">|*</span>num<span style="color:#f92672">|</span> {
-</span></span><span style="display:flex;"><span>        print(<span style="color:#f92672">*</span>num, <span style="color:#e6db74">&#34; &#34;</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">print</span>(<span style="color:#f92672">*</span>num, <span style="color:#e6db74">&#34; &#34;</span>);
 </span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> my_array <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>];
-</span></span><span style="display:flex;"><span>print_array(<span style="color:#f92672">&amp;</span>my_array, my_array.len);
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print_array</span>(<span style="color:#f92672">&amp;</span>my_array, my_array.len);
 </span></span></code></pre></div><p><strong>3. Data Structures:</strong></p>
 <ul>
 <li>Build linked lists, trees, and other dynamic structures using pointers:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> Node {
-</span></span><span style="display:flex;"><span>    value<span style="color:#f92672">:</span> <span style="color:#66d9ef">i32</span>,
-</span></span><span style="display:flex;"><span>    next<span style="color:#f92672">:</span> <span style="color:#f92672">*</span>Node,
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> Node {
+</span></span><span style="display:flex;"><span>    value: <span style="color:#66d9ef">i32</span>,
+</span></span><span style="display:flex;"><span>    next: <span style="color:#f92672">*</span>Node,
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> head <span style="color:#f92672">=</span> Node{ .value <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>, .next <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span> };  <span style="color:#75715e">// Create a linked list head
-</span></span></span></code></pre></div><p><strong>4. String Manipulation:</strong></p>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> head <span style="color:#f92672">=</span> Node{ .value <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>, .next <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span> };  <span style="color:#75715e">// Create a linked list head</span>
+</span></span></code></pre></div><p><strong>4. String Manipulation:</strong></p>
 <ul>
 <li>Zig&rsquo;s <code>[]const u8</code> string type is essentially a pointer to a series of bytes:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, world!&#34;</span>;  <span style="color:#75715e">// String literal creates a pointer to the text
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>print(message);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello, world!&#34;</span>;  <span style="color:#75715e">// String literal creates a pointer to the text</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(message);
 </span></span></code></pre></div><p><strong>5. Interacting with External Systems:</strong></p>
 <ul>
 <li>Interface with hardware, system calls, and libraries that often use pointers:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> file <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> std.fs.cwd().openFile(<span style="color:#e6db74">&#34;data.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> file.close();
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> file <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> std.fs.<span style="color:#a6e22e">cwd</span>().<span style="color:#a6e22e">openFile</span>(<span style="color:#e6db74">&#34;data.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> file.<span style="color:#a6e22e">close</span>();
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> contents <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> file.readToEndAlloc();  <span style="color:#75715e">// Pointer to file contents
-</span></span></span></code></pre></div><p><strong>6. Opaque Pointers:</strong></p>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> contents <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> file.<span style="color:#a6e22e">readToEndAlloc</span>();  <span style="color:#75715e">// Pointer to file contents</span>
+</span></span></code></pre></div><p><strong>6. Opaque Pointers:</strong></p>
 <ul>
 <li>Encapsulate implementation details and hide data structures behind pointers:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Opaque type for a custom data structure
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">extern</span> <span style="color:#66d9ef">type</span> MyStruct;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#75715e">// Opaque type for a custom data structure</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">extern</span> <span style="color:#66d9ef">type</span> MyStruct;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> create_my_struct() MyStruct { ... }
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> do_something_with_struct(s<span style="color:#f92672">:</span> MyStruct) <span style="color:#66d9ef">void</span> { ... }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">create_my_struct</span>() MyStruct { <span style="color:#f92672">..</span>. }
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">do_something_with_struct</span>(s: MyStruct) <span style="color:#66d9ef">void</span> { <span style="color:#f92672">..</span>. }
 </span></span></code></pre></div><p><strong>Remember:</strong> Use pointers with care, ensure proper memory management, and leverage Zig&rsquo;s pointer safety features to write robust and secure code.</p>
 <hr>
 <h2 id="zig-packages">Zig packages:</h2>
@@ -2545,10 +2545,10 @@ This will output: The 10th Fibonacci number is 55</li>
 <ul>
 <li>Create a directory for the package, e.g., <code>my_package</code>.</li>
 <li>Add a <code>package.zig</code> file with basic information:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> std <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;std&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> std <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;std&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">fn</span> my_function() <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    std.debug.print(<span style="color:#e6db74">&#34;Hello from my package!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">pub</span> <span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">my_function</span>() <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    std.debug.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Hello from my package!</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#34;</span>);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 </ul>
@@ -2557,11 +2557,11 @@ This will output: The 10th Fibonacci number is 55</li>
 <p><strong>Using a Package:</strong></p>
 <ul>
 <li>Import it in another Zig file:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> my_package <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;my_package&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> my_package <span style="color:#f92672">=</span> @import(<span style="color:#e6db74">&#34;my_package&#34;</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> main() <span style="color:#66d9ef">void</span> {
-</span></span><span style="display:flex;"><span>    my_package.my_function();  <span style="color:#75715e">// Prints &#34;Hello from my package!&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">main</span>() <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>    my_package.<span style="color:#a6e22e">my_function</span>();  <span style="color:#75715e">// Prints &#34;Hello from my package!&#34;</span>
+</span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div></li>
 </ul>
 </li>
@@ -2601,11 +2601,11 @@ This will output: The 10th Fibonacci number is 55</li>
 </li>
 </ul>
 <p><strong>Example: File I/O:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> file <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> std.fs.cwd().openFile(<span style="color:#e6db74">&#34;data.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> file.close();  <span style="color:#75715e">// Ensure file is closed
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> contents <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> file.readToEndAlloc();
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;File contents: &#34;</span>, contents);
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> file <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> std.fs.<span style="color:#a6e22e">cwd</span>().<span style="color:#a6e22e">openFile</span>(<span style="color:#e6db74">&#34;data.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">defer</span> file.<span style="color:#a6e22e">close</span>();  <span style="color:#75715e">// Ensure file is closed</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> contents <span style="color:#f92672">=</span> <span style="color:#66d9ef">try</span> file.<span style="color:#a6e22e">readToEndAlloc</span>();
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;File contents: &#34;</span>, contents);
 </span></span></code></pre></div><p><strong>Error Handling:</strong></p>
 <ul>
 <li>Zig uses error union types (<code>error{...}</code>) for explicit error handling.</li>
@@ -2613,14 +2613,14 @@ This will output: The 10th Fibonacci number is 55</li>
 <li>Use <code>try</code> blocks to handle errors gracefully:</li>
 </ul>
 <p><strong>Example: Error Handling:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> maybe_file <span style="color:#f92672">=</span> std.fs.cwd().openFile(<span style="color:#e6db74">&#34;unknown.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-zig" data-lang="zig"><span style="display:flex;"><span><span style="color:#66d9ef">const</span> maybe_file <span style="color:#f92672">=</span> std.fs.<span style="color:#a6e22e">cwd</span>().<span style="color:#a6e22e">openFile</span>(<span style="color:#e6db74">&#34;unknown.txt&#34;</span>, .{ .read <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span> });
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> (maybe_file) <span style="color:#f92672">|</span>file<span style="color:#f92672">|</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// File opened successfully
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">defer</span> file.close();
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... process file contents
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>} <span style="color:#66d9ef">else</span> <span style="color:#f92672">|</span>err<span style="color:#f92672">|</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Handle error
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    std.debug.print(<span style="color:#e6db74">&#34;Error opening file: &#34;</span>, err);
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// File opened successfully</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">defer</span> file.<span style="color:#a6e22e">close</span>();
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// ... process file contents</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#66d9ef">else</span> <span style="color:#f92672">|</span>err<span style="color:#f92672">|</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// Handle error</span>
+</span></span><span style="display:flex;"><span>    std.debug.<span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;Error opening file: &#34;</span>, err);
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p><strong>Key Points:</strong></p>
 <ul>

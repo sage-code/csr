@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Essential HTML Forms elements">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1659,7 +1659,7 @@
 <li>It&rsquo;s responsible for gathering user input and sending it to a server for processing when submitted.</li>
 </ul>
 <p><strong>2. Syntax:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">form</span> <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;url-to-send-data&#34;</span> <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;post&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">form</span> <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;url-to-send-data&#34;</span> <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;post&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">form</span>&gt;
 </span></span></code></pre></div><p><strong>3. Key Attributes:</strong></p>
 <ul>
@@ -1668,7 +1668,7 @@
 <li><strong><code>name</code>:</strong> Assigns a name to the form (optional, but often useful for JavaScript interaction).</li>
 </ul>
 <p><strong>4. Example:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">form</span> <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/process_contact.php&#34;</span> <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;post&#34;</span>&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">form</span> <span style="color:#a6e22e">action</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;/process_contact.php&#34;</span> <span style="color:#a6e22e">method</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;post&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">for</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;name&#34;</span>&gt;Name:&lt;/<span style="color:#f92672">label</span>&gt;
 </span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;name&#34;</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;user_name&#34;</span>&gt;
 </span></span><span style="display:flex;"><span>
@@ -1694,77 +1694,77 @@
 <p>As we see in previous example the form element is a bloc element that include several other elements some specific to forms. Here&rsquo;s a rundown of elements you can include within a form:</p>
 <p><strong>Specific Form Elements</strong></p>
 <table>
-<thead>
-<tr>
-<th>Element</th>
-<th>Purpose</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>&lt;input&gt;</td>
-<td>Creates various input fields for text, passwords, checkboxes, radio buttons, submit/reset buttons, hidden fields, file uploads, and more.</td>
-<td>type=&ldquo;text&rdquo;, type=&ldquo;password&rdquo;, type=&ldquo;checkbox&rdquo;, type=&ldquo;radio&rdquo;, type=&ldquo;submit&rdquo;, type=&ldquo;reset&rdquo;, type=&ldquo;hidden&rdquo;, type=&ldquo;file&rdquo;</td>
-</tr>
-<tr>
-<td>&lt;select&gt;</td>
-<td>Creates dropdown menus for single or multiple selections.</td>
-<td>&lt;select name=&ldquo;country&rdquo;&gt;&hellip;&lt;/select&gt;</td>
-</tr>
-<tr>
-<td>&lt;textarea&gt;</td>
-<td>Accommodates multi-line text input.</td>
-<td>&lt;textarea name=&ldquo;comments&rdquo;&gt;&lt;/textarea&gt;</td>
-</tr>
-<tr>
-<td>&lt;label&gt;</td>
-<td>Associates text labels with input elements for clarity and accessibility.</td>
-<td>&lt;label for=&ldquo;name&rdquo;&gt;Name:&lt;/label&gt;</td>
-</tr>
-<tr>
-<td>&lt;fieldset&gt;</td>
-<td>Groups related form elements visually and semantically.</td>
-<td>&lt;fieldset&gt;&lt;legend&gt;Personal Information&lt;/legend&gt;&hellip;&lt;/fieldset&gt;</td>
-</tr>
-<tr>
-<td>&lt;legend&gt;</td>
-<td>Provides a caption for a &lt;fieldset&gt;.</td>
-<td>&lt;legend&gt;Contact Details&lt;/legend&gt;</td>
-</tr>
-<tr>
-<td>&lt;button&gt;</td>
-<td>Creates clickable buttons that can trigger actions.</td>
-<td>&lt;button type=&ldquo;submit&rdquo;&gt;Send&lt;/button&gt;</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Element</th>
+					<th>Purpose</th>
+					<th>Examples</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>&lt;input&gt;</td>
+					<td>Creates various input fields for text, passwords, checkboxes, radio buttons, submit/reset buttons, hidden fields, file uploads, and more.</td>
+					<td>type=&ldquo;text&rdquo;, type=&ldquo;password&rdquo;, type=&ldquo;checkbox&rdquo;, type=&ldquo;radio&rdquo;, type=&ldquo;submit&rdquo;, type=&ldquo;reset&rdquo;, type=&ldquo;hidden&rdquo;, type=&ldquo;file&rdquo;</td>
+			</tr>
+			<tr>
+					<td>&lt;select&gt;</td>
+					<td>Creates dropdown menus for single or multiple selections.</td>
+					<td>&lt;select name=&ldquo;country&rdquo;&gt;&hellip;&lt;/select&gt;</td>
+			</tr>
+			<tr>
+					<td>&lt;textarea&gt;</td>
+					<td>Accommodates multi-line text input.</td>
+					<td>&lt;textarea name=&ldquo;comments&rdquo;&gt;&lt;/textarea&gt;</td>
+			</tr>
+			<tr>
+					<td>&lt;label&gt;</td>
+					<td>Associates text labels with input elements for clarity and accessibility.</td>
+					<td>&lt;label for=&ldquo;name&rdquo;&gt;Name:&lt;/label&gt;</td>
+			</tr>
+			<tr>
+					<td>&lt;fieldset&gt;</td>
+					<td>Groups related form elements visually and semantically.</td>
+					<td>&lt;fieldset&gt;&lt;legend&gt;Personal Information&lt;/legend&gt;&hellip;&lt;/fieldset&gt;</td>
+			</tr>
+			<tr>
+					<td>&lt;legend&gt;</td>
+					<td>Provides a caption for a &lt;fieldset&gt;.</td>
+					<td>&lt;legend&gt;Contact Details&lt;/legend&gt;</td>
+			</tr>
+			<tr>
+					<td>&lt;button&gt;</td>
+					<td>Creates clickable buttons that can trigger actions.</td>
+					<td>&lt;button type=&ldquo;submit&rdquo;&gt;Send&lt;/button&gt;</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Other Allowed Elements</strong></p>
 <table>
-<thead>
-<tr>
-<th>Element Category</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Text formatting</td>
-<td>&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, &lt;strong&gt;, &lt;em&gt;</td>
-</tr>
-<tr>
-<td>Structural</td>
-<td>&lt;div&gt;, &lt;span&gt;, &lt;header&gt;, &lt;footer&gt;</td>
-</tr>
-<tr>
-<td>Media</td>
-<td>&lt;img&gt;, &lt;video&gt;, &lt;audio&gt;</td>
-</tr>
-<tr>
-<td>Interactive</td>
-<td>&lt;a&gt; (links)</td>
-</tr>
-</tbody>
+	<thead>
+			<tr>
+					<th>Element Category</th>
+					<th>Examples</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Text formatting</td>
+					<td>&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, &lt;strong&gt;, &lt;em&gt;</td>
+			</tr>
+			<tr>
+					<td>Structural</td>
+					<td>&lt;div&gt;, &lt;span&gt;, &lt;header&gt;, &lt;footer&gt;</td>
+			</tr>
+			<tr>
+					<td>Media</td>
+					<td>&lt;img&gt;, &lt;video&gt;, &lt;audio&gt;</td>
+			</tr>
+			<tr>
+					<td>Interactive</td>
+					<td>&lt;a&gt; (links)</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>Key Points:</strong></p>
 <ul>

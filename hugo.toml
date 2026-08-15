@@ -1,5 +1,5 @@
 baseURL = "https://sage-csr.vercel.app"
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Sage CS Research'
 
 # For search functionality

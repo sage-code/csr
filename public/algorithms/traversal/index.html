@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.121.2">
+    <meta name="generator" content="Hugo 0.164.0">
     <meta name="description" content="Simple algorithms for data collections?">
 <meta name="author" content="Sage-Code">
 
@@ -60,7 +60,7 @@
 <script type="text/javascript" src="/js/auto-complete.js"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/sage-csr.vercel.app";
+        var baseurl = "https:\/\/sage-csr.vercel.app\/";
     
 </script>
 <script type="text/javascript" src="/js/search.js"></script>
@@ -1648,7 +1648,7 @@
 <p>While these are simple examples, the same basic principles can be applied to more complex tasks. For example, you can use array traversal to perform operations on multi-dimensional arrays, linked lists, and other data structures.</p>
 <p>Next we explain these algorithms with example implementations in Julia language. You can imagine similar implementations in your favorite language. You can ask Bard to degenerate code for you and try to execute the code, to verify it&rsquo;s functionality.</p>
 <h3 id="printing-elements">Printing elements</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Create an array from a range of 10 numbers</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Create an array from a range of 10 numbers</span>
 </span></span><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Traverse the array and print each element</span>
@@ -1660,7 +1660,7 @@
 <pre tabindex="0"><code>1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
 </code></pre><h3 id="sum-of-elements">Sum of elements</h3>
 <p>Here&rsquo;s we demonstrate array traversal in Julia by making a sum for an Array of 12 Fibonacci numbers in series from first to last and print the sum:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a function to calculate the nth Fibonacci number</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#75715e"># Define a function to calculate the nth Fibonacci number</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">function</span> fibonacci(n)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> n
@@ -1697,7 +1697,7 @@
 <h2 id="tree-traversal">Tree Traversal</h2>
 <p>Tree traversal involves visiting each node in a specific order. There are three main traversal methods:</p>
 <p><strong>a. Pre-order traversal:</strong> Visit the current node, then recursively visit its left and right children.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> preorder_traversal(node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> preorder_traversal(node)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>is_empty_node(node)
 </span></span><span style="display:flex;"><span>        println(node<span style="color:#f92672">.</span>value)
 </span></span><span style="display:flex;"><span>        preorder_traversal(node<span style="color:#f92672">.</span>left)
@@ -1705,7 +1705,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>b. In-order traversal:</strong> Visit the left child, then the current node, and then the right child.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> inorder_traversal(node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> inorder_traversal(node)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>is_empty_node(node)
 </span></span><span style="display:flex;"><span>        inorder_traversal(node<span style="color:#f92672">.</span>left)
 </span></span><span style="display:flex;"><span>        println(node<span style="color:#f92672">.</span>value)
@@ -1713,7 +1713,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">end</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
 </span></span></code></pre></div><p><strong>c. Post-order traversal:</strong> Visit the left child, then the right child, and then the current node.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> postorder_traversal(node)
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-julia" data-lang="julia"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> postorder_traversal(node)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">!</span>is_empty_node(node)
 </span></span><span style="display:flex;"><span>        postorder_traversal(node<span style="color:#f92672">.</span>left)
 </span></span><span style="display:flex;"><span>        postorder_traversal(node<span style="color:#f92672">.</span>right)

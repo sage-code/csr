@@ -239,6 +239,9 @@
     <loc>https://sage-csr.vercel.app/tags/patforms/</loc>
     <lastmod>2024-02-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sage-csr.vercel.app/tags/ux/ui/</loc>
+    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sage-csr.vercel.app/tags/services/</loc>
     <lastmod>2024-01-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -333,7 +336,5 @@
     <lastmod>2023-12-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sage-csr.vercel.app/categories/</loc>
-  </url><url>
-    <loc>https://sage-csr.vercel.app/tags/ux/ui/</loc>
   </url>
 </urlset>
