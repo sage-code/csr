@@ -1052,5 +1052,3 @@ if (maybe_file) |file| {
 - The `std` library provides a variety of I/O functions for common tasks.
 
 ---
-
-**Follow up course:** [zig tutorial](https://sagecode.org/roadmap/zig/)

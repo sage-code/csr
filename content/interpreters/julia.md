@@ -433,8 +433,6 @@ You can continue learning Julia at perfection after taking this course, by using
 We believe this approach will make you not only _competent software engineers_, but also _adaptable and lifelong learners_. Now, let's embark on this adventure together!
 {{% /notice %}}
 
-**Follow up:** [Julia Tutorial](https://sagecode.org/roadmap/julia/)
-
 ---
 
 > "There are only two kinds of languages: the ones everybody complains about and the ones nobody uses." - Bjarne Stroustrup
