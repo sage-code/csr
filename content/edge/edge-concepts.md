@@ -11,7 +11,7 @@ tags = ["edge", "cloud"]
 description = "What is Edge AI?"
 +++
 
-# Edge AI: Principles, Methods, and Strategic Application
+## Principles and Strategic Application
 
 This guide provides a foundational understanding of Edge AI to inform architectural planning, platform selection, and use-case definition.
 
@@ -19,7 +19,7 @@ This guide provides a foundational understanding of Edge AI to inform architectu
 Edge AI is the deployment of machine learning algorithms directly on endpoint devices—such as sensors, cameras, gateways, and industrial controllers—rather than processing data in centralized cloud servers.
 
 ### The Core Objective
-The primary goal is to **process data where it is generated**. By performing inference locally, Edge AI minimizes latency, reduces bandwidth requirements, preserves data privacy, and enables reliable operation in offline environments.
+The primary goal is to process data where it is generated. By performing inference locally, Edge AI minimizes latency, reduces bandwidth requirements, preserves data privacy, and enables reliable operation in offline environments.
 
 ---
 

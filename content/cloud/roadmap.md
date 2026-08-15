@@ -12,7 +12,7 @@ description = "What are cloud platforms?"
 +++
 
 
-# From Code to Production
+## From Code to Production
 
 Building and deploying applications on the cloud requires moving beyond local environments to master distributed systems, infrastructure automation, and operational safety. This roadmap outlines the core competencies, practical exercises, and architectural decisions required to engineer production-ready cloud systems.
 
