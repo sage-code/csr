@@ -11,7 +11,7 @@ tags = ["devops", "cloud"]
 description = "How I understand robotics?"
 +++
 
-# Robotics for Software Engineers: Core Concepts
+## Transition to Robotics
 
 Transitioning from traditional software engineering to robotics requires shifting your mental model from *deterministic software running on abstract hardware* to *stochastic systems operating under physical constraints*. 
 
