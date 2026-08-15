@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Introduction on Sage CS Research</title>
-		<link>http://localhost:1313/tags/introduction/</link>
+		<link>https://sage-csr.vercel.app/tags/introduction/</link>
 		<description>Recent content in Introduction on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Overview</title>
-				<link>http://localhost:1313/algorithms/overview/</link>
+				<link>https://sage-csr.vercel.app/algorithms/overview/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/algorithms/overview/</guid>
+				<guid>https://sage-csr.vercel.app/algorithms/overview/</guid>
 				<description>&lt;p&gt;An algorithm is a set of instructions that tells a computer how to solve a problem. It is a well-defined sequence of steps that can be followed to achieve a specific outcome.&lt;/p&gt;&#xA;&lt;p&gt;Algorithms can be simple or complex. Some algorithms, such as the one used to search for a word in a dictionary, are relatively easy to understand. Others, such as the algorithms used to train artificial intelligence, can be quite complex.&lt;/p&gt;</description>
 			</item>
 	</channel>

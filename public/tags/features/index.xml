@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Features on Sage CS Research</title>
-		<link>http://localhost:1313/tags/features/</link>
+		<link>https://sage-csr.vercel.app/tags/features/</link>
 		<description>Recent content in Features on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/features/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/features/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Features</title>
-				<link>http://localhost:1313/databases/features/</link>
+				<link>https://sage-csr.vercel.app/databases/features/</link>
 				<pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/databases/features/</guid>
+				<guid>https://sage-csr.vercel.app/databases/features/</guid>
 				<description>&lt;p&gt;Database features encompass functionalities offered by database management systems (DBMS) to manage data effectively. Here&amp;rsquo;s a breakdown of some prominent features:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Structuring and Manipulation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Definition Language (DDL):&lt;/strong&gt;  This language allows you to create, modify, and remove the structure of a database, including tables, columns, and constraints.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Manipulation Language (DML):&lt;/strong&gt;  This is the workhorse for interacting with data.  DML commands like INSERT, UPDATE, and DELETE enable you to add, modify, and remove data within the database.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Types:&lt;/strong&gt;  The DBMS offers various data types like integers, strings, dates, and booleans to define the format and content allowed in each column.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Data Retrieval and Analysis:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

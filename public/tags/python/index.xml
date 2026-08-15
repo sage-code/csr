@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Python on Sage CS Research</title>
-		<link>http://localhost:1313/tags/python/</link>
+		<link>https://sage-csr.vercel.app/tags/python/</link>
 		<description>Recent content in Python on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/python/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Python Syntax</title>
-				<link>http://localhost:1313/interpreters/python/</link>
+				<link>https://sage-csr.vercel.app/interpreters/python/</link>
 				<pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/interpreters/python/</guid>
+				<guid>https://sage-csr.vercel.app/interpreters/python/</guid>
 				<description>&lt;h2 id=&#34;what-is-python&#34;&gt;What is Python?&lt;/h2&gt;&#xA;&lt;p&gt;Python is a &lt;strong&gt;high-level, general-purpose programming language&lt;/strong&gt; known for its &lt;strong&gt;readability, simplicity, and versatility&lt;/strong&gt;. It was created by Guido van Rossum in 1991 and has since become one of the most popular languages in the world.&lt;/p&gt;&#xA;&lt;p&gt;Here are some key characteristics of Python:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Easy to learn:&lt;/strong&gt; Python has a clear and concise syntax that resembles plain English, making it easier to pick up compared to other languages.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Versatile:&lt;/strong&gt; Python can be used for a wide range of tasks, including web development, data science, machine learning, automation, and scientific computing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Powerful:&lt;/strong&gt; Despite its simplicity, Python is a powerful language with a rich set of libraries and frameworks that can handle complex tasks.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interpreted:&lt;/strong&gt; This means you don&amp;rsquo;t need to compile your code before running it, making the development process faster and more iterative.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open-source:&lt;/strong&gt; Python is free to use and develop, with a large and active community that contributes to its libraries and tools.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topics covered&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

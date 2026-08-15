@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Interpreters on Sage CS Research</title>
-		<link>http://localhost:1313/tags/interpreters/</link>
+		<link>https://sage-csr.vercel.app/tags/interpreters/</link>
 		<description>Recent content in Interpreters on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/interpreters/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/interpreters/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Julia Syntax</title>
-				<link>http://localhost:1313/interpreters/julia/</link>
+				<link>https://sage-csr.vercel.app/interpreters/julia/</link>
 				<pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/interpreters/julia/</guid>
+				<guid>https://sage-csr.vercel.app/interpreters/julia/</guid>
 				<description>&lt;p&gt;This isn&amp;rsquo;t a traditional Julia tutorial. We&amp;rsquo;re taking a unique approach, using Julia as a launchpad to explore the fundamentals of software engineering, not to turn you into a Julia master. We will teach you just enough syntax to understand our examples.&lt;/p&gt;&#xA;&lt;h2 id=&#34;reasons--motivation&#34;&gt;Reasons &amp;amp; Motivation&lt;/h2&gt;&#xA;&lt;p&gt;Courses using Julia are taught in modern universities for various subjects, particularly in computer science and data science. We also teach Julia on our main website in details.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Bash Syntax</title>
-				<link>http://localhost:1313/interpreters/bash/</link>
+				<link>https://sage-csr.vercel.app/interpreters/bash/</link>
 				<pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/interpreters/bash/</guid>
+				<guid>https://sage-csr.vercel.app/interpreters/bash/</guid>
 				<description>&lt;h2 id=&#34;crash-course&#34;&gt;Crash Course&lt;/h2&gt;&#xA;&lt;p&gt;Welcome, brave adventurer, to the wondrous world of Bash! Fear not, for even the mightiest programmers began with humble &lt;code&gt;echo&lt;/code&gt;s and fumbling file paths. This tutorial will be your trusty guide, illuminating the path to Bash mastery, one command at a time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;First Steps:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Imagine Bash as a powerful toolbelt, each command a trusty instrument. To grab and use them, open your terminal, a portal to the digital realm. Now, let&amp;rsquo;s meet some basic buddies:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Python Syntax</title>
-				<link>http://localhost:1313/interpreters/python/</link>
+				<link>https://sage-csr.vercel.app/interpreters/python/</link>
 				<pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/interpreters/python/</guid>
+				<guid>https://sage-csr.vercel.app/interpreters/python/</guid>
 				<description>&lt;h2 id=&#34;what-is-python&#34;&gt;What is Python?&lt;/h2&gt;&#xA;&lt;p&gt;Python is a &lt;strong&gt;high-level, general-purpose programming language&lt;/strong&gt; known for its &lt;strong&gt;readability, simplicity, and versatility&lt;/strong&gt;. It was created by Guido van Rossum in 1991 and has since become one of the most popular languages in the world.&lt;/p&gt;&#xA;&lt;p&gt;Here are some key characteristics of Python:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Easy to learn:&lt;/strong&gt; Python has a clear and concise syntax that resembles plain English, making it easier to pick up compared to other languages.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Versatile:&lt;/strong&gt; Python can be used for a wide range of tasks, including web development, data science, machine learning, automation, and scientific computing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Powerful:&lt;/strong&gt; Despite its simplicity, Python is a powerful language with a rich set of libraries and frameworks that can handle complex tasks.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interpreted:&lt;/strong&gt; This means you don&amp;rsquo;t need to compile your code before running it, making the development process faster and more iterative.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open-source:&lt;/strong&gt; Python is free to use and develop, with a large and active community that contributes to its libraries and tools.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topics covered&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>JavaScript Syntax</title>
-				<link>http://localhost:1313/interpreters/javascript/</link>
+				<link>https://sage-csr.vercel.app/interpreters/javascript/</link>
 				<pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/interpreters/javascript/</guid>
+				<guid>https://sage-csr.vercel.app/interpreters/javascript/</guid>
 				<description>&lt;h2 id=&#34;javascript-the-language-of-the-web&#34;&gt;JavaScript: The Language of the Web&lt;/h2&gt;&#xA;&lt;p&gt;JavaScript, often abbreviated as JS, is a high-level, interpreted programming language that adds interactivity to web pages. It&amp;rsquo;s one of the three core technologies alongside HTML and CSS that make up the foundation of the World Wide Web.&lt;/p&gt;&#xA;&lt;p&gt;Think of it as the magic dust that sprinkles life and animation onto static websites. It&amp;rsquo;s the reason you can see maps that update in real-time, play interactive games in your browser, and watch cat videos with smooth playback.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Search on Sage CS Research</title>
-		<link>http://localhost:1313/tags/search/</link>
+		<link>https://sage-csr.vercel.app/tags/search/</link>
 		<description>Recent content in Search on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/search/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Search</title>
-				<link>http://localhost:1313/algorithms/search/</link>
+				<link>https://sage-csr.vercel.app/algorithms/search/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/algorithms/search/</guid>
+				<guid>https://sage-csr.vercel.app/algorithms/search/</guid>
 				<description>&lt;p&gt;Search algorithms are one of the most important algorithms for collections for several crucial reasons:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Essential functionality:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Accessing specific elements:&lt;/strong&gt; Search algorithms allow us to locate specific elements within a collection, which is a fundamental operation essential for various tasks like data analysis, manipulation, and retrieval.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Filtering and selection:&lt;/strong&gt; Search can be used to filter elements based on certain criteria, allowing us to select a subset of data relevant to our needs.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Organizing and manipulating data:&lt;/strong&gt; Search algorithms can be used to efficiently organize and manipulate data within collections, enabling tasks like sorting, rearrangement, and grouping.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Efficiency and scalability:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

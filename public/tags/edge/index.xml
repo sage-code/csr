@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Edge on Sage CS Research</title>
-		<link>http://localhost:1313/tags/edge/</link>
+		<link>https://sage-csr.vercel.app/tags/edge/</link>
 		<description>Recent content in Edge on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,13 +12,20 @@
 		
 			<lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/edge/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/edge/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Cloud Roadmap</title>
-				<link>http://localhost:1313/edge/edge-concepts/</link>
+				<title>Edge AI Concepts</title>
+				<link>https://sage-csr.vercel.app/edge/edge-concepts/</link>
 				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/edge/edge-concepts/</guid>
-				<description>&lt;h1 id=&#34;edge-ai-principles-methods-and-strategic-application&#34;&gt;Edge AI: Principles, Methods, and Strategic Application&lt;/h1&gt;&#xA;&lt;p&gt;This guide provides a foundational understanding of Edge AI to inform architectural planning, platform selection, and use-case definition.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-defining-edge-ai&#34;&gt;1. Defining Edge AI&lt;/h2&gt;&#xA;&lt;p&gt;Edge AI is the deployment of machine learning algorithms directly on endpoint devices—such as sensors, cameras, gateways, and industrial controllers—rather than processing data in centralized cloud servers.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-core-objective&#34;&gt;The Core Objective&lt;/h3&gt;&#xA;&lt;p&gt;The primary goal is to &lt;strong&gt;process data where it is generated&lt;/strong&gt;. By performing inference locally, Edge AI minimizes latency, reduces bandwidth requirements, preserves data privacy, and enables reliable operation in offline environments.&lt;/p&gt;</description>
+				<guid>https://sage-csr.vercel.app/edge/edge-concepts/</guid>
+				<description>&lt;h2 id=&#34;principles-and-strategic-application&#34;&gt;Principles and Strategic Application&lt;/h2&gt;&#xA;&lt;p&gt;This guide provides a foundational understanding of Edge AI to inform architectural planning, platform selection, and use-case definition.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-defining-edge-ai&#34;&gt;1. Defining Edge AI&lt;/h2&gt;&#xA;&lt;p&gt;Edge AI is the deployment of machine learning algorithms directly on endpoint devices—such as sensors, cameras, gateways, and industrial controllers—rather than processing data in centralized cloud servers.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-core-objective&#34;&gt;The Core Objective&lt;/h3&gt;&#xA;&lt;p&gt;The primary goal is to process data where it is generated. By performing inference locally, Edge AI minimizes latency, reduces bandwidth requirements, preserves data privacy, and enables reliable operation in offline environments.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>HPC Concepts</title>
+				<link>https://sage-csr.vercel.app/edge/hpc-concepts/</link>
+				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/edge/hpc-concepts/</guid>
+				<description>&lt;p&gt;#HPC Concepts&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Objects on Sage CS Research</title>
-		<link>http://localhost:1313/tags/objects/</link>
+		<link>https://sage-csr.vercel.app/tags/objects/</link>
 		<description>Recent content in Objects on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Wed, 27 Dec 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/objects/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/objects/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Objects</title>
-				<link>http://localhost:1313/basics/objects/</link>
+				<link>https://sage-csr.vercel.app/basics/objects/</link>
 				<pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/objects/</guid>
+				<guid>https://sage-csr.vercel.app/basics/objects/</guid>
 				<description>&lt;p&gt;Here is an explanation of object-oriented programming (OOP) paradigm and principles, its advantages and disadvantages, and 3 top languages that are considered pure OOP:&lt;/p&gt;&#xA;&lt;h2 id=&#34;oop-principles&#34;&gt;OOP Principles&lt;/h2&gt;&#xA;&lt;p&gt;Object-oriented programming (OOP) is a programming paradigm that focuses on creating objects, which are self-contained entities that combine data (attributes) and behavior (methods). OOP principles are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Encapsulation:&lt;/strong&gt; Bundling data and methods together within an object, protecting internal data from unauthorized access.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inheritance:&lt;/strong&gt; Creating new classes (subclasses) based on existing classes (superclasses), inheriting their attributes and methods.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Polymorphism:&lt;/strong&gt; Defining methods with the same name but different implementations in subclasses, allowing for flexible behavior.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abstraction:&lt;/strong&gt; Focusing on the essential aspects of an object, hiding complex internal details from the user.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advantages of OOP&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Cloud on Sage CS Research</title>
-		<link>http://localhost:1313/tags/cloud/</link>
+		<link>https://sage-csr.vercel.app/tags/cloud/</link>
 		<description>Recent content in Cloud on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,13 +12,34 @@
 		
 			<lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Cloud Platforms</title>
-				<link>http://localhost:1313/cloud/demistify/</link>
+				<link>https://sage-csr.vercel.app/cloud/demistify/</link>
 				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/cloud/demistify/</guid>
+				<guid>https://sage-csr.vercel.app/cloud/demistify/</guid>
 				<description>&lt;h2 id=&#34;demystifying-the-cloud&#34;&gt;Demystifying the Cloud&lt;/h2&gt;&#xA;&lt;p&gt;The cloud has become an increasingly crucial part of our digital lives, offering on-demand access to computing resources like storage, servers, and databases. Instead of relying on physical hardware, users can leverage remote infrastructure hosted by cloud providers, offering several advantages:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Core Components of the Cloud:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Infrastructure as a Service (IaaS):&lt;/strong&gt; Rent virtual servers, storage, and networking resources on a pay-as-you-go basis. Popular options include Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform as a Service (PaaS):&lt;/strong&gt; Build and deploy applications without managing underlying infrastructure. PaaS platforms handle server, storage, and networking, allowing developers to focus on code. Examples include Heroku, Google App Engine, and Azure App Service.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software as a Service (SaaS):&lt;/strong&gt; Access and use software applications hosted by the cloud provider over the internet. Popular examples include Microsoft Office 365, Salesforce, and Dropbox.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Benefits of the Cloud:&lt;/strong&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cloud Roadmap</title>
+				<link>https://sage-csr.vercel.app/cloud/roadmap/</link>
+				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/cloud/roadmap/</guid>
+				<description>&lt;h2 id=&#34;from-code-to-production&#34;&gt;From Code to Production&lt;/h2&gt;&#xA;&lt;p&gt;Building and deploying applications on the cloud requires moving beyond local environments to master distributed systems, infrastructure automation, and operational safety. This roadmap outlines the core competencies, practical exercises, and architectural decisions required to engineer production-ready cloud systems.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;phase-1-core-fundamentals--linux&#34;&gt;Phase 1: Core Fundamentals &amp;amp; Linux&lt;/h2&gt;&#xA;&lt;p&gt;Before touching cloud platforms, you must master the operating system environment that powers 90%+ of cloud infrastructure.&lt;/p&gt;&#xA;&lt;h3 id=&#34;concepts--definitions&#34;&gt;Concepts &amp;amp; Definitions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Process Management &amp;amp; Daemons:&lt;/strong&gt; Understanding how processes run, terminate, and restart (systemd).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Linux Networking:&lt;/strong&gt; IP addressing, TCP/UDP sockets, DNS resolution, and firewall rules (&lt;code&gt;iptables&lt;/code&gt; / &lt;code&gt;ufw&lt;/code&gt;).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Permissions &amp;amp; Security:&lt;/strong&gt; POSIX file permissions, SSH key-based authentication, and principle of least privilege.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Environment Configuration:&lt;/strong&gt; Managing runtime variables (&lt;code&gt;.env&lt;/code&gt;, POSIX environment variables).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;practice-exercises&#34;&gt;Practice Exercises&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Provision a minimal Linux virtual machine locally (using Multipass, QEMU, or Docker).&lt;/li&gt;&#xA;&lt;li&gt;Write a systemd service file to keep a custom Node.js, Python, or Go application running continuously on system boot.&lt;/li&gt;&#xA;&lt;li&gt;Configure an SSH jump host and disable password-based root login.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;phase-2-containerization--local-simulation&#34;&gt;Phase 2: Containerization &amp;amp; Local Simulation&lt;/h2&gt;&#xA;&lt;p&gt;Containers decouple applications from underlying host operating systems, ensuring identical behavior from development to production.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Edge AI Concepts</title>
+				<link>https://sage-csr.vercel.app/edge/edge-concepts/</link>
+				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/edge/edge-concepts/</guid>
+				<description>&lt;h2 id=&#34;principles-and-strategic-application&#34;&gt;Principles and Strategic Application&lt;/h2&gt;&#xA;&lt;p&gt;This guide provides a foundational understanding of Edge AI to inform architectural planning, platform selection, and use-case definition.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-defining-edge-ai&#34;&gt;1. Defining Edge AI&lt;/h2&gt;&#xA;&lt;p&gt;Edge AI is the deployment of machine learning algorithms directly on endpoint devices—such as sensors, cameras, gateways, and industrial controllers—rather than processing data in centralized cloud servers.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-core-objective&#34;&gt;The Core Objective&lt;/h3&gt;&#xA;&lt;p&gt;The primary goal is to process data where it is generated. By performing inference locally, Edge AI minimizes latency, reduces bandwidth requirements, preserves data privacy, and enables reliable operation in offline environments.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>HPC Concepts</title>
+				<link>https://sage-csr.vercel.app/edge/hpc-concepts/</link>
+				<pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+				<guid>https://sage-csr.vercel.app/edge/hpc-concepts/</guid>
+				<description>&lt;p&gt;#HPC Concepts&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

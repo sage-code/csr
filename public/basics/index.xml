@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Basics on Sage CS Research</title>
-		<link>http://localhost:1313/basics/</link>
+		<link>https://sage-csr.vercel.app/basics/</link>
 		<description>Recent content in Basics on Sage CS Research</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,54 +12,54 @@
 		
 			<lastBuildDate>Wed, 27 Dec 2023 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/basics/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://sage-csr.vercel.app/basics/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Architecture</title>
-				<link>http://localhost:1313/basics/architecture/</link>
+				<link>https://sage-csr.vercel.app/basics/architecture/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/architecture/</guid>
+				<guid>https://sage-csr.vercel.app/basics/architecture/</guid>
 				<description>&lt;p&gt;Software Architecture is not as physical as building architecture, it&amp;rsquo;s equally important for creating well-structured and functional applications. Here are some basic software architecture concepts to get you started:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Components and Modules:&lt;/strong&gt; Imagine building blocks. Software is broken down into smaller, independent pieces called components or modules. Each module has a specific function and interacts with others in defined ways.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Modularity:&lt;/strong&gt; This principle emphasizes the importance of breaking down complex systems into smaller, manageable modules. This makes the code easier to understand, maintain, and modify.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Programming</title>
-				<link>http://localhost:1313/basics/programming/</link>
+				<link>https://sage-csr.vercel.app/basics/programming/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/programming/</guid>
+				<guid>https://sage-csr.vercel.app/basics/programming/</guid>
 				<description>&lt;p&gt;In this article we investigate several programming languages. We will understand the difference between them and we will try to explain why we have so many programming languages. Our favorite programming language is Julia. We will explain why and we will try to motivate you to learn multiple programming languages. We think a software engineer should know at least 3 programming languages.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-a-programming-language&#34;&gt;What is a Programming Language?&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s an explanation of programming languages, interpreters, and compilers:&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Symbols</title>
-				<link>http://localhost:1313/basics/symbols/</link>
+				<link>https://sage-csr.vercel.app/basics/symbols/</link>
 				<pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/symbols/</guid>
+				<guid>https://sage-csr.vercel.app/basics/symbols/</guid>
 				<description>&lt;p&gt;Pictograms, alphabets and numeric symbols are 3 important pillars of civilization.These three, have played a crucial role in the development and advancement of human civilization. Each pillar has had a profound impact on how we communicate, record information, and organize knowledge.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Pictograms:&lt;/strong&gt; The earliest form of written communication, pictograms served as a way to visually represent objects, ideas, and events. They laid the foundation for the development of writing systems by establishing the principle of using symbols to convey meaning.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Expressions</title>
-				<link>http://localhost:1313/basics/expressions/</link>
+				<link>https://sage-csr.vercel.app/basics/expressions/</link>
 				<pubDate>Sun, 24 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/expressions/</guid>
+				<guid>https://sage-csr.vercel.app/basics/expressions/</guid>
 				<description>&lt;p&gt;Understanding expressions is fundamental to both computer science and programming. They&amp;rsquo;re the building blocks of code, allowing you to manipulate data, control program flow, and make decisions.&lt;/p&gt;&#xA;&lt;p&gt;There are many types of expressions, each serving a specific purpose. Here are some of the most common ones:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;1. Arithmetic Expressions:&lt;/strong&gt; These expressions perform mathematical operations on numbers, like addition, subtraction, multiplication, and division. You might use them to calculate distances, areas, or any other numerical value needed in your program. Examples: &lt;code&gt;2 + 3&lt;/code&gt;, &lt;code&gt;a * b - 5&lt;/code&gt;, &lt;code&gt;x / y&lt;/code&gt;.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Objects</title>
-				<link>http://localhost:1313/basics/objects/</link>
+				<link>https://sage-csr.vercel.app/basics/objects/</link>
 				<pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/objects/</guid>
+				<guid>https://sage-csr.vercel.app/basics/objects/</guid>
 				<description>&lt;p&gt;Here is an explanation of object-oriented programming (OOP) paradigm and principles, its advantages and disadvantages, and 3 top languages that are considered pure OOP:&lt;/p&gt;&#xA;&lt;h2 id=&#34;oop-principles&#34;&gt;OOP Principles&lt;/h2&gt;&#xA;&lt;p&gt;Object-oriented programming (OOP) is a programming paradigm that focuses on creating objects, which are self-contained entities that combine data (attributes) and behavior (methods). OOP principles are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Encapsulation:&lt;/strong&gt; Bundling data and methods together within an object, protecting internal data from unauthorized access.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inheritance:&lt;/strong&gt; Creating new classes (subclasses) based on existing classes (superclasses), inheriting their attributes and methods.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Polymorphism:&lt;/strong&gt; Defining methods with the same name but different implementations in subclasses, allowing for flexible behavior.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abstraction:&lt;/strong&gt; Focusing on the essential aspects of an object, hiding complex internal details from the user.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Advantages of OOP&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Functions</title>
-				<link>http://localhost:1313/basics/functions/</link>
+				<link>https://sage-csr.vercel.app/basics/functions/</link>
 				<pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/functions/</guid>
+				<guid>https://sage-csr.vercel.app/basics/functions/</guid>
 				<description>&lt;p&gt;A function is a self-contained block of code that performs a specific task. It&amp;rsquo;s designed to be reusable and can be called from different parts of the program.&lt;/p&gt;&#xA;&lt;h2 id=&#34;evolution-of-functions&#34;&gt;Evolution of Functions&lt;/h2&gt;&#xA;&lt;p&gt;Functions have evolved in modern programming languages like Julia.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;First-Class Functions:&lt;/strong&gt; Functions are treated as values, meaning they can be:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Assigned to variables&lt;/li&gt;&#xA;&lt;li&gt;Passed as arguments to other functions&lt;/li&gt;&#xA;&lt;li&gt;Returned from functions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Higher-Order Functions:&lt;/strong&gt; Functions that operate on other functions, enabling:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mapping (applying a function to each element of a collection)&lt;/li&gt;&#xA;&lt;li&gt;Filtering (selecting elements based on a condition)&lt;/li&gt;&#xA;&lt;li&gt;Reducing (combining elements using a function)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Closures:&lt;/strong&gt; Functions that capture variables from their enclosing scope, creating &amp;ldquo;stateful&amp;rdquo; functions that remember values across calls.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Benefits of Functional Programming:&lt;/strong&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Structures</title>
-				<link>http://localhost:1313/basics/structures/</link>
+				<link>https://sage-csr.vercel.app/basics/structures/</link>
 				<pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/basics/structures/</guid>
+				<guid>https://sage-csr.vercel.app/basics/structures/</guid>
 				<description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Data structures&lt;/strong&gt;&lt;/em&gt; are the way we organize and store information in memory. They are like containers that hold different types of data and provide efficient access, manipulation, and retrieval. Imagine a bookshelf: it organizes your books by genre or author, making it easier to find a specific book. Similarly, data structures organize data to be processed efficiently by algorithms.&lt;/p&gt;&#xA;&lt;h2 id=&#34;foundation&#34;&gt;Foundation&lt;/h2&gt;&#xA;&lt;p&gt;Data structures are crucial for writing efficient and clean code. They determine how quickly you can search for data, insert new elements, or delete existing ones. Choosing the right data structure for a specific task can significantly improve the performance of your program. For instance, a hash table allows for extremely fast searches, making it ideal for storing large datasets.&lt;/p&gt;</description>
 			</item>
 	</channel>
