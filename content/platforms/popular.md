@@ -193,8 +193,8 @@ Sure, here's the updated table with links to the homepages of each distribution:
 | [Ubuntu](https://ubuntu.com/) | User-friendly, beginner-friendly, vast software library. |
 | [Mint](https://linuxmint.com/) | Based on Ubuntu, even easier to use, familiar interface. |
 | [Debian](https://www.debian.org/) | Stable, reliable, vast package repository, popular for servers and workstations. |
-| Fedora: [https://getfedora.org/](https://getfedora.org/) | Community-driven, cutting-edge features, good for testing and development. |
-| [CentOS](https://www.centos.org/) | Enterprise-grade server platform, stable and secure. |
+| [Fedora](https://fedoraproject.org/) | Community-driven, cutting-edge features, good for testing and development. |
+| [Rocky Linux](https://rockylinux.org/) | Enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux (RHEL) |
 | [Manjaro](https://manjaro.org/) | Arch-based, user-friendly rolling release, beginner-friendly installer. |
 | [Elementary OS](https://elementary.io/) | Beautiful design, focused on simplicity and elegance. |
 | [Pop!_OS](https://pop-os.org/) | Gaming-focused, based on Ubuntu, user-friendly with customization options. |

@@ -1,10 +1,10 @@
 .autocomplete-suggestions {
     text-align: left;
     cursor: default;
-    border: 1px solid #ccc;
+    border: 2px solid #7d8794;
     border-top: 0;
-    background: #fff;
-    box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    background: #3a3f47;
+    box-shadow: -1px 2px 10px rgba(0,0,0,.6);
 
     /* core styles should not be changed */
     position: absolute;
@@ -24,24 +24,41 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    color: #333;
+    color: #ffd83d;
+    font-weight: 700;
+    border-bottom: 2px solid #565d67;
 }
 
 .autocomplete-suggestion b {
-    font-weight: normal;
-    color: #1f8dd6;
+    font-weight: 800;
+    color: #ffe98a;
 }
 
 .autocomplete-suggestion.selected {
-    background: #333;
-    color: #fff;
+    background: #23272d;
+    color: #ffe066;
+}
+
+.autocomplete-suggestion.selected b {
+    color: #fff3b0;
 }
 
 .autocomplete-suggestion:hover {
-    background: #444;
-    color: #fff;
+    background: #23272d;
+    color: #ffe066;
+}
+
+.autocomplete-suggestion:hover b {
+    color: #fff3b0;
 }
 
 .autocomplete-suggestion > .context {
-    font-size: 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e8ecf1;
+}
+
+.autocomplete-suggestion.selected > .context,
+.autocomplete-suggestion:hover > .context {
+    color: #ffffff;
 }
