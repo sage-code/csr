@@ -14,11 +14,21 @@ hidden = false
 
 # Computer Science
 
-Welcome, future software engineers! You're about to embark on a journey through the fascinating world of software development, guided by the versatile and powerful language, Julia.
+Welcome, visitor! You're about to embark on a journey through the fascinating world of computer science. We study the basics using AI prompts. The goal is to descover the direction of research worth persuing. This is a open source static website, created with Hugo, and hosted on Vercel. We explain everything about the project in README.md file on GitHub. Have fun reading!
 
 ---
 
 > Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. - _Albert Einstein_
+
+> Secret's to stay young longer:
+
+1 - Eat 2 nuts every day
+2 - Take one pill rezveratrol every day
+3 - Eat healty, avoid any burned food or oil
+4 - Sleep 8h/day - take melatonin every evening
+5 - Do not drink booz, do not smoke
+
+Keep yourself young, avoid stress and be happy. Learn and prosper \\//.
 
 ---
 
