@@ -14,27 +14,34 @@ hidden = false
 
 # Computer Science
 
-Welcome, visitor! You're about to embark on a journey through the fascinating world of computer science. We study the basics using AI prompts. The goal is to descover the direction of research worth persuing. This is a open source static website, created with Hugo, and hosted on Vercel. We explain everything about the project in README.md file on GitHub. Have fun reading!
+Welcome, visitor! You're about to embark on a journey through the fascinating world of computer science. We study the basics using AI prompts. Learn and prosper \\//.
+
 
 ---
 
-> Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. - _Albert Einstein_
+> "Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young." 
 
-> Secret's to stay young longer:
+_Albert Einstein_
 
-1 - Eat 2 nuts every day
-2 - Take one pill rezveratrol every day
-3 - Eat healty, avoid any burned food or oil
-4 - Sleep 8h/day - take melatonin every evening
-5 - Do not drink booz, do not smoke
-
-Keep yourself young, avoid stress and be happy. Learn and prosper \\//.
-
----
 
 ## Course Curriculum 
 
 {{% children style="li" depth="3" description="true" %}}
+
+---
+
+> Secret's to stay young over 50:
+
+1 - Eat 2 nuts every day   
+2 - Take one pill rezveratrol every day   
+3 - Eat healty, avoid any burned food or cooking oil   
+4 - Sleep 8h/day - take melatonin every evening   
+5 - Do not drink booz, do not smoke   
+6 - Take vitamines and calcium   
+7 - Don't consume coffe, use green tee instead   
+
+Keep yourself young, avoid stress and be happy. Learn and prosper \\//.
+
 
 ---
 **Disclaim:** Content generated with AI (Gemini Pro)
